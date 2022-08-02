@@ -343,15 +343,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:part:76
 
 
 
-
-
-
-
-
-
-
-
-
 // smart cable
 
 // red
