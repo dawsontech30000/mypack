@@ -49,12 +49,7 @@ recipes.remove(<storagedrawers:customdrawers:2>);
 recipes.remove(<storagedrawers:basicdrawers>.withTag({material: "spruce"}));
 recipes.remove(<storagedrawers:basicdrawers:2>.withTag({material: "spruce"}));
 recipes.remove(<storagedrawers:basicdrawers:4>.withTag({material: "spruce"}));
-recipes.remove(<storagedrawersextra:extra_drawers>.withTag({material: "immersiveengineering:immeng_treated"}));
-recipes.remove(<storagedrawersextra:extra_drawers:1>.withTag({material: "immersiveengineering:immeng_treated"}));
-recipes.remove(<storagedrawersextra:extra_drawers:2>.withTag({material: "immersiveengineering:immeng_treated"}));
-recipes.remove(<storagedrawersextra:extra_drawers:3>.withTag({material: "immersiveengineering:immeng_treated"}));
-recipes.remove(<storagedrawersextra:extra_drawers:4>.withTag({material: "immersiveengineering:immeng_treated"}));
-recipes.remove(<storagedrawersextra:extra_trim_3:11>);
+
 
 
 
