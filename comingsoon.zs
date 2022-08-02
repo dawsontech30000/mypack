@@ -15,3 +15,5 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <erebus:wand_of_animation>,
   [null, <bloodmagic:path:6>, <bloodarsenal:blood_diamond:2>, <bloodmagic:path:6>, null, null, null, null, null],
   [<projectex:matter:7>, <bloodarsenal:blood_diamond:2>, <bloodmagic:path:6>, null, null, null, null, null, null],
   [<projectex:matter:7>, <projectex:matter:7>, null, null, null, null, null, null, null]]);
+
+
