@@ -98,5 +98,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:
 	[<immersiveengineering:wirecoil:1>, <ore:blockSheetmetalSteel>, <immersiveengineering:wirecoil:1>]
 ]);
 
+// next to added
 
 
