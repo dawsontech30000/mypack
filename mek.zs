@@ -71,14 +71,3 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:basicblock2:3>.withTa
 	[null, <mekanism:basicblock2:3>, null, <thermalexpansion:frame:148>, null, <mekanism:basicblock2:4>, null]
 ]);
 
-
-
-
-
-
-
-
-
-
-
-
