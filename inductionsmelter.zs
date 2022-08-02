@@ -489,3 +489,5 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:controller
 	[null, <mekanism:basicblock:14>, null, <woot:controller>, null, <mekanism:basicblock:14>, null], 
 	[<refinedstorage:controller>.withTag({Energy: 0}), null, <rftools:screen_controller>, <tconstruct:smeltery_controller>, <rftools:screen_controller>, null, <refinedstorage:controller>.withTag({Energy: 0})]
 ]);
+
+// next to added
