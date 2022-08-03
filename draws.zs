@@ -102,7 +102,6 @@ recipes.addShaped(<storagedrawers:upgrade_storage:2> * 1, [[<yabba:upgrade_gold_
 recipes.remove(<storagedrawers:upgrade_storage:3>);
 recipes.addShaped(<storagedrawers:upgrade_storage:3> * 1, [[<yabba:upgrade_diamond_tier>, <actuallyadditions:item_medium_to_large_crate_upgrade>, <yabba:upgrade_diamond_tier>], [<actuallyadditions:item_medium_to_large_crate_upgrade>, <ironchest:iron_chest:2>, <actuallyadditions:item_medium_to_large_crate_upgrade>],[<yabba:upgrade_diamond_tier>, <actuallyadditions:item_medium_to_large_crate_upgrade>, <yabba:upgrade_diamond_tier>]]);
 
-
 // Storage Upgrade (V)
 recipes.remove(<storagedrawers:upgrade_storage:4>);
 recipes.addShaped(<storagedrawers:upgrade_storage:4> * 1, [[<expandableinventory:emerald_expander>, <exchangers:emerald_exchanger>, <expandableinventory:emerald_expander>], [<randomthings:ingredient:9>, <storagedrawers:upgrade_template>, <randomthings:ingredient:9>],[<expandableinventory:emerald_expander>, <exchangers:emerald_exchanger>, <expandableinventory:emerald_expander>]]);
