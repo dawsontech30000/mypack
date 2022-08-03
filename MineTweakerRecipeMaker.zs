@@ -37,7 +37,14 @@ recipes.removeShaped(<mysticalagriculture:watering_can:2>, [[<mysticalagricultur
 recipes.removeShaped(<mysticalagriculture:watering_can:1>, [[<mysticalagriculture:crafting:34>, <mysticalagriculture:crafting:51>, null], [<ore:ingotPrudentium>, <mysticalagriculture:crafting:48>, <ore:ingotPrudentium>], [null, <mysticalagriculture:crafting:34>, null]]);
 recipes.removeShaped(<mysticalagriculture:watering_can>, [[<mysticalagriculture:crafting:33>, <mysticalagriculture:crafting:50>, null], [<ore:ingotInferium>, <mysticalagriculture:crafting:48>, <ore:ingotInferium>], [null, <mysticalagriculture:crafting:33>, null]]);
 recipes.removeShaped(<mysticalagradditions:stuff:69>, [[<mysticalagradditions:insanium>, <mysticalagradditions:insanium>, <mysticalagradditions:insanium>], [<mysticalagradditions:insanium>, <mysticalagriculture:master_infusion_crystal>, <mysticalagradditions:insanium>], [<mysticalagradditions:insanium>, <mysticalagradditions:insanium>, <mysticalagradditions:insanium>]]);
-
+recipes.removeShaped(<minecraft:diamond_boots>, [[<extragems:diamond_charged>, <extragems:diamond_charged>], [<extragems:diamond_charged>, <extragems:diamond_charged>]]);
+recipes.removeShaped(<minecraft:diamond_boots>, [[<ic2:crafting:19>, <ic2:crafting:19>], [<ic2:crafting:19>, <ic2:crafting:19>]]);
+recipes.removeShaped(<minecraft:diamond_leggings>, [[<ic2:crafting:19>, <ic2:crafting:19>, <ic2:crafting:19>], [<ic2:crafting:19>, null, <ic2:crafting:19>], [<ic2:crafting:19>, null, <ic2:crafting:19>]]);
+recipes.removeShaped(<minecraft:diamond_leggings>, [[<extragems:diamond_charged>, <extragems:diamond_charged>, <extragems:diamond_charged>], [<extragems:diamond_charged>, null, <extragems:diamond_charged>], [<extragems:diamond_charged>, null, <extragems:diamond_charged>]]);
+recipes.removeShaped(<minecraft:diamond_chestplate>, [[<extragems:diamond_charged>, null, <extragems:diamond_charged>], [<extragems:diamond_charged>, <extragems:diamond_charged>, <extragems:diamond_charged>], [<extragems:diamond_charged>, <extragems:diamond_charged>, <extragems:diamond_charged>]]);
+recipes.removeShaped(<minecraft:diamond_chestplate>, [[<ic2:crafting:19>, null, <ic2:crafting:19>], [<ic2:crafting:19>, <ore:gemDiamond>, <ic2:crafting:19>], [<ic2:crafting:19>, <ic2:crafting:19>, <ore:gemDiamond>]]);
+recipes.removeShaped(<minecraft:diamond_helmet>, [[<extragems:diamond_charged>, <extragems:diamond_charged>, <extragems:diamond_charged>], [<extragems:diamond_charged>, null, <extragems:diamond_charged>]]);
+recipes.removeShaped(<minecraft:diamond_helmet>, [[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, null, <ore:gemDiamond>]]);
 // ================================================================================
 //#MARKER ADD
 
