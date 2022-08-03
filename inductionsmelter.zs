@@ -477,3 +477,39 @@ recipes.addShaped(<thermalexpansion:satchel:100> * 1, [[<extrautils2:trashcan>, 
 
 
 // next to added
+
+# Leadstone Fluxduct
+recipes.remove(<thermaldynamics:duct_0>);
+recipes.addShaped(<thermaldynamics:duct_0> * 6, [[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],[<ore:ingotLead>,<immersiveengineering:metal:2>,<ore:ingotLead>],[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>]]);
+
+# Hardened Fluxduct
+recipes.remove(<thermaldynamics:duct_0:1>);
+recipes.addShaped(<thermaldynamics:duct_0:1> * 3, [[<ore:ingotInvar>,<minecraft:redstone>,<ore:ingotInvar>],[<thermaldynamics:duct_0>,<thermaldynamics:duct_0>,<thermaldynamics:duct_0>],[<ore:ingotInvar>,<minecraft:redstone>,<ore:ingotInvar>]]);
+
+# Redstone Energy Fluxduct (Empty)
+recipes.remove(<thermaldynamics:duct_0:6>);
+recipes.addShaped(<thermaldynamics:duct_0:6> * 3, [[<ore:ingotElectrum>,<thermalfoundation:glass:3>,<ore:ingotElectrum>],[<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>],[<ore:ingotElectrum>,<thermalfoundation:glass:3>,<ore:ingotElectrum>]]);
+
+# Redstone Energy Fluxduct
+mods.thermalexpansion.Transposer.removeFillRecipe(<thermaldynamics:duct_0:6>, <liquid:redstone>);
+mods.thermalexpansion.Transposer.addFillRecipe(<thermaldynamics:duct_0:2>, <thermaldynamics:duct_0:6>, <liquid:redstone> * 400, 800);
+
+# Signalum Fluxduct (Empty)
+recipes.remove(<thermaldynamics:duct_0:7>);
+recipes.addShaped(<thermaldynamics:duct_0:7> * 3, [[<ore:ingotSignalum>,<ore:ingotRedAlloy>,<ore:ingotSignalum>],[<thermaldynamics:duct_0:6>,<thermaldynamics:duct_0:6>,<thermaldynamics:duct_0:6>],[<ore:ingotSignalum>,<ore:ingotRedAlloy>,<ore:ingotSignalum>]]);
+
+# Signalum Fluxduct
+recipes.remove(<thermaldynamics:duct_0:3>);
+recipes.addShaped(<thermaldynamics:duct_0:3> * 3, [[<ore:ingotSignalum>,<ore:ingotRedAlloy>,<ore:ingotSignalum>],[<thermaldynamics:duct_0:2>,<thermaldynamics:duct_0:2>,<thermaldynamics:duct_0:2>],[<ore:ingotSignalum>,<ore:ingotRedAlloy>,<ore:ingotSignalum>]]);
+mods.thermalexpansion.Transposer.removeFillRecipe(<thermaldynamics:duct_0:7>, <liquid:redstone>);
+mods.thermalexpansion.Transposer.addFillRecipe(<thermaldynamics:duct_0:3>, <thermaldynamics:duct_0:7>, <liquid:redstone> * 400, 800);
+
+# Resonant Fluxduct (Empty)
+recipes.remove(<thermaldynamics:duct_0:8>);
+recipes.addShaped(<thermaldynamics:duct_0:8> * 3, [[<ore:ingotEnderium>,<ore:ingotRedAlloy>,<ore:ingotEnderium>],[<thermaldynamics:duct_0:7>,<thermaldynamics:duct_0:7>,<thermaldynamics:duct_0:7>],[<ore:ingotEnderium>,<ore:ingotRedAlloy>,<ore:ingotEnderium>]]);
+
+# Resonant Fluxduct
+recipes.remove(<thermaldynamics:duct_0:4>);
+recipes.addShaped(<thermaldynamics:duct_0:4> * 3, [[<ore:ingotEnderium>,<ore:ingotRedAlloy>,<ore:ingotEnderium>],[<thermaldynamics:duct_0:3>,<thermaldynamics:duct_0:3>,<thermaldynamics:duct_0:3>],[<ore:ingotEnderium>,<ore:ingotRedAlloy>,<ore:ingotEnderium>]]);
+mods.thermalexpansion.Transposer.removeFillRecipe(<thermaldynamics:duct_0:8>, <liquid:redstone>);
+mods.thermalexpansion.Transposer.addFillRecipe(<thermaldynamics:duct_0:4>, <thermaldynamics:duct_0:8>, <liquid:redstone> * 400, 800);
