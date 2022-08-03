@@ -1,4 +1,6 @@
 #packmode expert
+
+// stone to iron
 mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:iron_shovel>, 
 	100000000, 1000000, 
 	<minecraft:stone_shovel>, 

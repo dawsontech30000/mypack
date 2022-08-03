@@ -1,4 +1,6 @@
 #packmode expert
+
+// steel to invar
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_invar>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.shovel_steel>, 

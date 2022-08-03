@@ -1,4 +1,6 @@
 #packmode expert
+
+// dianmond to silver
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_tin>, 
 	100000000, 1000000, 
 	<minecraft:diamond_shovel>, 

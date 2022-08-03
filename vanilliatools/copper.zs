@@ -1,5 +1,7 @@
 #packmode expert
-#packmode expert
+
+
+// silver to copper
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_copper>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.shovel_silver>, 

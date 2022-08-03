@@ -1,4 +1,6 @@
 #packmode expert
+
+// nickel to steel
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_steel>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.shovel_nickel>, 

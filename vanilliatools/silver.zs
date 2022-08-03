@@ -1,4 +1,6 @@
 #packmode expert
+
+// silver to gelid
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_silver>, 
 	100000000, 1000000, 
 	<redstonerepository:tool.shovel_gelid>.withTag({Energy: 0}), 

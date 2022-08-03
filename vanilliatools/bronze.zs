@@ -1,4 +1,6 @@
 #packmode expert
+
+// electrum to bronze
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_bronze>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.shovel_electrum>, 

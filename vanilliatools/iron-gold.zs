@@ -1,4 +1,6 @@
 #packmode expert
+
+// iron to gold
 mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:golden_shovel>, 
 	100000000, 1000000, 
 	<minecraft:iron_shovel>, 
