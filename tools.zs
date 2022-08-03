@@ -87,4 +87,10 @@ recipes.remove(<redstonerepository:tool.pickaxe_gelid>.withTag({Energy: 0}));
 recipes.remove(<redstonerepository:tool.axe_gelid>.withTag({Energy: 0}));
 
 
+recipes.remove(<thermalfoundation:tool.sword_lead>);
+recipes.remove(<thermalfoundation:tool.shovel_lead>);
+recipes.remove(<thermalfoundation:tool.pickaxe_lead>);
+recipes.remove(<thermalfoundation:tool.axe_lead>);
+recipes.remove(<thermalfoundation:tool.hoe_lead>);
+
 
