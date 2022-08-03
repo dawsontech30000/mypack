@@ -5,6 +5,8 @@
 import crafttweaker.item.IItemStack;
 import mods.avaritia.ExtremeCrafting;
 
+mods.avaritia.Compressor.removeAll();
+
 // Infinity Ingot
 ExtremeCrafting.remove(<avaritia:resource:6>);
 ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <avaritia:resource:6>, 
@@ -23,8 +25,7 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagriculture:draconi
 	
 mods.extendedcrafting.CompressionCrafting.addRecipe(<nuclearcraft:water_source_dense>, <minecraft:water_bucket>, 1000, <extendedcrafting:material:11>, 500000);
 mods.extendedcrafting.CompressionCrafting.addRecipe(<nuclearcraft:water_source_dense>, <tp:infin_bucket>, 1000, <extendedcrafting:material:11>, 500000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<avaritia:neutron_collector>, <extendedcrafting:compressor>, 100000, <extendedcrafting:material:11>, 500000);
-	
+
 mods.extendedcrafting.CompressionCrafting.addRecipe(<projecte:item.pe_fuel>, <minecraft:coal>, 1000000, <extendedcrafting:material:11>, 500000);
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<projecte:item.pe_fuel:1>, <extrautils2:ingredients:4>, 1000000, <extendedcrafting:material:11>, 500000);
