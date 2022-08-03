@@ -24,7 +24,6 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagriculture:draconi
 
 	
 mods.extendedcrafting.CompressionCrafting.addRecipe(<nuclearcraft:water_source_dense>, <minecraft:water_bucket>, 1000, <extendedcrafting:material:11>, 500000);
-mods.extendedcrafting.CompressionCrafting.addRecipe(<nuclearcraft:water_source_dense>, <tp:infin_bucket>, 1000, <extendedcrafting:material:11>, 500000);
 
 mods.extendedcrafting.CompressionCrafting.addRecipe(<projecte:item.pe_fuel>, <minecraft:coal>, 1000000, <extendedcrafting:material:11>, 500000);
 
