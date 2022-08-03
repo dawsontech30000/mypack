@@ -46,3 +46,4 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:golden_sword>,
 	<minecraft:iron_hoe>, <minecraft:iron_hoe>, <minecraft:iron_hoe>,
 	<minecraft:iron_hoe>, <minecraft:iron_hoe>, <minecraft:iron_hoe>,
 	<minecraft:iron_hoe>, <minecraft:iron_hoe>]);
+	

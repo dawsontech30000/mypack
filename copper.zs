@@ -1,41 +1,50 @@
 #packmode expert
+#packmode expert
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_copper>, 
 	100000000, 1000000, 
-	<minecraft:golden_shovel>, 
-	[<minecraft:golden_shovel>, <minecraft:golden_shovel>, <minecraft:golden_shovel>,
-	<minecraft:golden_shovel>, <minecraft:golden_shovel>, <minecraft:golden_shovel>,
-	<minecraft:golden_shovel>, <minecraft:golden_shovel>, <minecraft:golden_shovel>,
-	<minecraft:golden_shovel>, <minecraft:golden_shovel>, <minecraft:golden_shovel>,
-	<minecraft:golden_shovel>, <minecraft:golden_shovel>]);
+	<thermalfoundation:tool.shovel_silver>, 
+	[<thermalfoundation:tool.shovel_silver>, <thermalfoundation:tool.shovel_silver>, <thermalfoundation:tool.shovel_silver>,
+	<thermalfoundation:tool.shovel_silver>, <thermalfoundation:tool.shovel_silver>, <thermalfoundation:tool.shovel_silver>,
+	<thermalfoundation:tool.shovel_silver>, <thermalfoundation:tool.shovel_silver>, <thermalfoundation:tool.shovel_silver>,
+	<thermalfoundation:tool.shovel_silver>, <thermalfoundation:tool.shovel_silver>, <thermalfoundation:tool.shovel_silver>,
+	<thermalfoundation:tool.shovel_silver>, <thermalfoundation:tool.shovel_silver>]);
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.pickaxe_copper>, 
 	100000000, 1000000, 
-	<minecraft:golden_pickaxe>, 
-	[<minecraft:golden_pickaxe>, <minecraft:golden_pickaxe>, <minecraft:golden_pickaxe>,
-	<minecraft:golden_pickaxe>, <minecraft:golden_pickaxe>, <minecraft:golden_pickaxe>,
-	<minecraft:golden_pickaxe>, <minecraft:golden_pickaxe>, <minecraft:golden_pickaxe>,
-	<minecraft:golden_pickaxe>, <minecraft:golden_pickaxe>, <minecraft:golden_pickaxe>,
-	<minecraft:golden_pickaxe>, <minecraft:golden_pickaxe>]);
+	<thermalfoundation:tool.pickaxe_silver>, 
+	[<thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>,
+	<thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>,
+	<thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>,
+	<thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>,
+	<thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>]);
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.axe_copper>, 
 	100000000, 1000000, 
-	<minecraft:golden_axe>, 
-	[<minecraft:golden_axe>, <minecraft:golden_axe>, <minecraft:golden_axe>,
-	<minecraft:golden_axe>, <minecraft:golden_axe>, <minecraft:golden_axe>,
-	<minecraft:golden_axe>, <minecraft:golden_axe>, <minecraft:golden_axe>,
-	<minecraft:golden_axe>, <minecraft:golden_axe>, <minecraft:golden_axe>,
-	<minecraft:golden_axe>, <minecraft:golden_axe>]);
+	<thermalfoundation:tool.axe_silver>, 
+	[<thermalfoundation:tool.axe_silver>, <thermalfoundation:tool.axe_silver>, <thermalfoundation:tool.axe_silver>,
+	<thermalfoundation:tool.axe_silver>, <thermalfoundation:tool.axe_silver>, <thermalfoundation:tool.axe_silver>,
+	<thermalfoundation:tool.axe_silver>, <thermalfoundation:tool.axe_silver>, <thermalfoundation:tool.axe_silver>,
+	<thermalfoundation:tool.axe_silver>, <thermalfoundation:tool.axe_silver>, <thermalfoundation:tool.axe_silver>,
+	<thermalfoundation:tool.axe_silver>, <thermalfoundation:tool.axe_silver>]);
+	
+	
+
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.sword_copper>, 
 	100000000, 1000000, 
-	<minecraft:golden_sword>, 
-	[<minecraft:golden_sword>, <minecraft:golden_sword>, <minecraft:golden_sword>,
-	<minecraft:golden_sword>, <minecraft:golden_sword>, <minecraft:golden_sword>,
-	<minecraft:golden_sword>, <minecraft:golden_sword>, <minecraft:golden_sword>,
-	<minecraft:golden_sword>, <minecraft:golden_sword>, <minecraft:golden_sword>,
-	<minecraft:golden_sword>, <minecraft:golden_sword>]);
+	<thermalfoundation:tool.sword_silver>, 
+	[<thermalfoundation:tool.sword_silver>, <thermalfoundation:tool.sword_silver>, <thermalfoundation:tool.sword_silver>,
+	<thermalfoundation:tool.sword_silver>, <thermalfoundation:tool.sword_silver>, <thermalfoundation:tool.sword_silver>,
+	<thermalfoundation:tool.sword_silver>, <thermalfoundation:tool.sword_silver>, <thermalfoundation:tool.sword_silver>,
+	<thermalfoundation:tool.sword_silver>, <thermalfoundation:tool.sword_silver>, <thermalfoundation:tool.sword_silver>,
+	<thermalfoundation:tool.sword_silver>, <thermalfoundation:tool.sword_silver>]);
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.hoe_copper>, 
 	100000000, 1000000, 
-	<minecraft:golden_hoe>, 
-	[<minecraft:golden_hoe>, <minecraft:golden_hoe>, <minecraft:golden_hoe>,
-	<minecraft:golden_hoe>, <minecraft:golden_hoe>, <minecraft:golden_hoe>,
-	<minecraft:golden_hoe>, <minecraft:golden_hoe>, <minecraft:golden_hoe>,
-	<minecraft:golden_hoe>, <minecraft:golden_hoe>, <minecraft:golden_hoe>,
-	<minecraft:golden_hoe>, <minecraft:golden_hoe>]);
+	<thermalfoundation:tool.hoe_silver>, 
+	[<thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>,
+	<thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>,
+	<thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>,
+	<thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>,
+	<thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>]);
+	

@@ -49,9 +49,6 @@ mods.botania.RuneAltar.addRecipe(<armorplus:coal_leggings>,[<armorplus:chicken_l
 mods.botania.RuneAltar.addRecipe(<armorplus:coal_boots>,[<armorplus:chicken_boots>, <armorplus:chicken_boots>, <armorplus:chicken_boots>, <armorplus:chicken_boots>, <armorplus:chicken_boots>, <armorplus:chicken_boots>, <armorplus:chicken_boots>], 5200);
 
 
-// silver to coal pick
-mods.botania.RuneAltar.addRecipe(<armorplus:coal_pickaxe>,[<thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>, <thermalfoundation:tool.pickaxe_silver>], 5200);
-
 
 mods.armorplus.Workbench.remove(<armorplus:coal_helmet>);
 mods.armorplus.Workbench.remove(<armorplus:coal_chestplate>);
