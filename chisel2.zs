@@ -1,7 +1,3 @@
-
-
-
-
 // Chisel Tinker glass! ===============================================================
 // mods.chisel.Carving("tglass!");
 mods.chisel.Carving.addVariation("tglass!",<tconstruct:clear_stained_glass:8>);
