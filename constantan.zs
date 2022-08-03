@@ -7,7 +7,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.hel
 	<thermalfoundation:armor.helmet_bronze>, <thermalfoundation:armor.helmet_bronze>, <thermalfoundation:armor.helmet_bronze>,
 	<thermalfoundation:armor.helmet_bronze>, <thermalfoundation:armor.helmet_bronze>, <thermalfoundation:armor.helmet_bronze>,
 	<thermalfoundation:armor.helmet_bronze>, <thermalfoundation:armor.helmet_bronze>]);
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.plate_constantan>, 
 	100000000, 1000000, 
 	<thermalfoundation:armor.plate_bronze>, 
@@ -16,7 +15,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.pla
 	<thermalfoundation:armor.plate_bronze>, <thermalfoundation:armor.plate_bronze>, <thermalfoundation:armor.plate_bronze>,
 	<thermalfoundation:armor.plate_bronze>, <thermalfoundation:armor.plate_bronze>, <thermalfoundation:armor.plate_bronze>,
 	<thermalfoundation:armor.plate_bronze>, <thermalfoundation:armor.plate_bronze>]);
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.legs_constantan>, 
 	100000000, 1000000, 
 	<thermalfoundation:armor.legs_bronze>, 
@@ -25,8 +23,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.leg
 	<thermalfoundation:armor.legs_bronze>, <thermalfoundation:armor.legs_bronze>, <thermalfoundation:armor.legs_bronze>,
 	<thermalfoundation:armor.legs_bronze>, <thermalfoundation:armor.legs_bronze>, <thermalfoundation:armor.legs_bronze>,
 	<thermalfoundation:armor.legs_bronze>, <thermalfoundation:armor.legs_bronze>]);
-	
-	
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.boots_constantan>, 
 	100000000, 1000000, 
 	<thermalfoundation:armor.boots_bronze>, 
@@ -35,3 +31,4 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.boo
 	<thermalfoundation:armor.boots_bronze>, <thermalfoundation:armor.boots_bronze>, <thermalfoundation:armor.boots_bronze>,
 	<thermalfoundation:armor.boots_bronze>, <thermalfoundation:armor.boots_bronze>, <thermalfoundation:armor.boots_bronze>,
 	<thermalfoundation:armor.boots_bronze>, <thermalfoundation:armor.boots_bronze>]);
+	

@@ -7,7 +7,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.hel
 	<thermalfoundation:armor.helmet_steel>, <thermalfoundation:armor.helmet_steel>, <thermalfoundation:armor.helmet_steel>,
 	<thermalfoundation:armor.helmet_steel>, <thermalfoundation:armor.helmet_steel>, <thermalfoundation:armor.helmet_steel>,
 	<thermalfoundation:armor.helmet_steel>, <thermalfoundation:armor.helmet_steel>]);
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.plate_electrum>, 
 	100000000, 1000000, 
 	<thermalfoundation:armor.plate_steel>, 
@@ -16,7 +15,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.pla
 	<thermalfoundation:armor.plate_steel>, <thermalfoundation:armor.plate_steel>, <thermalfoundation:armor.plate_steel>,
 	<thermalfoundation:armor.plate_steel>, <thermalfoundation:armor.plate_steel>, <thermalfoundation:armor.plate_steel>,
 	<thermalfoundation:armor.plate_steel>, <thermalfoundation:armor.plate_steel>]);
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.legs_electrum>, 
 	100000000, 1000000, 
 	<thermalfoundation:armor.legs_steel>, 
@@ -25,8 +23,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.leg
 	<thermalfoundation:armor.legs_steel>, <thermalfoundation:armor.legs_steel>, <thermalfoundation:armor.legs_steel>,
 	<thermalfoundation:armor.legs_steel>, <thermalfoundation:armor.legs_steel>, <thermalfoundation:armor.legs_steel>,
 	<thermalfoundation:armor.legs_steel>, <thermalfoundation:armor.legs_steel>]);
-	
-	
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:armor.boots_electrum>, 
 	100000000, 1000000, 
 	<thermalfoundation:armor.boots_steel>, 

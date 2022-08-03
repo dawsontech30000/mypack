@@ -1,8 +1,5 @@
-
 #packmode expert
-
 recipes.remove(<erebus:silk>);
-
 //Wand Of Animation
 recipes.remove(<erebus:wand_of_animation>);
 mods.extendedcrafting.TableCrafting.addShaped(4, <erebus:wand_of_animation>,
