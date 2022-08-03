@@ -22,16 +22,6 @@ recipes.remove(<woot:upgrade:4>);
 recipes.remove(<woot:upgrade:5>);
 
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<danknull:dank_null_6>, 
-	100000000, 1000000, 
-	<mysticalagradditions:stuff:69>, 
-	[<mysticalagradditions:stuff:69>, <danknull:dank_null_5>, <danknull:dank_null_4>,
-	<danknull:dank_null_3>, <danknull:dank_null_2>, <danknull:dank_null_1>,
-	<danknull:dank_null_0>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>,
-	<mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>,
-	<mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>]);
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:table_ultimate>, 
 	100000000, 1000000, 
 	<mysticalagradditions:stuff:69>, 

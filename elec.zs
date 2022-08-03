@@ -27,8 +27,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.axe_
 	<thermalfoundation:tool.axe_platinum>, <thermalfoundation:tool.axe_platinum>]);
 	
 	
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.sword_electrum>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.sword_platinum>, 

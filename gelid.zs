@@ -26,9 +26,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<redstonerepository:tool.axe
 	<redstonearsenal:tool.axe_flux>.withTag({Energy: 0}), <redstonearsenal:tool.axe_flux>.withTag({Energy: 0}), <redstonearsenal:tool.axe_flux>.withTag({Energy: 0}),
 	<redstonearsenal:tool.axe_flux>.withTag({Energy: 0}), <redstonearsenal:tool.axe_flux>.withTag({Energy: 0})]);
 	
-	
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<redstonerepository:tool.sword_gelid>.withTag({Energy: 0}), 
 	100000000, 1000000, 
 	<redstonearsenal:tool.sword_flux>.withTag({Energy: 0}), 
