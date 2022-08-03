@@ -442,11 +442,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>,
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_3>, <contenttweaker:neutral_steel_2> * 6, <liquid:aerotheum> * 2000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_4>, <contenttweaker:neutral_steel_3> * 6, <liquid:petrotheum> * 2000, 5000);
 
-
-
-
-
-
 // pink tiger
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:83>, <contenttweaker:material_part:63>, <contenttweaker:material_part:63>, 1500);
 
@@ -480,14 +475,5 @@ recipes.addShaped(<thermalexpansion:satchel:100> * 1, [[<extrautils2:trashcan>, 
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:controller>, [
-	[<refinedstorage:controller>.withTag({Energy: 0}), null, null, <tconstruct:smeltery_controller>, null, null, <refinedstorage:controller>.withTag({Energy: 0})], 
-	[<rftools:screen_controller>, null, null, <woot:controller>, null, null, <rftools:screen_controller>], 
-	[null, <mekanism:basicblock:14>, <xnet:controller>, <nuclearcraft:fission_controller_new_fixed>, <xnet:controller>, <mekanism:basicblock:14>, null], 
-	[<refinedstorage:controller>.withTag({Energy: 0}), <woot:controller>, <nuclearcraft:fission_controller_new_fixed>, null, <nuclearcraft:fission_controller_new_fixed>, <woot:controller>, <refinedstorage:controller>.withTag({Energy: 0})], 
-	[null, null, <xnet:controller>, <nuclearcraft:fission_controller_new_fixed>, <xnet:controller>, null, null], 
-	[null, <mekanism:basicblock:14>, null, <woot:controller>, null, <mekanism:basicblock:14>, null], 
-	[<refinedstorage:controller>.withTag({Energy: 0}), null, <rftools:screen_controller>, <tconstruct:smeltery_controller>, <rftools:screen_controller>, null, <refinedstorage:controller>.withTag({Energy: 0})]
-]);
 
 // next to added

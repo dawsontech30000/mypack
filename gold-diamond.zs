@@ -27,8 +27,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:diamond_axe>,
 	<minecraft:golden_axe>, <minecraft:golden_axe>]);
 	
 	
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:diamond_sword>, 
 	100000000, 1000000, 
 	<minecraft:golden_sword>, 
