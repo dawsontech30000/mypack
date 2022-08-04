@@ -46,12 +46,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<solarflux:solar_panel_wyver
 	<solarflux:solar_panel_8>, <solarflux:solar_panel_8>]);
 
 
-
-
-
-
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:draconium_block:1>, 
 	100000000, 1000000, 
 	<draconicevolution:draconium_block>, 

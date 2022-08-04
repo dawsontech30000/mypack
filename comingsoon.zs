@@ -14,7 +14,6 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <erebus:wand_of_animation>,
   [<projectex:matter:7>, <projectex:matter:7>, null, null, null, null, null, null, null]]);
 
 
-#packmode expert
 
  //Mirror
 recipes.remove(<solarflux:mirror>);
