@@ -115,8 +115,6 @@ recipes.remove(<thermalfoundation:armor.plate_steel>);
 recipes.remove(<thermalfoundation:armor.legs_steel>);
 recipes.remove(<thermalfoundation:armor.boots_steel>);
 
-
-
 //flux infused armor
 recipes.remove(<redstonearsenal:armor.helmet_flux>);
 recipes.remove(<redstonearsenal:armor.plate_flux>);

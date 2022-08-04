@@ -21,16 +21,6 @@ recipes.remove(<woot:upgrade:3>);
 recipes.remove(<woot:upgrade:4>);
 recipes.remove(<woot:upgrade:5>);
 
-
-mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:table_ultimate>, 
-	100000000, 1000000, 
-	<mysticalagradditions:stuff:69>, 
-	[<extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>,
-	<extendedcrafting:material:11>, <extendedcrafting:material:11>, <extendedcrafting:material:11>,
-	<extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>,
-	<extendedcrafting:material:17>, <extendedcrafting:material:17>, <extendedcrafting:material:17>,
-	<extendedcrafting:material:48>, <extendedcrafting:material:48>]);
-
 	
 	
 	
