@@ -1,0 +1,19 @@
+stuff need check over
+wood
+stone
+iron
+gold
+diamond
+
+// thermal
+tin
+lead
+alum
+plat
+elec
+brozen
+constantan
+flux
+geild
+silver
+copper
