@@ -17,3 +17,38 @@ flux
 geild
 silver
 copper
+
+
+// armours
+leather
+iron
+chain
+gold
+diamond
+copper
+tin
+lead
+alum
+nickel
+plat
+steel
+elect
+invar
+brozen
+constantan
+silver
+end geild
+flux
+chicken
+coal
+redstone
+lapis
+slime
+cobalt
+aridte
+manyall
+pig
+obsidian
+knight slime
+emerald
+infused lava crystal
