@@ -20,7 +20,6 @@ geild
 silver
 copper
 
-
 // armours
 leather
 iron

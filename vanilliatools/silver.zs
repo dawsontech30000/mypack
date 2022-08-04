@@ -30,7 +30,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.axe_
 	
 	
 
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.sword_silver>, 
 	100000000, 1000000, 
 	<redstonerepository:tool.sword_gelid>.withTag({Energy: 0}), 
