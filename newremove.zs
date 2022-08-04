@@ -156,8 +156,8 @@ recipes.removeShaped(<minecraft:diamond_chestplate>, [[<ic2:crafting:19>, null, 
 recipes.removeShaped(<minecraft:diamond_helmet>, [[<extragems:diamond_charged>, <extragems:diamond_charged>, <extragems:diamond_charged>], [<extragems:diamond_charged>, null, <extragems:diamond_charged>]]);
 recipes.removeShaped(<minecraft:diamond_helmet>, [[<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [<ore:gemDiamond>, null, <ore:gemDiamond>]]);
 
-
-
-
-
-
+// remove
+recipes.remove(<tcomplement:steel_helmet>);
+recipes.remove(<tcomplement:steel_chestplate>);
+recipes.remove(<tcomplement:steel_leggings>);
+recipes.remove(<tcomplement:steel_boots>);
