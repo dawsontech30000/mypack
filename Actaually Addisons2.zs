@@ -25,27 +25,6 @@ recipes.remove(<moreplates:empowered_void_plate>);
 
 
 
-# Basic Coil
-	recipes.remove(<actuallyadditions:item_misc:7>);
-	recipes.addShapedMirrored("Basic Coil", 
-	<actuallyadditions:item_misc:7>, 
-	[[<actuallyadditions:item_crystal:5>, <ore:wireAluminum>, <forestry:oak_stick>],
-	[<ore:wireAluminum>, <forestry:oak_stick>, <ore:wireAluminum>], 
-	[<forestry:oak_stick>, <ore:wireAluminum>, <actuallyadditions:item_crystal:5>]]);
-
-# Advanced Coil
-	recipes.remove(<actuallyadditions:item_misc:8>);
-	recipes.addShapedMirrored("Advanced Coil", 
-	<actuallyadditions:item_misc:8>, 
-	[[null, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <forestry:oak_stick>],
-	[<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), <actuallyadditions:item_misc:7>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})], 
-	[<forestry:oak_stick>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), null]]);
-
-
-
-
-
-
 
 // aa
 // Restonia
@@ -82,5 +61,13 @@ recipes.remove(<moreplates:empowered_void_plate>);
 	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:5>);
 	mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_enori_gear>);
     mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_enori_plate>);
+
+
+
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_drill_upgrade_speed_ii>, <actuallyadditions:item_drill_upgrade_speed>, <actuallyadditions:item_drill_upgrade_speed>,<actuallyadditions:item_drill_upgrade_speed>, <actuallyadditions:item_drill_upgrade_speed>, <actuallyadditions:item_drill_upgrade_speed>, 500, 100, [0.5, 0.3, 0.2]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_drill_upgrade_speed>, <actuallyadditions:item_drill_upgrade_silk_touch>, <actuallyadditions:item_drill_upgrade_silk_touch>, <actuallyadditions:item_drill_upgrade_silk_touch>, <actuallyadditions:item_drill_upgrade_silk_touch>, <actuallyadditions:item_drill_upgrade_silk_touch>, 500, 100, [0.5, 0.3, 0.2]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_drill_upgrade_speed_iii>, <actuallyadditions:item_drill_upgrade_speed_ii>, <actuallyadditions:item_drill_upgrade_speed_ii>, <actuallyadditions:item_drill_upgrade_speed_ii>, <actuallyadditions:item_drill_upgrade_speed_ii>, <actuallyadditions:item_drill_upgrade_speed_ii>, 500, 100, [0.5, 0.3, 0.2]);
+
+
 
 
