@@ -27,10 +27,6 @@ recipes.addShaped(<solarflux:solar_panel_1> * 2, [[<solarflux:mirror>,<solarflux
 recipes.remove(<solarflux:photovoltaic_cell_1>);
 recipes.addShaped(<solarflux:photovoltaic_cell_1> * 3, [[<ore:blockGlassLightBlue>,<ore:blockGlassLightBlue>,<ore:blockGlassLightBlue>],[<enderio:item_alloy_ingot:4>,<enderio:item_alloy_ingot:4>,<enderio:item_alloy_ingot:4>],[<solarflux:mirror>,<solarflux:mirror>,<solarflux:mirror>]]);
 
-
-
-
-
 # Solar Panel II
 recipes.remove(<solarflux:solar_panel_2>);
 recipes.addShaped(<solarflux:solar_panel_2> * 4, [[<solarflux:solar_panel_1>,<solarflux:solar_panel_1>,<solarflux:solar_panel_1>],[<solarflux:solar_panel_1>,<minecraft:piston>,<solarflux:solar_panel_1>],[<solarflux:solar_panel_1>,<solarflux:solar_panel_1>,<solarflux:solar_panel_1>]]);
