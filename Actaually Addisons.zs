@@ -6,15 +6,11 @@ import crafttweaker.oredict.IOreDict;
 
 
 
-//Black Iron 
-mods.actuallyadditions.Empowerer.addRecipe(<extendedcrafting:material>, <thermalfoundation:material:160>, <thermalfoundation:material:160>, <enderio:item_alloy_ingot:6>, <minecraft:dye>, <minecraft:dye>, 2000, 100, [0.1,0.1,0.1]);
-mods.actuallyadditions.Empowerer.addRecipe(<extendedcrafting:storage>, <thermalfoundation:material:160>, <enderio:item_alloy_ingot:6>, <enderio:item_alloy_ingot:6>, <minecraft:dye>, <minecraft:dye>, 2000, 100, [0.1,0.1,0.1]);
-
 // Restonia
 	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered>);
 	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered>);
 	mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_restonia_gear>);
-    mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_restonia_plate>);
+        mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_restonia_plate>);
 
 // Palis
 	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);

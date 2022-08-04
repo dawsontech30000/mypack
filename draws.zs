@@ -5,11 +5,6 @@ mods.extendedcrafting.EnderCrafting.addShapeless(<storagedrawers:basicdrawers:1>
 mods.extendedcrafting.EnderCrafting.addShapeless(<storagedrawers:basicdrawers>.withTag({material: "oak"}), [<avaritia:compressed_crafting_table>, <storagedrawers:upgrade_template>, <avaritia:compressed_crafting_table>, <storagedrawers:upgrade_template>, <storagedrawers:drawer_key>, <storagedrawers:upgrade_template>, <avaritia:compressed_crafting_table>, <storagedrawers:upgrade_template>, <avaritia:compressed_crafting_table>]);
 mods.extendedcrafting.EnderCrafting.addShapeless(<storagedrawers:upgrade_template>, [<ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>, <storagedrawers:quantify_key>, <ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>, <ore:stickTreatedWood>]);
 
-
-
-
-
-
 recipes.remove(<storagedrawers:basicdrawers>.withTag({material: "birch"}));
 recipes.remove(<storagedrawers:basicdrawers>.withTag({material: "jungle"}));
 recipes.remove(<storagedrawers:basicdrawers>.withTag({material: "acacia"}));
@@ -49,9 +44,6 @@ recipes.remove(<storagedrawers:customdrawers:2>);
 recipes.remove(<storagedrawers:basicdrawers>.withTag({material: "spruce"}));
 recipes.remove(<storagedrawers:basicdrawers:2>.withTag({material: "spruce"}));
 recipes.remove(<storagedrawers:basicdrawers:4>.withTag({material: "spruce"}));
-
-
-
 
 
 recipes.remove(<storagedrawers:basicdrawers:1>.withTag({material: "oak"}));
