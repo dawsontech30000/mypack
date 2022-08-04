@@ -64,45 +64,6 @@ recipes.remove(<moreplates:empowered_void_plate>);
 
 
 
-
-
-
-
-
-// Storage Create small ======================================================
-recipes.remove(<actuallyadditions:block_giant_chest>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <actuallyadditions:block_giant_chest>, [
-	[null, null, null, null, null], 
-	[null, <actuallyadditions:block_misc:4>, <ore:plateEnori>, <actuallyadditions:block_misc:4>, null], 
-	[null, <actuallyadditions:block_misc:4>, <ore:chestWood>, <actuallyadditions:block_misc:4>, null], 
-	[null, <actuallyadditions:block_misc:4>, <ore:itemSilicon>, <actuallyadditions:block_misc:4>, null], 
-	[null, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, null]
-]);
-
-
-// Storage Create medium ==============================================================================
-recipes.remove(<actuallyadditions:block_giant_chest_medium>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <actuallyadditions:block_giant_chest_medium>, [
-	[<actuallyadditions:block_misc:4>, <ore:plateEnori>, <ore:plateEnori>, <ore:plateEnori>, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, null, null, null, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, <ore:chestWood>, <ironchest:iron_chest:3>, <ore:chestWood>, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, <projectred-core:resource_item:320>, <rftools:storage_module>, <projectred-core:resource_item:320>, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>]
-]);
-
-
-// Storage Create Large ==============================================================================
-recipes.remove(<actuallyadditions:block_giant_chest_large>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <actuallyadditions:block_giant_chest_large>, [
-	[<actuallyadditions:block_misc:4>, <ore:plateDiamatine>, <ore:plateDiamatine>, <ore:plateDiamatine>, <ore:plateDiamatine>, <ore:plateDiamatine>, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, null, null, null, null, null, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, null, null, null, null, null, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, null, null, null, null, null, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, <ore:chestWood>, <ore:chestWood>, <ironchest:iron_chest>, <ore:chestWood>, <ore:chestWood>, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, <projectred-core:resource_item:341>, <projectred-core:resource_item:341>, <rftools:storage_module:1>, <projectred-core:resource_item:341>, <projectred-core:resource_item:341>, <actuallyadditions:block_misc:4>], 
-	[<actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>, <actuallyadditions:block_misc:4>]
-]);
-
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:abyssalnite_seeds>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, 500, 100, [0.1,0.1,0.1]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:gold_seeds>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, 500, 100, [0.1,0.1,0.1]);
