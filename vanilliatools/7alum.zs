@@ -1,7 +1,4 @@
 #packmode expert
-
-// lead to alumium
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_aluminum>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.shovel_lead>, 

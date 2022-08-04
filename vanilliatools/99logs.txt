@@ -53,3 +53,10 @@ obsidian
 knight slime
 emerald
 infused lava crystal
+
+
+MISSED
+STEEL
+NICKEL
+INVAR 
+COPPER

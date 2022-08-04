@@ -1,6 +1,4 @@
 #packmode expert
-
-// iron to gold
 mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:golden_shovel>, 
 	100000000, 1000000, 
 	<minecraft:iron_shovel>, 
@@ -48,4 +46,3 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:golden_sword>,
 	<minecraft:iron_hoe>, <minecraft:iron_hoe>, <minecraft:iron_hoe>,
 	<minecraft:iron_hoe>, <minecraft:iron_hoe>, <minecraft:iron_hoe>,
 	<minecraft:iron_hoe>, <minecraft:iron_hoe>]);
-	

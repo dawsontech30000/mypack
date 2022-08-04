@@ -1,6 +1,4 @@
 #packmode expert
-
-// tin to lead
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_lead>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.shovel_tin>, 

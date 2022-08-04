@@ -1,6 +1,4 @@
 #packmode expert
-
-// wood to stone
 mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:stone_shovel>, 
 	100000000, 1000000, 
 	<minecraft:wooden_shovel>, 
