@@ -580,3 +580,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:dynamo:5>.wit
 
 
 
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:131>, <thermalexpansion:frame:129>, <thermalexpansion:frame:130>, 100000);
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame:130>, [
+	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>], 
+	[<thermalexpansion:frame>, <ore:blockSheetmetalElectrum>, <thermalexpansion:frame>], 
+	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>]
+]);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:129>, <thermalexpansion:frame>, <thermalexpansion:frame>, 100000);
+
+
