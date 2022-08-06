@@ -5,7 +5,7 @@ import crafttweaker.item.IIngredient as IIngredient;
 # basic
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 1 as byte}), [
 	[<thermalexpansion:tank>, <ore:blockInvar>, <thermalexpansion:tank>], 
-	[<ore:blockInvar>, <thermalfoundation:upgrade>, <ore:blockInvar>], 
+	[<ore:blockInvar>, <thermalfoundation:upgrade:1>, <ore:blockInvar>], 
 	[<thermalexpansion:tank>, <ore:blockInvar>, <thermalexpansion:tank>]
 ]);
 
@@ -373,52 +373,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device:6>.wit
   recipes.remove(<redstonearsenal:armor.legs_flux>.withTag({Energy: 800000}));
   recipes.remove(<redstonearsenal:armor.boots_flux>.withTag({Energy: 800000}));
 
-
-
-
-
-
-
-
-mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}), 
-	100000000, 1000000, 
-	<thermalexpansion:frame:132>, 
-	[<thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}),
-	<thermalexpansion:frame:146>, <thermalexpansion:frame:146>, <thermalexpansion:frame:146>,
-	<thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}),
-	<thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:frame:146>, <thermalexpansion:frame:146>,
-	<thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}),<thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000})]);
-
-mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:capacitor:2>.withTag({Energy: 9000000}), 
-	100000000, 1000000, 
-	<thermalexpansion:capacitor>.withTag({Energy: 1000000}), 
-	[<thermalexpansion:capacitor>.withTag({Energy: 1000000}), <thermalexpansion:capacitor>.withTag({Energy: 1000000}), <thermalexpansion:capacitor>.withTag({Energy: 1000000}),
-	<thermalexpansion:capacitor>.withTag({Energy: 1000000}), <thermalexpansion:capacitor>.withTag({Energy: 1000000}), <thermalexpansion:capacitor>.withTag({Energy: 1000000}),
-	<thermalexpansion:capacitor>.withTag({Energy: 1000000}), <thermalexpansion:capacitor>.withTag({Energy: 1000000}), <thermalexpansion:capacitor>.withTag({Energy: 1000000}),
-	<thermalexpansion:capacitor>.withTag({Energy: 1000000}), <thermalexpansion:capacitor>.withTag({Energy: 1000000}), <thermalexpansion:capacitor>.withTag({Energy: 1000000}),
-	<thermalexpansion:capacitor>.withTag({Energy: 1000000}), <thermalexpansion:capacitor>.withTag({Energy: 1000000}),<thermalexpansion:capacitor>.withTag({Energy: 1000000})]);
-
-
-mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:capacitor:3>.withTag({Energy: 16000000}), 
-	100000000, 1000000, 
-	<thermalexpansion:frame:132>, 
-	[<thermalexpansion:frame:147>, <thermalexpansion:frame:146>, <thermalexpansion:frame:148>,
-	<thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}),
-	<thermalexpansion:capacitor:2>.withTag({Energy: 9000000}), <thermalexpansion:capacitor:2>.withTag({Energy: 9000000}), <thermalexpansion:capacitor:2>.withTag({Energy: 9000000}),
-	<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}), <thermalexpansion:capacitor:1>.withTag({Energy: 4000000}), <thermalexpansion:capacitor:1>.withTag({Energy: 4000000}),
-	<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}), <thermalexpansion:capacitor:1>.withTag({Energy: 4000000}),<thermalexpansion:capacitor:1>.withTag({Energy: 4000000})]);
-
-
-
-mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:capacitor:4>.withTag({Energy: 25000000}), 
-	100000000, 1000000, 
-	<thermalexpansion:frame:132>, 
-	[<thermalexpansion:frame:147>, <thermalexpansion:frame:146>, <thermalexpansion:frame:148>,
-	<thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}),
-	<thermalexpansion:capacitor:2>.withTag({Energy: 9000000}), <thermalexpansion:capacitor:2>.withTag({Energy: 9000000}), <thermalexpansion:capacitor:2>.withTag({Energy: 9000000}),
-	<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}), <thermalexpansion:capacitor:1>.withTag({Energy: 4000000}), <thermalexpansion:capacitor:1>.withTag({Energy: 4000000}),
-	<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}), <thermalexpansion:capacitor:1>.withTag({Energy: 4000000}),<thermalexpansion:capacitor:1>.withTag({Energy: 4000000})]);
-
 // this works
  recipes.remove(<redstonerepository:armor.helmet_gelid>.withTag({Energy: 0}));
  recipes.remove(<redstonerepository:armor.chestplategelid>.withTag({Energy: 0}));
@@ -473,11 +427,7 @@ recipes.addShaped(<thermalexpansion:satchel:4> * 1, [[<simplybackpacks:epicbackp
 recipes.remove(<thermalexpansion:satchel:100>);
 recipes.addShaped(<thermalexpansion:satchel:100> * 1, [[<extrautils2:trashcan>, <extrautils2:trashchest>, <extrautils2:trashcan>], [<trashcans:item_trash_can>, <overloaded:compressed_obsidian:0>, <trashcans:item_trash_can>],[<immersivetech:metal_trash:0>, <trashcans:item_trash_can>, <immersivetech:metal_trash:0>]]);
 
-
-
-
 // next to added
-
 # Leadstone Fluxduct
 recipes.remove(<thermaldynamics:duct_0>);
 recipes.addShaped(<thermaldynamics:duct_0> * 6, [[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],[<ore:ingotLead>,<immersiveengineering:metal:2>,<ore:ingotLead>],[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>]]);
@@ -514,9 +464,24 @@ recipes.addShaped(<thermaldynamics:duct_0:4> * 3, [[<ore:ingotEnderium>,<ore:ing
 mods.thermalexpansion.Transposer.removeFillRecipe(<thermaldynamics:duct_0:8>, <liquid:redstone>);
 mods.thermalexpansion.Transposer.addFillRecipe(<thermaldynamics:duct_0:4>, <thermaldynamics:duct_0:8>, <liquid:redstone> * 400, 800);
 
+recipes.remove(<thermalexpansion:dynamo:5>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
+recipes.remove(<thermalexpansion:dynamo>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
+recipes.remove(<thermalexpansion:dynamo:1>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
+recipes.remove(<thermalexpansion:dynamo:2>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
+recipes.remove(<thermalexpansion:dynamo:3>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
+recipes.remove(<thermalexpansion:dynamo:4>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
 
 
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:131>, <thermalexpansion:frame:129>, <thermalexpansion:frame:130>, 100000);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame:130>, [
+	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>], 
+	[<thermalexpansion:frame>, <ore:blockSheetmetalElectrum>, <thermalexpansion:frame>], 
+	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>]
+]);
+
+
+ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:129>, <thermalexpansion:frame>, <thermalexpansion:frame>, 100000);
 
 
 // new
@@ -578,14 +543,184 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:dynamo:5>.wit
 ]);
 
 
-
-
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:131>, <thermalexpansion:frame:129>, <thermalexpansion:frame:130>, 100000);
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame:130>, [
-	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>], 
-	[<thermalexpansion:frame>, <ore:blockSheetmetalElectrum>, <thermalexpansion:frame>], 
-	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>]
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade>, [
+	[<ore:blockInvar>, <ore:gearInvar>, <ore:blockInvar>], 
+	[<ore:gearInvar>, <ore:gearInvar>, <ore:gearInvar>], 
+	[<ore:blockInvar>, <ore:gearInvar>, <ore:blockInvar>]
 ]);
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:129>, <thermalexpansion:frame>, <thermalexpansion:frame>, 100000);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:1>, [
+	[<ore:blockElectrum>, <ore:gearElectrum>, <ore:blockElectrum>], 
+	[<ore:gearElectrumFlux>, <ore:gearElectrum>, <ore:gearElectrumFlux>], 
+	[<ore:blockElectrum>, <ore:gearElectrum>, <ore:blockElectrum>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:2>, [
+	[<ore:blockSignalum>, <ore:gearSignalum>, <ore:blockSignalum>], 
+	[<ore:gearSignalum>, <ore:gearSignalum>, <ore:gearSignalum>], 
+	[<ore:blockSignalum>, <ore:gearSignalum>, <ore:blockSignalum>]
+]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:upgrade:3>, 
+	100000000, 1000000, 
+	<thermalfoundation:upgrade:1>, 
+	[<thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>,
+	<thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>,
+	<thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>,
+	<thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:1>, <thermalfoundation:upgrade:2>,
+	<thermalfoundation:upgrade:2>, <thermalfoundation:upgrade:1>,<thermalfoundation:upgrade:2>]);
+
+
+
+recipes.remove(<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}));
+recipes.remove(<thermalexpansion:capacitor:2>.withTag({Energy: 9000000}));
+recipes.remove(<thermalexpansion:capacitor:3>.withTag({Energy: 16000000}));
+recipes.remove(<thermalexpansion:capacitor:4>.withTag({Energy: 25000000}));
+
+
+// Flux Capacitor (Reinforced)
+recipes.remove(<thermalexpansion:capacitor:2>);
+
+// Flux Capacitor (Resonant)
+recipes.remove(<thermalexpansion:capacitor:4>);
+
+// Flux Capacitor (Hardened)
+recipes.remove(<thermalexpansion:capacitor:1>);
+
+// Flux Capacitor (Signalum)
+recipes.remove(<thermalexpansion:capacitor:3>);
+
+// Flux Capacitor (Resonant)
+recipes.remove(<thermalexpansion:capacitor:4>);
+
+
+recipes.removeShaped(<thermalexpansion:capacitor>, [[<thermalexpansion:capacitor>]]);
+recipes.removeShaped(<thermalexpansion:capacitor:3>, [[<thermalexpansion:capacitor:3>]]);
+recipes.removeShaped(<thermalexpansion:capacitor:1>, [[<thermalexpansion:capacitor:1>]]);
+recipes.removeShaped(<thermalexpansion:capacitor:4>, [[<thermalexpansion:capacitor:4>]]);
+recipes.removeShaped(<thermalexpansion:capacitor:2>, [[<thermalexpansion:capacitor:2>]]);
+
+
+// Reservoir (Basic)
+recipes.remove(<thermalexpansion:reservoir:0>);
+recipes.addShaped(<thermalexpansion:reservoir:0> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:storage:0>, <thermalexpansion:tank:0>], [<thermalfoundation:storage:0>, <ironchest:iron_chest:3>, <thermalfoundation:storage:0>],[<thermalexpansion:tank:0>, <thermalfoundation:storage:0>, <thermalexpansion:tank:0>]]);
+
+// Reservoir (Hardened)
+recipes.remove(<thermalexpansion:reservoir:1>);
+recipes.addShaped(<thermalexpansion:reservoir:1> * 1, [[<thermalfoundation:storage_alloy:2>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:2>], [<thermalexpansion:tank:0>, <ironchest:iron_chest:4>, <thermalexpansion:tank:0>],[<thermalfoundation:storage_alloy:2>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:2>]]);
+
+// Reservoir (Reinforced)
+recipes.remove(<thermalexpansion:reservoir:2>);
+recipes.addShaped(<thermalexpansion:reservoir:2> * 1, [[<thermalfoundation:storage_alloy:1>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:1>], [<thermalexpansion:tank:0>, <ironchest:iron_chest:1>, <thermalexpansion:tank:0>],[<thermalfoundation:storage_alloy:1>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:1>]]);
+
+// Reservoir (Signalum)
+recipes.remove(<thermalexpansion:reservoir:3>);
+recipes.addShaped(<thermalexpansion:reservoir:3> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:5>, <thermalexpansion:tank:0>], [<thermalfoundation:storage_alloy:5>, <thermalfoundation:upgrade:2>, <thermalfoundation:storage_alloy:5>],[<thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:5>, <thermalexpansion:tank:0>]]);
+
+// Reservoir (Resonant)
+recipes.remove(<thermalexpansion:reservoir:4>);
+recipes.addShaped(<thermalexpansion:reservoir:4> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:material:167>, <thermalexpansion:tank:0>], [<thermalfoundation:material:167>, <thermalfoundation:upgrade:3>, <thermalfoundation:material:167>],[<thermalexpansion:tank:0>, <thermalfoundation:material:167>, <thermalexpansion:tank:0>]]);
+
+
+// Fluxomagnet (Basic)
+recipes.remove(<thermalinnovation:magnet:0>);
+
+// Fluxomagnet (Hardened)
+recipes.remove(<thermalinnovation:magnet:1>);
+
+// Fluxomagnet (Reinforced)
+recipes.remove(<thermalinnovation:magnet:2>);
+
+// Fluxomagnet (Signalum)
+recipes.remove(<thermalinnovation:magnet:3>);
+
+// Fluxomagnet (Resonant)
+recipes.remove(<thermalinnovation:magnet:4>);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:capacitor:1>.withTag({Energy: 0}), 
+	100000000, 1000000, 
+	<thermalexpansion:capacitor>.withTag({Energy: 0}), 
+	[<thermalexpansion:capacitor>.withTag({Energy: 0}), <thermalexpansion:capacitor>.withTag({Energy: 0}), <thermalexpansion:capacitor>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor>.withTag({Energy: 0}), <thermalexpansion:capacitor>.withTag({Energy: 0}), <thermalexpansion:capacitor>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor>.withTag({Energy: 0}), <thermalexpansion:capacitor>.withTag({Energy: 0}), <thermalexpansion:capacitor>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor>.withTag({Energy: 0}), <thermalexpansion:capacitor>.withTag({Energy: 0}), <thermalexpansion:capacitor>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor>.withTag({Energy: 0}), <thermalexpansion:capacitor>.withTag({Energy: 0})]);
+	
+	mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:capacitor:2>.withTag({Energy: 0}), 
+	100000000, 1000000, 
+	<thermalexpansion:capacitor:1>.withTag({Energy: 0}), 
+	[<thermalexpansion:capacitor:1>.withTag({Energy: 0}), <thermalexpansion:capacitor:1>.withTag({Energy: 0}), <thermalexpansion:capacitor:1>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor:1>.withTag({Energy: 0}), <thermalexpansion:capacitor:1>.withTag({Energy: 0}), <thermalexpansion:capacitor:1>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor:1>.withTag({Energy: 0}), <thermalexpansion:capacitor:1>.withTag({Energy: 0}), <thermalexpansion:capacitor:1>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor:1>.withTag({Energy: 0}), <thermalexpansion:capacitor:1>.withTag({Energy: 0}), <thermalexpansion:capacitor:1>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor:1>.withTag({Energy: 0}), <thermalexpansion:capacitor:1>.withTag({Energy: 0})]);
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:capacitor:3>.withTag({Energy: 0}), 
+	100000000, 1000000, 
+	<thermalexpansion:capacitor:2>.withTag({Energy: 0}), 
+	[<thermalexpansion:capacitor:2>.withTag({Energy: 0}), <thermalexpansion:capacitor:2>.withTag({Energy: 0}), <thermalexpansion:capacitor:2>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor:2>.withTag({Energy: 0}), <thermalexpansion:capacitor:2>.withTag({Energy: 0}), <thermalexpansion:capacitor:2>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor:2>.withTag({Energy: 0}), <thermalexpansion:capacitor:2>.withTag({Energy: 0}), <thermalexpansion:capacitor:2>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor:2>.withTag({Energy: 0}), <thermalexpansion:capacitor:2>.withTag({Energy: 0}), <thermalexpansion:capacitor:2>.withTag({Energy: 0}),
+	<thermalexpansion:capacitor:2>.withTag({Energy: 0}), <thermalexpansion:capacitor:2>.withTag({Energy: 0})]);
+	
+
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:capacitor:4>.withTag({Energy: 0}), 
+	100000000, 1000000, 
+	<thermalexpansion:frame:148>, 
+	[<thermalexpansion:frame:148>, <thermalexpansion:capacitor:3>.withTag({Energy: 0}), <thermalexpansion:frame:148>,
+	<thermalexpansion:frame:148>, <thermalexpansion:capacitor:3>.withTag({Energy: 0}), <thermalexpansion:frame:148>,
+	<thermalexpansion:frame:148>, <thermalexpansion:capacitor:3>.withTag({Energy: 0}), <thermalexpansion:frame:148>,
+	<thermalexpansion:frame:148>, <thermalexpansion:capacitor:3>.withTag({Energy: 0}), <thermalexpansion:frame:148>,
+	<thermalexpansion:frame:148>, <thermalexpansion:capacitor:3>.withTag({Energy: 0})]);
+
+
+// Fluxbore (Hardened)
+recipes.remove(<thermalinnovation:drill:1>);
+
+// Fluxbore (Reinforced)
+recipes.remove(<thermalinnovation:drill:2>);
+
+// Fluxbore (Signalum)
+recipes.remove(<thermalinnovation:drill:3>);
+
+// Fluxbore (Resonant)
+recipes.remove(<thermalinnovation:drill:4>);
+
+
+// Fluxbore (Resonant)
+recipes.remove(<thermalinnovation:drill:4>);
+// Fluxsaw (Hardened)
+recipes.remove(<thermalinnovation:saw:1>);
+// Fluxsaw (Reinforced)
+recipes.remove(<thermalinnovation:saw:2>);
+// Fluxsaw (Signalum)
+recipes.remove(<thermalinnovation:saw:3>);
+// Fluxsaw (Resonant)
+recipes.remove(<thermalinnovation:saw:4>);
+
+// Watering Can (Hardened)
+recipes.remove(<thermalcultivation:watering_can:1>);
+// Watering Can (Reinforced)
+recipes.remove(<thermalcultivation:watering_can:2>);
+// Watering Can (Signalum)
+recipes.remove(<thermalcultivation:watering_can:3>);
+// Watering Can (Resonant)
+recipes.remove(<thermalcultivation:watering_can:4>);
+// Watering Can (Basic)
+recipes.remove(<thermalcultivation:watering_can:0>);
+
+// Hypoinfuser (Basic)
+recipes.remove(<thermalinnovation:injector:0>);
+// Hypoinfuser (Hardened)
+recipes.remove(<thermalinnovation:injector:1>);
+// Hypoinfuser (Reinforced)
+recipes.remove(<thermalinnovation:injector:2>);
+// Hypoinfuser (Signalum)
+recipes.remove(<thermalinnovation:injector:3>);
+// Hypoinfuser (Resonant)
+recipes.remove(<thermalinnovation:injector:4>);
 
 
