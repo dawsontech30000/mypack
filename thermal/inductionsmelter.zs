@@ -1,3 +1,5 @@
+#packmode expert
+
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.item.IIngredient as IIngredient;
 
