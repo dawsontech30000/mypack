@@ -16,8 +16,6 @@ recipes.remove(<storagedrawers:basicdrawers:4>.withTag({material: "jungle"}));
 recipes.remove(<storagedrawers:basicdrawers:4>.withTag({material: "acacia"}));
 recipes.remove(<storagedrawers:basicdrawers:4>.withTag({material: "dark_oak"}));
 
-
-
 recipes.remove(<storagedrawers:basicdrawers:2>.withTag({material: "birch"}));
 recipes.remove(<storagedrawers:basicdrawers:2>.withTag({material: "jungle"}));
 recipes.remove(<storagedrawers:basicdrawers:2>.withTag({material: "acacia"}));
