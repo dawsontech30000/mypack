@@ -9,22 +9,6 @@ mods.avaritia.ExtremeCrafting.addShaped("NAMEPLACEHOLDER", <extendedcrafting:sin
 
 
 
-recipes.remove(<danknull:dank_null_0>);
-recipes.remove(<danknull:dank_null_1>);
-recipes.remove(<danknull:dank_null_2>);
-recipes.remove(<danknull:dank_null_3>);
-recipes.remove(<danknull:dank_null_4>);
-recipes.remove(<danknull:dank_null_5>);
-
-
-recipes.remove(<danknull:dank_null_panel_0>);
-recipes.remove(<danknull:dank_null_panel_1>);
-recipes.remove(<danknull:dank_null_panel_2>);
-recipes.remove(<danknull:dank_null_panel_3>);
-recipes.remove(<danknull:dank_null_panel_4>);
-recipes.remove(<danknull:dank_null_panel_5>);
-
-
 
 
 
