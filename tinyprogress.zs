@@ -33,6 +33,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <tp:emerald_cobblegen_block>, [
 	[<botania:storage:3>, <ore:blockDiamond>, <botania:storage:3>]
 ]);
 
+
 // Cobblestone Generator
 recipes.remove(<tp:cobblegen_block>);
 recipes.remove(<tp:iron_cobblegen_block>);
