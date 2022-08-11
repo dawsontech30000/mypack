@@ -1,4 +1,4 @@
-
+#packmode expert
 
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <tp:cobblegen_block>, [

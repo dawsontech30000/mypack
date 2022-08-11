@@ -1,3 +1,4 @@
+#packmode expert
 // remove
 recipes.remove(<tcomplement:steel_helmet>);
 recipes.remove(<tcomplement:steel_chestplate>);

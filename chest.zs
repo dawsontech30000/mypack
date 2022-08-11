@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import mods.jei.JEI.removeAndHide as rh;
 #modloaded ironchest
+#packmode expert
 print("--- loading IronChest.zs ---");
 
 # *======= Recipes =======*

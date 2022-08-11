@@ -1,4 +1,4 @@
-
+#packmode expert
 
 mods.pneumaticcraft.refinery.addRecipe(473, <liquid:pinktiger> * 5, [<liquid:lallixium> * 20, <liquid:lallix> * 5]);
 
