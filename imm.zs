@@ -21,40 +21,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:connector
 	[<immersiveengineering:connector>, <ore:blockCopper>, <immersiveengineering:connector>]
 ]);
 
-// HV Wire Connector
-recipes.remove(<immersiveengineering:connector:4>);
-
-// HV Wire Relay
-recipes.remove(<immersiveengineering:connector:5>);
-
-// LV Wire Connector
-recipes.remove(<immersiveengineering:connector:0>);
-
-// MV Wire Relay
-recipes.remove(<immersiveengineering:connector:3>);
-
-// LV Wire Relay
-recipes.remove(<immersiveengineering:connector:1>);
-
-// LV Wire Coil
-recipes.remove(<immersiveengineering:wirecoil:0>);
-
-// Insulated LV Wire Coil
-recipes.remove(<immersiveengineering:wirecoil:6>);
-
-// MV Wire Coil
-recipes.remove(<immersiveengineering:wirecoil:1>);
-
-// MV Wire Connector
-recipes.remove(<immersiveengineering:connector:2>);
-
-// Insulated MV Wire Coil
-recipes.remove(<immersiveengineering:wirecoil:7>);
-
-// HV Wire Coil
-recipes.remove(<immersiveengineering:wirecoil:2>);
-
-
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil>, [
 	[<immersiveengineering:connector>, <ore:ingotCopper>, <immersiveengineering:connector>], 

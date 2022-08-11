@@ -161,3 +161,37 @@ recipes.remove(<tcomplement:steel_helmet>);
 recipes.remove(<tcomplement:steel_chestplate>);
 recipes.remove(<tcomplement:steel_leggings>);
 recipes.remove(<tcomplement:steel_boots>);
+
+recipes.remove(<danknull:dank_null_0>);
+recipes.remove(<danknull:dank_null_1>);
+recipes.remove(<danknull:dank_null_2>);
+recipes.remove(<danknull:dank_null_3>);
+recipes.remove(<danknull:dank_null_4>);
+recipes.remove(<danknull:dank_null_5>);
+
+
+recipes.remove(<danknull:dank_null_panel_0>);
+recipes.remove(<danknull:dank_null_panel_1>);
+recipes.remove(<danknull:dank_null_panel_2>);
+recipes.remove(<danknull:dank_null_panel_3>);
+recipes.remove(<danknull:dank_null_panel_4>);
+recipes.remove(<danknull:dank_null_panel_5>);
+
+recipes.remove(<mekanism:basicblock:6>.withTag({tier: 1}));
+recipes.remove(<mekanism:basicblock:6>.withTag({tier: 2}));
+recipes.remove(<mekanism:basicblock:6>.withTag({tier: 3}));
+
+
+
+
+
+recipes.remove(<mekanism:basicblock2:3>.withTag({tier: 0}));
+recipes.remove(<mekanism:basicblock2:3>.withTag({tier: 1}));
+recipes.remove(<mekanism:basicblock2:4>.withTag({tier: 0}));
+recipes.remove(<mekanism:basicblock2:4>.withTag({tier: 1}));
+recipes.remove(<mekanism:basicblock2:4>.withTag({tier: 2}));
+recipes.remove(<mekanism:basicblock2:4>.withTag({tier: 3}));
+
+// cell
+recipes.remove(<mekanism:basicblock2:3>.withTag({tier: 2}));
+recipes.remove(<mekanism:basicblock2:3>.withTag({tier: 3}));
