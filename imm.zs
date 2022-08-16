@@ -1,5 +1,4 @@
 #packmode expert
-
 // LV relay
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:connector:3>, [
 	[<ore:blockIron>, <ore:blockSheetmetalIron>, <ore:blockIron>], 

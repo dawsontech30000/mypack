@@ -16,7 +16,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <woot:upgrade:3>, [
 	[<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, id: "minecraft:looting"}]}), <woot:factorybase>, <woot:factorycore:2>, <woot:factorybase>, <silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, id: "minecraft:looting"}]})], 
 	[<woot:factorybase>, <silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, id: "minecraft:looting"}]}), <woot:factorycore:2>, <silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, id: "minecraft:looting"}]}), <woot:factorybase>]
 ]);
-
 recipes.remove(<woot:upgrade:3>);
 recipes.remove(<woot:upgrade:4>);
 recipes.remove(<woot:upgrade:5>);
