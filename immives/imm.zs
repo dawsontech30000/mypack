@@ -20,7 +20,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:connector
 	[<immersiveengineering:connector>, <ore:blockCopper>, <immersiveengineering:connector>]
 ]);
 
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil>, [
 	[<immersiveengineering:connector>, <ore:ingotCopper>, <immersiveengineering:connector>], 
 	[<ore:blockCopper>, <ore:wireCopper>, <ore:blockCopper>], 

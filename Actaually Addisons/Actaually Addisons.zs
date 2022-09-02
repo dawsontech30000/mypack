@@ -5,13 +5,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 
 
-
-
-
-
-
-
-
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:abyssalnite_seeds>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, 500, 100, [0.1,0.1,0.1]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:gold_seeds>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, 500, 100, [0.1,0.1,0.1]);
