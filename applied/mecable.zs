@@ -168,7 +168,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:part:16
 
 
 // dense cables
-
+// to fixed
 
 // red
 mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:part:74> * 16, 
