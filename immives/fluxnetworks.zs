@@ -60,7 +60,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxconfigurator>
 ]);
 
 
-
+// test to remove 
 recipes.remove(<fluxnetworks:fluxconfigurator>);
 recipes.remove(<fluxnetworks:fluxstorage>);
 recipes.remove(<fluxnetworks:herculeanfluxstorage>);
