@@ -10,6 +10,12 @@ recipes.remove(<fluxnetworks:herculeanfluxstorage>);
 recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
 recipes.remove(<fluxnetworks:fluxcontroller>);
 
+// Philosopher's Stone
+recipes.remove(<projecte:item.pe_philosophers_stone>);
+// Philosopher's Stone
+recipes.remove(<projecte:item.pe_philosophers_stone>);
+
+
 
 recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:dustGlowstone>, <minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>, <ore:gemDiamond>, <minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:alloyBasic>, <minecraft:glowstone_dust>, <ore:alloyBasic>, <minecraft:glowstone_dust>, <ore:gemDiamond>, <minecraft:glowstone_dust>, <ore:alloyBasic>, <minecraft:glowstone_dust>, <minecraft:redstone>]);
