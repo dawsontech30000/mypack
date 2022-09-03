@@ -24,3 +24,29 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxcontroller>, 
 	[<fluxnetworks:fluxblock>, <fluxnetworks:fluxpoint>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxpoint>, <fluxnetworks:fluxblock>], 
 	[<fluxnetworks:fluxplug>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxplug>]
 ]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxstorage> *6, [
+	[null, null, null, <fluxnetworks:fluxblock>, <fluxnetworks:fluxcontroller>], 
+	[null, <fluxnetworks:fluxconfigurator>, <fluxnetworks:fluxblock>, null, <fluxnetworks:fluxblock>], 
+	[null, <fluxnetworks:fluxblock>, null, <fluxnetworks:fluxblock>, null], 
+	[<fluxnetworks:fluxblock>, null, <fluxnetworks:fluxblock>, <fluxnetworks:fluxconfigurator>, null], 
+	[<fluxnetworks:fluxcontroller>, <fluxnetworks:fluxblock>, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:herculeanfluxstorage> *6, [
+	[null, null, null, <fluxnetworks:fluxblock>, <fluxnetworks:fluxcontroller>], 
+	[null, <fluxnetworks:fluxconfigurator>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxstorage>, <fluxnetworks:fluxblock>], 
+	[null, <fluxnetworks:fluxblock>, <fluxnetworks:fluxstorage>, <fluxnetworks:fluxblock>, null], 
+	[<fluxnetworks:fluxblock>, <fluxnetworks:fluxstorage>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxconfigurator>, null], 
+	[<fluxnetworks:fluxcontroller>, <fluxnetworks:fluxblock>, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:gargantuanfluxstorage> *6, [
+	[null, null, null, <fluxnetworks:fluxblock>, <fluxnetworks:fluxcontroller>], 
+	[null, <fluxnetworks:fluxconfigurator>, <fluxnetworks:fluxblock>, <fluxnetworks:herculeanfluxstorage>, <fluxnetworks:fluxblock>], 
+	[null, <fluxnetworks:fluxblock>, <fluxnetworks:herculeanfluxstorage>, <fluxnetworks:fluxblock>, null], 
+	[<fluxnetworks:fluxblock>, <fluxnetworks:herculeanfluxstorage>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxconfigurator>, null], 
+	[<fluxnetworks:fluxcontroller>, <fluxnetworks:fluxblock>, null, null, null]
+]);
+
