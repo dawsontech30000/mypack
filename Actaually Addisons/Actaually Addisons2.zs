@@ -69,5 +69,44 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_drill_upgrade
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_drill_upgrade_speed_iii>, <actuallyadditions:item_drill_upgrade_speed_ii>, <actuallyadditions:item_drill_upgrade_speed_ii>, <actuallyadditions:item_drill_upgrade_speed_ii>, <actuallyadditions:item_drill_upgrade_speed_ii>, <actuallyadditions:item_drill_upgrade_speed_ii>, 500, 100, [0.5, 0.3, 0.2]);
 
 
+// merge done 
+
+// aa
+// Restonia
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_restonia_gear>);
+    mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_restonia_plate>);
+
+// Palis
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:1>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:1>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:1>);
+    mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_gear>);
+    mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_plate>);
+
+// Diamantine
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:2>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:2>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_void_plate>);
+    mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_diamatine_plate>); 
+// Void
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:3>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:3>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_void_gear>);
+    mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_void_plate>);
+// Emeradic
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:4>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:4>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_emeradic_gear>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_emeradic_plate>);
+	
+// Enori
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:5>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:5>);
+	mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_enori_gear>);
+    mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_enori_plate>);
+
+
 
 

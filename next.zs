@@ -24,7 +24,6 @@ mods.botania.RuneAltar.addRecipe(<tp:wither_chestplate>,[<armorplus:the_ultimate
 mods.botania.RuneAltar.addRecipe(<tp:wither_leggings>,[<armorplus:the_ultimate_leggings>, <armorplus:the_ultimate_leggings>, <armorplus:the_ultimate_leggings>, <armorplus:the_ultimate_leggings>, <armorplus:the_ultimate_leggings>, <armorplus:the_ultimate_leggings>], 5200);
 mods.botania.RuneAltar.addRecipe(<tp:wither_boots>,[<armorplus:ender_dragon_boots>, <armorplus:ender_dragon_boots>, <armorplus:ender_dragon_boots>, <armorplus:ender_dragon_boots>, <armorplus:ender_dragon_boots>, <armorplus:ender_dragon_boots>, <armorplus:the_ultimate_boots>], 5200);
 
-
 mods.botania.RuneAltar.addRecipe(<tp:wither_helmet>,[<armorplus:ender_dragon_helmet>, <armorplus:ender_dragon_helmet>, <armorplus:ender_dragon_helmet>, <armorplus:ender_dragon_helmet>, <armorplus:ender_dragon_helmet>, <armorplus:ender_dragon_helmet>, <armorplus:ender_dragon_helmet>], 5200);
 mods.botania.RuneAltar.addRecipe(<tp:wither_chestplate>,[<armorplus:ender_dragon_chestplate>, <armorplus:ender_dragon_chestplate>, <armorplus:ender_dragon_chestplate>, <armorplus:ender_dragon_chestplate>, <armorplus:ender_dragon_chestplate>, <armorplus:ender_dragon_chestplate>, <armorplus:ender_dragon_chestplate>], 5200);
 mods.botania.RuneAltar.addRecipe(<tp:wither_leggings>,[<armorplus:ender_dragon_leggings>, <armorplus:ender_dragon_leggings>, <armorplus:ender_dragon_leggings>, <armorplus:ender_dragon_leggings>, <armorplus:ender_dragon_leggings>, <armorplus:ender_dragon_leggings>], 5200);

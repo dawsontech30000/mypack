@@ -85,3 +85,10 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_dec
 	[null, <immersiveengineering:metal_decoration0:3>.withTag({railcraft: {filter: {inactive: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, active: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, type: ""}}}), <stevescarts:cartmodule:70>, <immersiveengineering:metal_decoration0:4>, null], 
 	[<immersiveengineering:metal_decoration0:3>.withTag({railcraft: {filter: {inactive: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, active: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, type: ""}}}), null, <appliedenergistics2:material:14>, null, <immersiveengineering:metal_decoration0:4>]
 ]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:tool>, [
+	[<excompressum:auto_hammer>, null, <excompressum:auto_hammer>], 
+	[<excompressum:compressed_hammer_iron>, <excompressum:compressed_hammer_gold>.withTag({railcraft: {filter: {inactive: {id: "excompressum:compressed_hammer_iron", Count: 1 as byte, Damage: 0 as short}, active: {id: "excompressum:compressed_hammer_iron", Count: 1 as byte, Damage: 0 as short}, type: ""}}}), <excompressum:compressed_hammer_iron>], 
+	[<excompressum:compressed_hammer_diamond>, <excompressum:compressed_hammer_iron>, <excompressum:compressed_hammer_diamond>]
+]);
