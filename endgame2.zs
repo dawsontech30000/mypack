@@ -68,12 +68,43 @@ recipes.addShaped(<mysticalagriculture:crafting:3> * 1, [[<matc:intermediumcryst
 recipes.remove(<mysticalagriculture:crafting:4>);
 recipes.addShaped(<mysticalagriculture:crafting:4> * 1, [[<matc:superiumcrystal>, <mysticalagriculture:storage:3>, <matc:superiumcrystal>], [<mysticalagriculture:storage:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:storage:3>],[<matc:superiumcrystal>, <mysticalagriculture:storage:3>, <matc:superiumcrystal>]]);
 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<matc:prudentiumcrystal>, 
+	100000000, 1000000, 
+	<matc:inferiumcrystal>, 
+	[<matc:inferiumcrystal>, <matc:inferiumcrystal>, <matc:inferiumcrystal>,
+	<matc:inferiumcrystal>, <matc:inferiumcrystal>, <matc:inferiumcrystal>,
+	<matc:inferiumcrystal>, <matc:inferiumcrystal>, <matc:inferiumcrystal>,
+	<matc:inferiumcrystal>, <matc:inferiumcrystal>, <matc:inferiumcrystal>,
+	<matc:inferiumcrystal>, <matc:inferiumcrystal>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<matc:intermediumcrystal>, 
+	100000000, 1000000, 
+	<matc:prudentiumcrystal>, 
+	[<matc:prudentiumcrystal>, <matc:prudentiumcrystal>, <matc:prudentiumcrystal>,
+	<matc:prudentiumcrystal>, <matc:prudentiumcrystal>, <matc:prudentiumcrystal>,
+	<matc:prudentiumcrystal>, <matc:prudentiumcrystal>, <matc:prudentiumcrystal>,
+	<matc:prudentiumcrystal>, <matc:prudentiumcrystal>, <matc:prudentiumcrystal>,
+	<matc:prudentiumcrystal>, <matc:prudentiumcrystal>]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<matc:superiumcrystal>,
+    100000000, 1000000, 
+    <matc:intermediumcrystal>, 
+    [<matc:intermediumcrystal>, <matc:intermediumcrystal>, <matc:intermediumcrystal>,
+    <matc:intermediumcrystal>, <matc:intermediumcrystal>, <matc:intermediumcrystal>,
+    <matc:intermediumcrystal>, <matc:intermediumcrystal>, <matc:intermediumcrystal>,
+    <matc:intermediumcrystal>, <matc:intermediumcrystal>, <matc:intermediumcrystal>,
+    <matc:intermediumcrystal>, <matc:intermediumcrystal>]);
 
 
 
-
-
-
+mods.extendedcrafting.CombinationCrafting.addRecipe(<matc:supremiumcrystal>, 
+    100000000, 1000000, 
+    <matc:superiumcrystal>, 
+    [<matc:superiumcrystal>, <matc:superiumcrystal>, <matc:superiumcrystal>,
+    <matc:superiumcrystal>, <matc:superiumcrystal>, <matc:superiumcrystal>,
+    <matc:superiumcrystal>, <matc:superiumcrystal>, <matc:superiumcrystal>,
+    <matc:superiumcrystal>, <matc:superiumcrystal>, <matc:superiumcrystal>,
+    <matc:superiumcrystal>, <matc:superiumcrystal>]);
 
 
 

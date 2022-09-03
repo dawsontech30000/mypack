@@ -7,6 +7,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:diamond_helmet>,
 	<minecraft:golden_helmet>, <minecraft:golden_helmet>, <minecraft:golden_helmet>,
 	<minecraft:golden_helmet>, <minecraft:golden_helmet>, <minecraft:golden_helmet>,
 	<minecraft:golden_helmet>, <minecraft:golden_helmet>]);
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:diamond_chestplate>, 
 	100000000, 1000000, 
 	<minecraft:golden_chestplate>, 
@@ -15,6 +16,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:diamond_chestplat
 	<minecraft:golden_chestplate>, <minecraft:golden_chestplate>, <minecraft:golden_chestplate>,
 	<minecraft:golden_chestplate>, <minecraft:golden_chestplate>, <minecraft:golden_chestplate>,
 	<minecraft:golden_chestplate>, <minecraft:golden_chestplate>]);
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:diamond_leggings>, 
 	100000000, 1000000, 
 	<minecraft:golden_leggings>, 
