@@ -16,7 +16,7 @@ mods.inworldcrafting.FluidToItem.transform(<appliedenergistics2:material:7> *32,
 
 
 // test
-
+//flux controller
 mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxcontroller>, [
 	[<fluxnetworks:fluxplug>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxplug>], 
 	[<fluxnetworks:fluxblock>, <fluxnetworks:fluxpoint>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxpoint>, <fluxnetworks:fluxblock>], 
@@ -25,8 +25,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxcontroller>, 
 	[<fluxnetworks:fluxplug>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxplug>]
 ]);
 
-
-mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxstorage> *6, [
+// power 1
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxstorage>, [
 	[null, null, null, <fluxnetworks:fluxblock>, <fluxnetworks:fluxcontroller>], 
 	[null, <fluxnetworks:fluxconfigurator>, <fluxnetworks:fluxblock>, null, <fluxnetworks:fluxblock>], 
 	[null, <fluxnetworks:fluxblock>, null, <fluxnetworks:fluxblock>, null], 
@@ -34,7 +34,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxstorage> *6, 
 	[<fluxnetworks:fluxcontroller>, <fluxnetworks:fluxblock>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:herculeanfluxstorage> *6, [
+// power 2
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:herculeanfluxstorage>, [
 	[null, null, null, <fluxnetworks:fluxblock>, <fluxnetworks:fluxcontroller>], 
 	[null, <fluxnetworks:fluxconfigurator>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxstorage>, <fluxnetworks:fluxblock>], 
 	[null, <fluxnetworks:fluxblock>, <fluxnetworks:fluxstorage>, <fluxnetworks:fluxblock>, null], 
@@ -42,11 +43,33 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:herculeanfluxstor
 	[<fluxnetworks:fluxcontroller>, <fluxnetworks:fluxblock>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:gargantuanfluxstorage> *6, [
+// power 3
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:gargantuanfluxstorage>, [
 	[null, null, null, <fluxnetworks:fluxblock>, <fluxnetworks:fluxcontroller>], 
 	[null, <fluxnetworks:fluxconfigurator>, <fluxnetworks:fluxblock>, <fluxnetworks:herculeanfluxstorage>, <fluxnetworks:fluxblock>], 
 	[null, <fluxnetworks:fluxblock>, <fluxnetworks:herculeanfluxstorage>, <fluxnetworks:fluxblock>, null], 
 	[<fluxnetworks:fluxblock>, <fluxnetworks:herculeanfluxstorage>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxconfigurator>, null], 
 	[<fluxnetworks:fluxcontroller>, <fluxnetworks:fluxblock>, null, null, null]
 ]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxconfigurator>, [
+	[null, <rftools:smartwrench>, <thermalfoundation:wrench>], 
+	[<immersiveengineering:tool>, null, <rftools:smartwrench>], 
+	[<immersiveengineering:tool>, <immersiveengineering:tool>, null]
+]);
+
+
+
+recipes.remove(<fluxnetworks:fluxconfigurator>);
+recipes.remove(<fluxnetworks:fluxstorage>);
+recipes.remove(<fluxnetworks:herculeanfluxstorage>);
+recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
+recipes.remove(<fluxnetworks:fluxcontroller>);
+
+
+
+
+
+
 
