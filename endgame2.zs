@@ -1,5 +1,3 @@
-
-
 #packmode expert
 
 import crafttweaker.item.IItemStack;

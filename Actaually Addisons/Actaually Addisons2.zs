@@ -121,3 +121,21 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <actuallyadditions:block_giant_
 	[<forestry:oak_stick>, <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}), null]]);
 
 
+
+// remove
+recipes.remove(<moreplates:empowered_emeradic_gear>);
+recipes.remove(<moreplates:empowered_enori_gear>);
+recipes.remove(<moreplates:empowered_palis_gear>);
+recipes.remove(<moreplates:empowered_restonia_gear>);
+recipes.remove(<moreplates:empowered_void_gear>);
+recipes.remove(<moreplates:empowered_void_plate>);
+// remove
+recipes.remove(<moreplates:empowered_diamatine_plate>);
+recipes.remove(<moreplates:empowered_emeradic_plate>);
+recipes.remove(<moreplates:empowered_enori_plate>);
+recipes.remove(<moreplates:empowered_palis_plate>);
+recipes.remove(<moreplates:empowered_restonia_plate>);
+recipes.remove(<moreplates:empowered_void_plate>);
+
+
+
