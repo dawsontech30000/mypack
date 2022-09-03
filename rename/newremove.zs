@@ -1,5 +1,21 @@
 #packmode expert
 
+
+
+
+// test to remove 
+recipes.remove(<fluxnetworks:fluxconfigurator>);
+recipes.remove(<fluxnetworks:fluxstorage>);
+recipes.remove(<fluxnetworks:herculeanfluxstorage>);
+recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
+recipes.remove(<fluxnetworks:fluxcontroller>);
+
+recipes.removeShapeless(<fluxnetworks:fluxcontroller>, [<fluxnetworks:fluxcontroller>]);
+recipes.removeShapeless(<fluxnetworks:gargantuanfluxstorage>, [<fluxnetworks:gargantuanfluxstorage>]);
+recipes.removeShapeless(<fluxnetworks:herculeanfluxstorage>, [<fluxnetworks:herculeanfluxstorage>]);
+recipes.removeShapeless(<fluxnetworks:fluxstorage>, [<fluxnetworks:fluxstorage>]);
+
+
 mods.armorplus.Workbench.remove(<armorplus:chainmail_helmet>);
 mods.armorplus.Workbench.remove(<armorplus:chainmail_chestplate>);
 mods.armorplus.Workbench.remove(<armorplus:chainmail_leggings>);
