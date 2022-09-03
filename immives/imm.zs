@@ -20,19 +20,19 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:connector
 	[<immersiveengineering:connector>, <ore:blockCopper>, <immersiveengineering:connector>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil> *8, [
 	[<immersiveengineering:connector>, <ore:ingotCopper>, <immersiveengineering:connector>], 
 	[<ore:blockCopper>, <ore:wireCopper>, <ore:blockCopper>], 
 	[<ore:wireCopper>, <ore:blockCopper>, <ore:wireCopper>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:6>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:6> *8, [
 	[<immersiveengineering:wirecoil>, <immersiveengineering:metal_device0>, <immersiveengineering:wirecoil>], 
 	[<immersiveengineering:metal_device0>, <immersiveengineering:connector>, <immersiveengineering:metal_device0>], 
 	[<immersiveengineering:wirecoil>, <immersiveengineering:metal_device0>, <immersiveengineering:wirecoil>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:7>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:7> *8, [
 	[<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>], 
 	[<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil:1>], 
 	[<immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil:1>, <immersiveengineering:wirecoil>]
@@ -46,17 +46,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:connector
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:connector:5>, [
 	[<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_device0:2>], 
-	[<immersiveengineering:connector:8>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:connector:8>], 
+	[<immersiveengineering:connector:8>, <immersiveengineering:metal_decoration0:2> *8, <immersiveengineering:connector:8>], 
 	[<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_device0:2>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:1>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:1> *8, [
 	[<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>], 
 	[<immersiveengineering:wirecoil>, <ore:blockCopper>, <immersiveengineering:wirecoil>], 
 	[<immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>, <immersiveengineering:wirecoil>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:2>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:2> *8, [
 	[<immersiveengineering:wirecoil:1>, <ore:blockSheetmetalSteel>, <immersiveengineering:wirecoil:1>], 
 	[<ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>, <ore:blockSheetmetalSteel>], 
 	[<immersiveengineering:wirecoil:1>, <ore:blockSheetmetalSteel>, <immersiveengineering:wirecoil:1>]
@@ -83,12 +83,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_dec
 ]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:tool>, [
-	[<excompressum:auto_hammer>, null, <excompressum:auto_hammer>], 
-	[<excompressum:compressed_hammer_iron>, null, <excompressum:compressed_hammer_iron>], 
-	[<excompressum:compressed_hammer_diamond>, <excompressum:compressed_hammer_iron>, <excompressum:compressed_hammer_diamond>]
-]);
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_decoration0:5> *16, [
 	[<immersiveengineering:metal_decoration0:4>, null, <appliedenergistics2:material:14>, null, <immersiveengineering:metal_decoration0:3>.withTag({railcraft: {filter: {inactive: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, active: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, type: ""}}})], 
 	[null, <immersiveengineering:metal_decoration0:4>, <stevescarts:cartmodule:45>, <immersiveengineering:metal_decoration0:3>.withTag({railcraft: {filter: {inactive: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, active: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, type: ""}}}), null], 
@@ -97,5 +91,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_dec
 	[<immersiveengineering:metal_decoration0:3>.withTag({railcraft: {filter: {inactive: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, active: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, type: ""}}}), null, <appliedenergistics2:material:14>, null, <immersiveengineering:metal_decoration0:4>]
 ]);
 
-
+mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:tool>, [
+	[<excompressum:auto_hammer>, null, <excompressum:auto_hammer>], 
+	[<excompressum:compressed_hammer_iron>, null, <excompressum:compressed_hammer_iron>], 
+	[<excompressum:compressed_hammer_diamond>, <excompressum:compressed_hammer_iron>, <excompressum:compressed_hammer_diamond>]
+]);
 
