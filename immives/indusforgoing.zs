@@ -14,3 +14,5 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:black_hole
 	[<ore:cobblestone>, <minecraft:item_frame>, <ore:cobblestone>], 
 	[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
 ]);
+
+
