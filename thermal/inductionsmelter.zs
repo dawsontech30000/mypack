@@ -843,3 +843,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:704>,
 	[<ore:energyCrystal>, <ic2:upgrade:2>, <ore:energyCrystal>], 
 	[<ore:energyCrystal>, null, <ore:energyCrystal>]
 ]);
+
+
+
+mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 500,  <minecraft:redstone>, 1000, <fluxnetworks:flux>);
+
