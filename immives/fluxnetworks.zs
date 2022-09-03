@@ -31,3 +31,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxplug>, [
 	[<fluxnetworks:fluxblock>, null, null, null, <fluxnetworks:fluxblock>]
 ]);
 
+
+
+// test
+
