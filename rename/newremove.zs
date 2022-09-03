@@ -19,10 +19,6 @@ recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:dustGlowsto
 
 
 
-
-
-
-
 recipes.removeShapeless(<fluxnetworks:fluxcontroller>, [<fluxnetworks:fluxcontroller>]);
 recipes.removeShapeless(<fluxnetworks:gargantuanfluxstorage>, [<fluxnetworks:gargantuanfluxstorage>]);
 recipes.removeShapeless(<fluxnetworks:herculeanfluxstorage>, [<fluxnetworks:herculeanfluxstorage>]);
