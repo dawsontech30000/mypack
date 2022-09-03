@@ -67,6 +67,12 @@ recipes.remove(<fluxnetworks:herculeanfluxstorage>);
 recipes.remove(<fluxnetworks:gargantuanfluxstorage>);
 recipes.remove(<fluxnetworks:fluxcontroller>);
 
+recipes.removeShapeless(<fluxnetworks:fluxcontroller>, [<fluxnetworks:fluxcontroller>]);
+recipes.removeShapeless(<fluxnetworks:gargantuanfluxstorage>, [<fluxnetworks:gargantuanfluxstorage>]);
+recipes.removeShapeless(<fluxnetworks:herculeanfluxstorage>, [<fluxnetworks:herculeanfluxstorage>]);
+recipes.removeShapeless(<fluxnetworks:fluxstorage>, [<fluxnetworks:fluxstorage>]);
+
+
 
 
 

@@ -1,19 +1,5 @@
 #packmode expert
 
-recipes.removeShapeless(<fluxnetworks:fluxcontroller>, [<fluxnetworks:fluxcontroller>]);
-
-
-
-
-
-
-
-
-
-
-
-
-
 mods.armorplus.Workbench.remove(<armorplus:chainmail_helmet>);
 mods.armorplus.Workbench.remove(<armorplus:chainmail_chestplate>);
 mods.armorplus.Workbench.remove(<armorplus:chainmail_leggings>);
