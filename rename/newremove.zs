@@ -271,5 +271,12 @@ recipes.remove(<tcomplement:steel_leggings>);
 recipes.remove(<tcomplement:steel_boots>);
 
 
+// Mg
+recipes.remove(<matc:prudentiumcrystal>);
+recipes.remove(<matc:intermediumcrystal>);
+recipes.remove(<matc:superiumcrystal>);
+recipes.remove(<matc:supremiumcrystal>);
+
+
 
 
