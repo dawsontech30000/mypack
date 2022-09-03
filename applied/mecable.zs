@@ -629,15 +629,6 @@ recipes.remove(<appliedenergistics2:part:76>);
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:controller>, [
-	[<refinedstorage:controller>.withTag({Energy: 0}), null, null, <tconstruct:smeltery_controller>, null, null, <refinedstorage:controller>.withTag({Energy: 0})], 
-	[<rftools:screen_controller>, null, null, <woot:controller>, null, null, <rftools:screen_controller>], 
-	[null, <mekanism:basicblock:14>, <xnet:controller>, <nuclearcraft:fission_controller_new_fixed>, <xnet:controller>, <mekanism:basicblock:14>, null], 
-	[<refinedstorage:controller>.withTag({Energy: 0}), <woot:controller>, <nuclearcraft:fission_controller_new_fixed>, null, <nuclearcraft:fission_controller_new_fixed>, <woot:controller>, <refinedstorage:controller>.withTag({Energy: 0})], 
-	[null, null, <xnet:controller>, <nuclearcraft:fission_controller_new_fixed>, <xnet:controller>, null, null], 
-	[null, <mekanism:basicblock:14>, null, <woot:controller>, null, <mekanism:basicblock:14>, null], 
-	[<refinedstorage:controller>.withTag({Energy: 0}), null, <rftools:screen_controller>, <tconstruct:smeltery_controller>, <rftools:screen_controller>, null, <refinedstorage:controller>.withTag({Energy: 0})]
-]);
 
 
 
