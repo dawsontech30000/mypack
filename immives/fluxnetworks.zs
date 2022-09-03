@@ -1,4 +1,9 @@
 #packmode expert
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+
+
+
 
 mods.inworldcrafting.FluidToItem.transform(<fluxnetworks:flux>, <liquid:dawsondude>, [<minecraft:redstone>],true);
 mods.inworldcrafting.FluidToItem.transform(<fluxnetworks:flux>, <liquid:tiger>, [<minecraft:redstone>],true);

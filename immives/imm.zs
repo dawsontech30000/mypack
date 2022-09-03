@@ -66,6 +66,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:
 
 // next to added
 
+
+
+
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_decoration0:3>, [
 	[<immersiveengineering:wooden_device0:2>, <immersiveengineering:tool>, <immersiveengineering:wooden_device0:2>], 
 	[null, null, null], 
@@ -74,9 +77,10 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_dec
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_decoration0:4>, [
 	[<immersiveengineering:material:9>, null, <immersiveengineering:material:9>], 
-	[<immersiveengineering:metal_decoration0:3>, <stevescarts:cartmodule:44>.withTag({railcraft: {filter: {inactive: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, active: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, type: ""}}}), <immersiveengineering:metal_decoration0:3>], 
-	[<immersiveengineering:material:9>, <immersiveengineering:metal_decoration0:3>.withTag({railcraft: {filter: {inactive: {}, active: {}, type: ""}}}), <immersiveengineering:material:9>]
+	[<immersiveengineering:metal_decoration0:3>, null, <immersiveengineering:metal_decoration0:3>], 
+	[<immersiveengineering:material:9>, <immersiveengineering:metal_decoration0:3>.withTag({railcraft: {filter: {inactive: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, active: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, type: ""}}}), <immersiveengineering:material:9>]
 ]);
+
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_decoration0:5> *16,  [
 	[<immersiveengineering:metal_decoration0:4>, null, <appliedenergistics2:material:14>, null, <immersiveengineering:metal_decoration0:3>.withTag({railcraft: {filter: {inactive: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, active: {id: "immersiveengineering:metal_decoration0", Count: 1 as byte, Damage: 3 as short}, type: ""}}})], 
@@ -92,3 +96,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:tool>, [
 	[<excompressum:compressed_hammer_iron>, <excompressum:compressed_hammer_gold>.withTag({railcraft: {filter: {inactive: {id: "excompressum:compressed_hammer_iron", Count: 1 as byte, Damage: 0 as short}, active: {id: "excompressum:compressed_hammer_iron", Count: 1 as byte, Damage: 0 as short}, type: ""}}}), <excompressum:compressed_hammer_iron>], 
 	[<excompressum:compressed_hammer_diamond>, <excompressum:compressed_hammer_iron>, <excompressum:compressed_hammer_diamond>]
 ]);
+
+
+mods.extendedcrafting.TableCrafting.removeShaped(0, <stevescarts:cartmodule:44>.withTag({railcraft: {filter: {inactive: {}, active: {}, type: ""}}}), [
+	[null, null, null], 
+	[null, <stevescarts:cartmodule:44>.withTag({railcraft: {filter: {inactive: {}, active: {}, type: ""}}}), null], 
+	[null, null, null]
+]);
+
