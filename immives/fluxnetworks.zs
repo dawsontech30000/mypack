@@ -15,6 +15,8 @@ mods.inworldcrafting.FluidToItem.transform(<appliedenergistics2:material:7> *32,
 
 FluidToItem.transform(<minecraft:diamond>, <liquid:dawsondude>, [<ore:ingotSteel> * 2, <ore:dustCobalt>, <ore:nuggetEnderpearl>], true);
 
+FluidToItem.transform(<fluxnetworks:flux>, <liquid:dawsondude>, [<contenttweaker:material_part:23> * 4, <contenttweaker:material_part:83>, <contenttweaker:material_part:252>], true);
+
 
 
 
