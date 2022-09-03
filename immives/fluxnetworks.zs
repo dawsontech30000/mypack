@@ -3,7 +3,7 @@ import mods.inworldcrafting.FluidToItem;
 print("STARTING InWorldCrafting.zs");
 
 
-mods.inworldcrafting.FluidToItem.transform(<fluxnetworks:flux>, <liquid:lava>, [<ore:dustRedstone>], false);
+
 
 mods.inworldcrafting.FluidToItem.transform(<fluxnetworks:flux>, <liquid:dawsondude>, [<minecraft:redstone>],true);
 mods.inworldcrafting.FluidToItem.transform(<fluxnetworks:flux>, <liquid:tiger>, [<minecraft:redstone>],true);
@@ -14,6 +14,7 @@ mods.inworldcrafting.FluidToItem.transform(<fluxnetworks:flux>, <liquid:pinktige
 mods.inworldcrafting.FluidToItem.transform(<fluxnetworks:flux>, <liquid:xaelium>, [<minecraft:redstone>],true);
 mods.inworldcrafting.FluidToItem.transform(<appliedenergistics2:material:7>, <liquid:xaelium>, [<contenttweaker:material_part:23>, <contenttweaker:material_part:83>, <contenttweaker:material_part:252>], true);
 
+mods.inworldcrafting.FluidToItem.transform(<fluxnetworks:flux>, <liquid:lava>, [<ore:dustRedstone>], true);
 
 
 
