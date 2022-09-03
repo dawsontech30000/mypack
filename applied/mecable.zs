@@ -1,5 +1,7 @@
 #packmode expert
 
+
+// me glass cable
 mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:part:14> * 16, 
 	10000000, 1000000, 
 	<appliedenergistics2:material:7>, 
@@ -119,7 +121,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:part:8>
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:part:13> * 16, 
 	10000000, 1000000, 
-	<pneumaticcraft:plastic:2>, 
+	<appliedenergistics2:material:7>, 
 	[<pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>,
 	<pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>,
 	<pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>, <pneumaticcraft:plastic:2>,
@@ -170,7 +172,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:part:16
 
 
 // dense cables
-// to fixed
+
 
 // red
 mods.extendedcrafting.CombinationCrafting.addRecipe(<appliedenergistics2:part:74> * 16, 
