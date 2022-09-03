@@ -61,23 +61,6 @@ recipes.remove(<solarflux:solar_panel_8>);
 recipes.addShaped(<solarflux:solar_panel_8> * 2, [[<solarflux:photovoltaic_cell_6>,<solarflux:photovoltaic_cell_6>,<solarflux:photovoltaic_cell_6>],[<solarflux:solar_panel_7>,<enderutilities:enderpart:16>,<solarflux:solar_panel_7>],[<solarflux:solar_panel_7>,<enderutilities:enderpart:16>,<solarflux:solar_panel_7>]]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <solarflux:solar_panel_neutronium>, [
-	[<solarflux:solar_panel_2>, <extrautils2:passivegenerator>, <solarflux:solar_panel_2>, <solarflux:solar_panel_3>, null, <solarflux:solar_panel_3>, <solarflux:solar_panel_2>, null, <solarflux:solar_panel_2>], 
-	[null, <solarflux:solar_panel_1>, null, null, null, null, null, null, null], 
-	[<solarflux:solar_panel_4>, <extrautils2:passivegenerator>, <solarflux:solar_panel_4>, <solarflux:solar_panel_3>, null, <solarflux:solar_panel_3>, <solarflux:solar_panel_4>, <extrautils2:passivegenerator>, <solarflux:solar_panel_4>], 
-	[null, <solarflux:solar_panel_6>, null, null, null, null, null, <solarflux:solar_panel_6>, null], 
-	[<solarflux:solar_panel_4>, null, <solarflux:solar_panel_4>, <solarflux:solar_panel_3>, null, <solarflux:solar_panel_3>, <solarflux:solar_panel_4>, <extrautils2:passivegenerator>, <solarflux:solar_panel_4>], 
-	[null, null, null, null, <thermalsolars:blocksolarpanel1>, null, null, null, null], 
-	[<solarflux:solar_panel_7>, <extrautils2:passivegenerator>, <solarflux:solar_panel_7>, <solarflux:solar_panel_3>, null, <solarflux:solar_panel_3>, <solarflux:solar_panel_7>, <extrautils2:passivegenerator>, <solarflux:solar_panel_7>], 
-	[null, <solarflux:solar_panel_5>, null, null, null, null, null, <solarflux:solar_panel_5>, null], 
-	[<solarflux:solar_panel_7>, <extrautils2:passivegenerator>, <solarflux:solar_panel_7>, <solarflux:solar_panel_3>, null, <solarflux:solar_panel_3>, <solarflux:solar_panel_7>, <extrautils2:passivegenerator>, <solarflux:solar_panel_7>]
-]);
-
-
-
-
-
-
 
 
 
