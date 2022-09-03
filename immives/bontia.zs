@@ -3,7 +3,6 @@
 
 #packmode expert
 
-
 mods.botania.RuneAltar.addRecipe(<armorplus:guardian_helmet>,[<armorplus:infused_lava_helmet>, <armorplus:infused_lava_helmet>, <armorplus:infused_lava_helmet>, <armorplus:infused_lava_helmet>, <armorplus:infused_lava_helmet>, <armorplus:infused_lava_helmet>, <armorplus:infused_lava_helmet>], 5200);
 
 mods.botania.RuneAltar.addRecipe(<armorplus:guardian_chestplate>,[<armorplus:infused_lava_chestplate>, <armorplus:infused_lava_chestplate>, <armorplus:infused_lava_chestplate>, <armorplus:infused_lava_chestplate>, <armorplus:infused_lava_chestplate>, <armorplus:infused_lava_chestplate>, <armorplus:infused_lava_chestplate>], 5200);

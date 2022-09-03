@@ -23,16 +23,6 @@ mods.extendedcrafting.CompressionCrafting.addRecipe(<mysticalagradditions:stuff:
 
 
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<solarflux:solar_panel_wyvern>, 
-	100000000, 1000000, 
-	<solarflux:solar_panel_8>, 
-	[<draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_energy_core>, <draconicevolution:wyvern_energy_core>,
-	<draconicevolution:draconium_block>, <draconicevolution:draconium_block>, <draconicevolution:draconium_block>,
-	<draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>,
-	<draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>, <draconicevolution:wyvern_core>,
-	<solarflux:solar_panel_8>, <solarflux:solar_panel_8>]);
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<draconicevolution:draconium_block:1>, 
 	100000000, 1000000, 
 	<draconicevolution:draconium_block>, 
