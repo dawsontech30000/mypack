@@ -51,6 +51,10 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxconfigurator>
 ]);
 
 
+mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 250, <fluxnetworks:flux>, 360, <minecraft:redstone>);
+
+
+
 
 
 
