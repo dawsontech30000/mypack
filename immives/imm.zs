@@ -69,6 +69,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:
 
 
 
+
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_decoration0:3>, [
 	[<immersiveengineering:wooden_device0:2>, <immersiveengineering:tool>, <immersiveengineering:wooden_device0:2>], 
 	[null, null, null], 
@@ -98,9 +99,5 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:tool>, [
 ]);
 
 
-mods.extendedcrafting.TableCrafting.removeShaped(0, <stevescarts:cartmodule:44>.withTag({railcraft: {filter: {inactive: {}, active: {}, type: ""}}}), [
-	[null, null, null], 
-	[null, <stevescarts:cartmodule:44>.withTag({railcraft: {filter: {inactive: {}, active: {}, type: ""}}}), null], 
-	[null, null, null]
-]);
+
 
