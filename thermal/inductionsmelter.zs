@@ -31,8 +31,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag
 	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 3 as byte}), <ore:blockEnderium>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 3 as byte})]
 ]);
 
-
-
 #resonant cell full frame
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:frame:148>, 
 	100000000, 1000000, 

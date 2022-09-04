@@ -1,0 +1,39 @@
+
+
+#packmode expert
+import crafttweaker.data.IData;
+print("STARTING BuildingGadgets.zs");
+
+# Building Gadget
+recipes.remove(<buildinggadgets:buildingtool>);
+recipes.addShaped(<buildinggadgets:buildingtool>.withTag({blockstate: {Name: "minecraft:air"}}), [[<thermalfoundation:material:322>,<mekanism:controlcircuit:3>,<thermalfoundation:material:322>],[<appliedenergistics2:material:24>,<plustic:osgloglasblock>,<appliedenergistics2:material:24>],[<thermalfoundation:material:322>,<mekanism:controlcircuit:3>,<thermalfoundation:material:322>]]);
+
+# Destruction Gadget
+recipes.remove(<buildinggadgets:destructiontool>);
+recipes.addShaped(<buildinggadgets:destructiontool>.withTag({overlay: 1 as byte, fuzzy: 1 as byte}), [[<thermalfoundation:material:359>,<mekanism:controlcircuit:3>,<thermalfoundation:material:359>],[<contenttweaker:estimation_processor>,<enderio:block_alloy:3>,<contenttweaker:estimation_processor>],[<thermalfoundation:material:359>,<mekanism:controlcircuit:3>,<thermalfoundation:material:359>]]);
+
+# Exchanging Gadget
+recipes.remove(<buildinggadgets:exchangertool>);
+recipes.addShaped(<buildinggadgets:exchangertool>.withTag({blockstate: {Name: "minecraft:air"}}), [[<thermalfoundation:material:327>,<contenttweaker:cosmic_alloy>,<thermalfoundation:material:327>],[<contenttweaker:methodology_processor>,<enderio:block_alloy:2>,<contenttweaker:methodology_processor>],[<thermalfoundation:material:327>,<contenttweaker:cosmic_alloy>,<thermalfoundation:material:327>]]);
+
+# Copy-Paste Gadget
+recipes.remove(<buildinggadgets:copypastetool>);
+recipes.addShaped(<buildinggadgets:copypastetool>.withTag({mode: "Copy"}), [[<contenttweaker:defensive_core>,<bloodmagic:component:12>,<contenttweaker:defensive_core>],[<contenttweaker:clearance_processor>,<botania:storage:1>,<contenttweaker:clearance_processor>],[<contenttweaker:defensive_core>,<bloodmagic:component:12>,<contenttweaker:defensive_core>]]);
+
+# Template Manager
+recipes.remove(<buildinggadgets:templatemanager>);
+recipes.addShaped(<buildinggadgets:templatemanager>, [[<buildinggadgets:constructionblock_dense>,<contenttweaker:environmental_core>,<buildinggadgets:constructionblock_dense>],[<botania:storage:4>,<buildinggadgets:copypastetool>,<botania:storage:4>],[<buildinggadgets:constructionblock_dense>,<contenttweaker:environmental_core>,<buildinggadgets:constructionblock_dense>]]);
+
+# Construction Block Powder
+recipes.remove(<buildinggadgets:constructionblockpowder>);
+recipes.addShaped(<buildinggadgets:constructionblockpowder> * 4, [[<minecraft:concrete_powder>,<minecraft:concrete_powder>,<minecraft:concrete_powder>],[<minecraft:concrete_powder>,<thermalfoundation:material:864>,<minecraft:concrete_powder>],[<minecraft:concrete_powder>,<minecraft:concrete_powder>,<minecraft:concrete_powder>]]);
+recipes.addShaped(<buildinggadgets:constructionblockpowder> * 8, [[<minecraft:concrete_powder>,<minecraft:concrete_powder>,<minecraft:concrete_powder>],[<minecraft:concrete_powder>,<thermalfoundation:material:865>,<minecraft:concrete_powder>],[<minecraft:concrete_powder>,<minecraft:concrete_powder>,<minecraft:concrete_powder>]]);
+
+# Dense Construction Chunk & Construction Paste: more recipes in OreProcessingAdditions.zs
+
+# Paste Container
+recipes.remove(<buildinggadgets:constructionpastecontainer>);
+recipes.addShaped(<buildinggadgets:constructionpastecontainer>, [[<thermalfoundation:material:32>,<thermalfoundation:material:32>,<thermalfoundation:material:32>],[<contenttweaker:energized_dark_ingot>,<buildinggadgets:constructionpaste>,<contenttweaker:energized_dark_ingot>],[<contenttweaker:energized_dark_ingot>,<buildinggadgets:constructionpaste>,<contenttweaker:energized_dark_ingot>]]);
+
+
+
