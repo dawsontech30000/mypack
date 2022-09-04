@@ -329,18 +329,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:devi>.withTag
 	[<thermalexpansion:reservoir:1>, <enderio:block_tank>, <enderio:block_tank>, <enderio:block_tank>, <thermalexpansion:reservoir:2>]
 ]);
 
-
-// pink tiger
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:83>, <contenttweaker:material_part:63>, <contenttweaker:material_part:63>, 1500);
-
-
-// laxllixium
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:73>, <contenttweaker:material_part:63>, <contenttweaker:material_part:63>, 1500);
-
-
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:63>, <contenttweaker:material_part:123>, <contenttweaker:material_part:123>, 1500);
-
-
 // Satchel (Hardened)
 recipes.remove(<thermalexpansion:satchel:1>);
 recipes.addShaped(<thermalexpansion:satchel:1> * 1, [[<simplybackpacks:commonbackpack>, <travelersbackpack:travelers_backpack:0>, <simplybackpacks:commonbackpack>], [<travelersbackpack:backpack_tank>, null, <travelersbackpack:backpack_tank>],[<simplybackpacks:commonbackpack>, <travelersbackpack:travelers_backpack:0>, <simplybackpacks:commonbackpack>]]);
@@ -848,4 +836,13 @@ mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_1>,
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>, <contenttweaker:neutral_steel_1>, <liquid:irg> * 2000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_3>, <contenttweaker:neutral_steel_2>, <liquid:kylian> * 2000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_4>, <contenttweaker:neutral_steel_3>, <liquid:crao> * 2000, 5000);
+
+
+
+
+// pink tiger
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:83>, <contenttweaker:material_part:63>, <contenttweaker:material_part:63>, 1500);
+// laxllixium
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:73>, <contenttweaker:material_part:63>, <contenttweaker:material_part:63>, 1500);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:63>, <contenttweaker:material_part:123>, <contenttweaker:material_part:123>, 1500);
 
