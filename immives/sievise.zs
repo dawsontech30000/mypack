@@ -65,31 +65,5 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:10>, 5095
 
 
 
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:waterchestnutItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:venisoncookedItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:muttoncookedItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:rabbitcookedItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:turkeycookedItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:firmtofuItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:venisonrawItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:muttonrawItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:rabbitrawItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:turkeyrawItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:grapeItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:tomatoItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:wintersquashItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:cantaloupeItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:sweetpotatoItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:gingerItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:celeryItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:orangeItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:cactusfruitItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:cranberryItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:eggplantItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:asparagusItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:cauliflowerItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:okraItem>);
-mods.exnihilo.Composting.removeRecipe(<harvestcraft:mangoItem>);
-
 
 
