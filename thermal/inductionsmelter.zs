@@ -1,9 +1,5 @@
+
 #packmode expert
-
-import crafttweaker.item.IItemStack as IItemStack;
-import crafttweaker.item.IIngredient as IIngredient;
-
-
 # basic
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 1 as byte}), [
 	[<thermalexpansion:tank>, <ore:blockInvar>, <thermalexpansion:tank>], 
