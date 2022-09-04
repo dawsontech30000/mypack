@@ -64,6 +64,8 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:10>, 5095
 // finshed of heat
 
 
+recipes.removeShaped(<projecte:item.pe_fuel:1>, [[<projecte:item.pe_philosophers_stone>, <projecte:item.pe_fuel>, <projecte:item.pe_fuel>], [<projecte:item.pe_fuel>, <projecte:item.pe_fuel>, null]]);
+recipes.removeShaped(<projecte:item.pe_fuel:2>, [[<projecte:item.pe_philosophers_stone>, <projecte:item.pe_fuel:1>, <projecte:item.pe_fuel:1>], [<projecte:item.pe_fuel:1>, <projecte:item.pe_fuel:1>, null]]);
 
 
 
