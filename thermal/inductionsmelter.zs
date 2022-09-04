@@ -187,7 +187,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:machine:8>.wi
 ]);
 
 
-# 
+
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:machi>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), [
 	[<cyclicmagic:melter>, <cyclicmagic:block_anvil_magma>, <ore:ingotInfusedLavaCrystal>, <cyclicmagic:block_anvil_magma>, <cyclicmagic:melter>], 
 	[<cyclicmagic:block_anvil_magma>, <ore:ingotInfusedLavaCrystal>, <industrialforegoing:lava_fabricator>, <ore:ingotInfusedLavaCrystal>, <cyclicmagic:block_anvil_magma>], 
@@ -634,26 +634,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:704>,
 ]);
 
 
-# Remake Hardened Glass   recipes
-val glassFromDust = {
-	<thermalfoundation:glass>         : <thermalfoundation:material:64>,
-	<thermalfoundation:glass:1>       : <thermalfoundation:material:65>,
-	<thermalfoundation:glass:2>       : <thermalfoundation:material:66>,
-	<thermalfoundation:glass:3>       : <thermalfoundation:material:67>,
-	<thermalfoundation:glass:4>       : <thermalfoundation:material:68>,
-	<thermalfoundation:glass:5>       : <thermalfoundation:material:69>,
-	<thermalfoundation:gla>       : <thermalfoundation:material:70>,
-	<thermalfoundation:glass:7>       : <thermalfoundation:material:71>,
-	<thermalfoundation:glass:8>       : null/* <thermalfoundation:material:72> */, // Somehow this recipe missed
-	<thermalfoundation:glass_alloy>   : <thermalfoundation:material:96>,
-	<thermalfoundation:glass_alloy:1> : <thermalfoundation:material:97>,
-	<thermalfoundation:glass_alloy:2> : <thermalfoundation:material:98>,
-	<thermalfoundation:glass_alloy:3> : <thermalfoundation:material:99>,
-	<thermalfoundation:glass_alloy:4> : <thermalfoundation:material:100>,
-	<thermalfoundation:glass_alloy:5> : <thermalfoundation:material:101>,
-	<thermalfoundation:glass_all> : <thermalfoundation:material:102>,
-	<thermalfoundation:glass_alloy:7> : <thermalfoundation:material:103>,
-} as IItemStack[IItemStack];
 
 // look in to 
 // next to added
