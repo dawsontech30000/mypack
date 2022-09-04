@@ -701,19 +701,12 @@ recipes.remove(<thermalexpansion:dynamo:4>.withTag({RSControl: 0 as byte, Facing
 
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:131>, <thermalexpansion:frame:129>, <thermalexpansion:frame:130>, 100000);
-
-
-
-
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 500,  <minecraft:redstone>, 1000, <fluxnetworks:flux>);
-
 //TE transposer
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_1>, <contenttweaker:material_part:23>, <liquid:dawsondude> * 2000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>, <contenttweaker:neutral_steel_1>, <liquid:irg> * 2000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_3>, <contenttweaker:neutral_steel_2>, <liquid:kylian> * 2000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_4>, <contenttweaker:neutral_steel_3>, <liquid:crao> * 2000, 5000);
-
-
 // §eInferium Watering Can
 recipes.addShaped(<mysticalagriculture:watering_can:0> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte}), <mysticalagriculture:inferium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte})], [<mysticalagriculture:inferium_shovel>, <mysticalagriculture:gear:5>, <mysticalagriculture:inferium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:0>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte})]]);
 
