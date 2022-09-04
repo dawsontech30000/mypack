@@ -1,5 +1,6 @@
 
 #packmode expert
+
 # basic
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 1 as byte}), [
 	[<thermalexpansion:tank>, <ore:blockInvar>, <thermalexpansion:tank>], 
@@ -772,6 +773,8 @@ recipes.addShaped(<thermalexpansion:satchel:4> * 1, [[<simplybackpacks:epicbackp
 recipes.remove(<thermalexpansion:satchel:100>);
 recipes.addShaped(<thermalexpansion:satchel:100> * 1, [[<extrautils2:trashcan>, <extrautils2:trashchest>, <extrautils2:trashcan>], [<trashcans:item_trash_can>, <overloaded:compressed_obsidian:0>, <trashcans:item_trash_can>],[<immersivetech:metal_trash:0>, <trashcans:item_trash_can>, <immersivetech:metal_trash:0>]]);
 
+
+
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:129>, <thermalexpansion:frame>, <thermalexpansion:frame>, 100000);
 #power cell
 mods.thermalexpansion.InductionSmelter.addRecipe(<woot:cell:2>, <woot:cell:1>, <woot:cell>, 100000);
@@ -783,6 +786,8 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:cell>.withTag
     mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:146>, <thermalexpansion:frame:130>, <thermalfoundation:storage_alloy:1> * 16, 100000);
 #resonant cell frame
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:132>, <thermalexpansion:frame:147>, <thermalexpansion:frame:146>, 100000);
+
+
 
 //Mana dust
   recipes.addShaped("Mana dust", <thermalfoundation:material:1028>, [
