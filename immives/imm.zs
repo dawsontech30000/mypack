@@ -46,7 +46,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:connector
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:connector:5>, [
 	[<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_device0:2>], 
-	[<immersiveengineering:connector:8>, <immersiveengineering:metal_decoration0:2> *8, <immersiveengineering:connector:8>], 
+	[<immersiveengineering:connector:8>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:connector:8>], 
 	[<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_device0:2>]
 ]);
 
