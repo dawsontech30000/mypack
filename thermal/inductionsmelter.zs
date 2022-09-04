@@ -633,30 +633,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:704>,
 ]);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Remake Hardened Glass   recipes
 val glassFromDust = {
 	<thermalfoundation:glass>         : <thermalfoundation:material:64>,
@@ -873,3 +849,15 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:132>, <
 	[<ore:dustCryotheum>, <ore:crystalSlag>, <ore:dustAerotheum>], 
 	[null, <ore:dustPetrotheum>, null]
 ]);
+
+
+
+
+
+
+
+
+
+
+
+
