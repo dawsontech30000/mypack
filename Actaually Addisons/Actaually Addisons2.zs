@@ -1,27 +1,28 @@
-#packmode expert
 
 import mods.actuallyadditions.Empowerer;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 
+#packmode expert
 
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_misc:24>);
 
 // remove
-recipes.remove(<moreplates:empowered_emeradic_gear>);
-recipes.remove(<moreplates:empowered_enori_gear>);
-recipes.remove(<moreplates:empowered_palis_gear>);
-recipes.remove(<moreplates:empowered_restonia_gear>);
-recipes.remove(<moreplates:empowered_void_gear>);
-recipes.remove(<moreplates:empowered_void_plate>);
-// remove
-recipes.remove(<moreplates:empowered_diamatine_plate>);
-recipes.remove(<moreplates:empowered_emeradic_plate>);
-recipes.remove(<moreplates:empowered_enori_plate>);
-recipes.remove(<moreplates:empowered_palis_plate>);
+// gear
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_gear>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_diamatine_gear>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_emeradic_gear>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_enori_gear>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_restonia_gear>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_void_gear>);
 
-recipes.remove(<moreplates:empowered_restonia_plate>);
-recipes.remove(<moreplates:empowered_void_plate>);
+// plate
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_diamatine_plate>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_emeradic_plate>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_enori_plate>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_plate>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_restonia_plate>);
+mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_void_plate>);
 
 
 
