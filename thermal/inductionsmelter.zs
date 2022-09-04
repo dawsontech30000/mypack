@@ -654,29 +654,7 @@ val glassFromDust = {
 	<thermalfoundation:glass_alloy:7> : <thermalfoundation:material:103>,
 } as IItemStack[IItemStack];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // look in to 
-
-
 // next to added
 # Leadstone Fluxduct
 recipes.remove(<thermaldynamics:duct_0>);
