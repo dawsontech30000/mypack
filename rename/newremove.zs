@@ -1,6 +1,8 @@
 #packmode expert
 
 
+recipes.removeShaped(<fluxnetworks:fluxpoint>, [[<fluxnetworks:fluxpoint>]]);
+recipes.removeShaped(<fluxnetworks:fluxpoint>, [[<fluxnetworks:fluxpoint>]]);
 
 
 // test to remove 
