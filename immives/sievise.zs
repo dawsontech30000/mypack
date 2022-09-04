@@ -90,3 +90,6 @@ mods.exnihilo.Composting.removeRecipe(<harvestcraft:asparagusItem>);
 mods.exnihilo.Composting.removeRecipe(<harvestcraft:cauliflowerItem>);
 mods.exnihilo.Composting.removeRecipe(<harvestcraft:okraItem>);
 mods.exnihilo.Composting.removeRecipe(<harvestcraft:mangoItem>);
+
+
+

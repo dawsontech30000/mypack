@@ -5,7 +5,6 @@ import mods.jei.JEI.removeAndHide as rh;
 print("--- loading IronChest.zs ---");
 
 # *======= Recipes =======*
-
 # Iron Chest
 	recipes.remove(<ironchest:iron_chest>);
 	recipes.addShaped("Iron Chest", 
@@ -93,8 +92,6 @@ print("--- loading IronChest.zs ---");
 	[[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
 	[<ore:blockGlass>, <ore:plateObsidian>, <ore:blockGlass>], 
 	[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
-
-	
 # *======= Remove & Hide =======*
 
 	val chestsToHide = [
