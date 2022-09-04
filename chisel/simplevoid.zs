@@ -12,5 +12,4 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <simplevoidworld:portal>, [
 	[plastic, purple, <actuallyadditions:block_crystal_empowered:3>, purple, plastic], 
 	[plastic, purple, purple, purple, plastic], 
 	[plastic, plastic, plastic, plastic,plastic]]);
-
 print("--- SimpleVoidWorld.zs initialized ---");
