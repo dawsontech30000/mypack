@@ -28,12 +28,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag
 	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 3 as byte}), <ore:blockEnderium>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 3 as byte})]
 ]);
 
-//Mana dust
-  recipes.addShaped("Mana dust", <thermalfoundation:material:1028>, [
-	[null, <ore:dustPyrotheum>, null], 
-	[<ore:dustCryotheum>, <ore:crystalSlag>, <ore:dustAerotheum>], 
-	[null, <ore:dustPetrotheum>, null]
-]);
+
 
 #resonant cell full frame
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:frame:148>, 
@@ -836,3 +831,9 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:cell>.withTag
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:132>, <thermalexpansion:frame:147>, <thermalexpansion:frame:146>, 100000);
 
+//Mana dust
+  recipes.addShaped("Mana dust", <thermalfoundation:material:1028>, [
+	[null, <ore:dustPyrotheum>, null], 
+	[<ore:dustCryotheum>, <ore:crystalSlag>, <ore:dustAerotheum>], 
+	[null, <ore:dustPetrotheum>, null]
+]);
