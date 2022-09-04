@@ -68,7 +68,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:wirecoil:
 
 
 
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <immersiveengineering:metal_decoration0:3> *16, [
 	[<immersiveengineering:wooden_device0:2>, <immersiveengineering:tool>, <immersiveengineering:wooden_device0:2>], 
 	[null, null, null], 
