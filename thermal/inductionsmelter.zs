@@ -845,7 +845,7 @@ mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 500,  <minecra
 
 //TE transposer
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_1>, <contenttweaker:material_part:23>, <liquid:dawsondude> * 2000, 5000);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>, <contenttweaker:neutral_steel_1> *16, <liquid:irg> * 2000, 5000);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_3>, <contenttweaker:neutral_steel_2> *32, <liquid:kylian> * 2000, 5000);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_4>, <contenttweaker:neutral_steel_3> *48, <liquid:crao> * 2000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>, <contenttweaker:neutral_steel_1>, <liquid:irg> * 2000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_3>, <contenttweaker:neutral_steel_2>, <liquid:kylian> * 2000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_4>, <contenttweaker:neutral_steel_3>, <liquid:crao> * 2000, 5000);
 
