@@ -707,55 +707,41 @@ mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_1>,
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>, <contenttweaker:neutral_steel_1>, <liquid:irg> * 2000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_3>, <contenttweaker:neutral_steel_2>, <liquid:kylian> * 2000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_4>, <contenttweaker:neutral_steel_3>, <liquid:crao> * 2000, 5000);
+
 // §eInferium Watering Can
 recipes.addShaped(<mysticalagriculture:watering_can:0> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte}), <mysticalagriculture:inferium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte})], [<mysticalagriculture:inferium_shovel>, <mysticalagriculture:gear:5>, <mysticalagriculture:inferium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:0>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte})]]);
-
 // §aPrudentium Watering Can
 recipes.addShaped(<mysticalagriculture:watering_can:1> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte}), <mysticalagriculture:prudentium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte})], [<mysticalagriculture:prudentium_shovel>, <mysticalagriculture:ge>, <mysticalagriculture:prudentium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:1>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte})]]);
-
 // §6 Intermedium Watering Can
 recipes.addShaped(<mysticalagriculture:watering_can:2> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte}), <mysticalagriculture:intermedium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte})], [<mysticalagriculture:intermedium_shovel>, <mysticalagriculture:gear:7>, <mysticalagriculture:intermedium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:2>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte})]]);
-
-
 // §bSuperium Watering Can
 recipes.addShaped(<mysticalagriculture:watering_can:3> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tech_guy", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte}), <mysticalagriculture:superium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tech_guy", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte})], [<mysticalagriculture:superium_shovel>, <mysticalagriculture:gear:8>, <mysticalagriculture:superium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tech_guy", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:3>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tech_guy", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte})]]);
-
 // §cSupremium Watering Can
 recipes.addShaped(<mysticalagriculture:watering_can:4> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "dawsondude", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte}), <mysticalagriculture:supremium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "dawsondude", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte})], [<mysticalagriculture:supremium_shovel>, <mysticalagriculture:crafting:54>, <mysticalagriculture:supremium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "dawsondude", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:4>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "dawsondude", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte})]]);
 
 // Fluxomagnet (Basic)
 recipes.remove(<thermalinnovation:magnet:0>);
-
 // Fluxomagnet (Hardened)
 recipes.remove(<thermalinnovation:magnet:1>);
-
 // Fluxomagnet (Reinforced)
 recipes.remove(<thermalinnovation:magnet:2>);
-
 // Fluxomagnet (Signalum)
 recipes.remove(<thermalinnovation:magnet:3>);
-
 // Fluxomagnet (Resonant)
 recipes.remove(<thermalinnovation:magnet:4>);
-
-
 
 // Reservoir (Basic)
 recipes.remove(<thermalexpansion:reservoir:0>);
 recipes.addShaped(<thermalexpansion:reservoir:0> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:storage:0>, <thermalexpansion:tank:0>], [<thermalfoundation:storage:0>, <ironchest:iron_chest:3>, <thermalfoundation:storage:0>],[<thermalexpansion:tank:0>, <thermalfoundation:storage:0>, <thermalexpansion:tank:0>]]);
-
 // Reservoir (Hardened)
 recipes.remove(<thermalexpansion:reservoir:1>);
 recipes.addShaped(<thermalexpansion:reservoir:1> * 1, [[<thermalfoundation:storage_alloy:2>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:2>], [<thermalexpansion:tank:0>, <ironchest:iron_chest:4>, <thermalexpansion:tank:0>],[<thermalfoundation:storage_alloy:2>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:2>]]);
-
 // Reservoir (Reinforced)
 recipes.remove(<thermalexpansion:reservoir:2>);
 recipes.addShaped(<thermalexpansion:reservoir:2> * 1, [[<thermalfoundation:storage_alloy:1>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:1>], [<thermalexpansion:tank:0>, <ironchest:iron_chest:1>, <thermalexpansion:tank:0>],[<thermalfoundation:storage_alloy:1>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:1>]]);
-
 // Reservoir (Signalum)
 recipes.remove(<thermalexpansion:reservoir:3>);
 recipes.addShaped(<thermalexpansion:reservoir:3> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:5>, <thermalexpansion:tank:0>], [<thermalfoundation:storage_alloy:5>, <thermalfoundation:upgrade:2>, <thermalfoundation:storage_alloy:5>],[<thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:5>, <thermalexpansion:tank:0>]]);
-
 // Reservoir (Resonant)
 recipes.remove(<thermalexpansion:reservoir:4>);
 recipes.addShaped(<thermalexpansion:reservoir:4> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:material:167>, <thermalexpansion:tank:0>], [<thermalfoundation:material:167>, <thermalfoundation:upgrade:3>, <thermalfoundation:material:167>],[<thermalexpansion:tank:0>, <thermalfoundation:material:167>, <thermalexpansion:tank:0>]]);
@@ -773,45 +759,29 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:6
 // Satchel (Hardened)
 recipes.remove(<thermalexpansion:satchel:1>);
 recipes.addShaped(<thermalexpansion:satchel:1> * 1, [[<simplybackpacks:commonbackpack>, <travelersbackpack:travelers_backpack:0>, <simplybackpacks:commonbackpack>], [<travelersbackpack:backpack_tank>, null, <travelersbackpack:backpack_tank>],[<simplybackpacks:commonbackpack>, <travelersbackpack:travelers_backpack:0>, <simplybackpacks:commonbackpack>]]);
-
 // Satchel (Reinforced)
 recipes.remove(<thermalexpansion:satchel:2>);
 recipes.addShaped(<thermalexpansion:satchel:2> * 1, [[<simplybackpacks:uncommonbackpack>, <travelersbackpack:travelers_backpack:24>, <simplybackpacks:uncommonbackpack>], [<travelersbackpack:backpack_tank>, null, <travelersbackpack:backpack_tank>],[<simplybackpacks:uncommonbackpack>, <travelersbackpack:travelers_backpack:24>, <simplybackpacks:uncommonbackpack>]]);
-
 // Satchel (Signalum)
 recipes.remove(<thermalexpansion:satchel:3>);
 recipes.addShaped(<thermalexpansion:satchel:3> * 1, [[<simplybackpacks:rarebackpack>, <travelersbackpack:travelers_backpack:7>, <simplybackpacks:rarebackpack>], [<travelersbackpack:backpack_tank>, null, <travelersbackpack:backpack_tank>],[<simplybackpacks:rarebackpack>, <travelersbackpack:travelers_backpack:7>, <simplybackpacks:rarebackpack>]]);
-
 // Satchel (Resonant)
 recipes.remove(<thermalexpansion:satchel:4>);
 recipes.addShaped(<thermalexpansion:satchel:4> * 1, [[<simplybackpacks:epicbackpack>, <travelersbackpack:travelers_backpack:47>, <simplybackpacks:epicbackpack>], [<travelersbackpack:backpack_tank>, null, <travelersbackpack:backpack_tank>],[<simplybackpacks:epicbackpack>, <travelersbackpack:travelers_backpack:47>, <simplybackpacks:epicbackpack>]]);
-
 // Satchel (Void)
 recipes.remove(<thermalexpansion:satchel:100>);
 recipes.addShaped(<thermalexpansion:satchel:100> * 1, [[<extrautils2:trashcan>, <extrautils2:trashchest>, <extrautils2:trashcan>], [<trashcans:item_trash_can>, <overloaded:compressed_obsidian:0>, <trashcans:item_trash_can>],[<immersivetech:metal_trash:0>, <trashcans:item_trash_can>, <immersivetech:metal_trash:0>]]);
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:129>, <thermalexpansion:frame>, <thermalexpansion:frame>, 100000);
-
-
 #power cell
 mods.thermalexpansion.InductionSmelter.addRecipe(<woot:cell:2>, <woot:cell:1>, <woot:cell>, 100000);
-
-
 # energy  cell full
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:cell>.withTag({Recv: 1000, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 0 as byte, Send: 1000}), <thermalexpansion:frame:128>, <thermalfoundation:storage:3> * 16, 100000);
-
-
 # Signalum Cell Frame (Full)
 	mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:147>, <thermalexpansion:frame:131>, <thermalfoundation:storage_alloy:5> * 16, 100000);
-
-
-
 # harden Cell Frame (Full)
     mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:146>, <thermalexpansion:frame:130>, <thermalfoundation:storage_alloy:1> * 16, 100000);
-
-
 #resonant cell frame
-
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:132>, <thermalexpansion:frame:147>, <thermalexpansion:frame:146>, 100000);
 
 //Mana dust
