@@ -195,30 +195,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:machi>.withTa
 	[<ore:blockCompressedLavaCrystal>, <cyclicmagic:block_anvil_magma>, <ore:ingotInfusedLavaCrystal>, <cyclicmagic:block_anvil_magma>, <ore:blockCompressedLavaCrystal>]
 ]);
 
-
-# Remake Hardened Glass   recipes
-val glassFromDust = {
-	<thermalfoundation:glass>         : <thermalfoundation:material:64>,
-	<thermalfoundation:glass:1>       : <thermalfoundation:material:65>,
-	<thermalfoundation:glass:2>       : <thermalfoundation:material:66>,
-	<thermalfoundation:glass:3>       : <thermalfoundation:material:67>,
-	<thermalfoundation:glass:4>       : <thermalfoundation:material:68>,
-	<thermalfoundation:glass:5>       : <thermalfoundation:material:69>,
-	<thermalfoundation:gla>       : <thermalfoundation:material:70>,
-	<thermalfoundation:glass:7>       : <thermalfoundation:material:71>,
-	<thermalfoundation:glass:8>       : null/* <thermalfoundation:material:72> */, // Somehow this recipe missed
-	<thermalfoundation:glass_alloy>   : <thermalfoundation:material:96>,
-	<thermalfoundation:glass_alloy:1> : <thermalfoundation:material:97>,
-	<thermalfoundation:glass_alloy:2> : <thermalfoundation:material:98>,
-	<thermalfoundation:glass_alloy:3> : <thermalfoundation:material:99>,
-	<thermalfoundation:glass_alloy:4> : <thermalfoundation:material:100>,
-	<thermalfoundation:glass_alloy:5> : <thermalfoundation:material:101>,
-	<thermalfoundation:glass_all> : <thermalfoundation:material:102>,
-	<thermalfoundation:glass_alloy:7> : <thermalfoundation:material:103>,
-} as IItemStack[IItemStack];
-
-
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [0, 1, 0, 0, 0, 0] as byte[] as byte[]}), [
 	[<mysticalagriculture:water_seeds>, <liquid:water>, <cyclicmagic:block_hydrator>, <liquid:water>, <mysticalagriculture:water_seeds>], 
 	[<enderio:block_reservoir>, <industrialforegoing:water_condensator>, <cyclicmagic:sprinkler>, <industrialforegoing:water_condensator>, <enderio:block_reservoir>], 
@@ -227,8 +203,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device>.withT
 	[<mysticalagriculture:water_seeds>, <liquid:water>, <cyclicmagic:block_hydrator>, <liquid:water>, <mysticalagriculture:water_seeds>]
 ]);
 
-
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device:2>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [0, 1, 1, 1, 1, 1] as byte[] as byte[]}), [
 	[<redstonerepository:material:7>, <ore:blockGelidCrystal>, <ore:blockGelidEnderium>, <ore:blockGelidCrystal>, <redstonerepository:material:7>], 
 	[<redstonerepository:material:7>, <ore:blockGelidEnderium>, <ore:dustGelidEnderium>, <ore:blockGelidEnderium>, <redstonerepository:material:7>], 
@@ -236,8 +210,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device:2>.wit
 	[<redstonerepository:material:7>, <ore:blockGelidEnderium>, <ore:dustGelidEnderium>, <ore:blockGelidEnderium>, <redstonerepository:material:7>], 
 	[<redstonerepository:material:7>, <ore:blockGelidCrystal>, <ore:blockGelidEnderium>, <ore:blockGelidCrystal>, <redstonerepository:material:7>]
 ]);
-
-
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device:3>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[]}), [
 	[<liquid:tree_oil>, <industrialforegoing:tree_fluid_extractor>, <liquid:tree_oil>, <industrialforegoing:tree_fluid_extractor>, <liquid:tree_oil>], 
@@ -659,6 +631,70 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:704>,
 	[<ore:energyCrystal>, <ic2:upgrade:2>, <ore:energyCrystal>], 
 	[<ore:energyCrystal>, null, <ore:energyCrystal>]
 ]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Remake Hardened Glass   recipes
+val glassFromDust = {
+	<thermalfoundation:glass>         : <thermalfoundation:material:64>,
+	<thermalfoundation:glass:1>       : <thermalfoundation:material:65>,
+	<thermalfoundation:glass:2>       : <thermalfoundation:material:66>,
+	<thermalfoundation:glass:3>       : <thermalfoundation:material:67>,
+	<thermalfoundation:glass:4>       : <thermalfoundation:material:68>,
+	<thermalfoundation:glass:5>       : <thermalfoundation:material:69>,
+	<thermalfoundation:gla>       : <thermalfoundation:material:70>,
+	<thermalfoundation:glass:7>       : <thermalfoundation:material:71>,
+	<thermalfoundation:glass:8>       : null/* <thermalfoundation:material:72> */, // Somehow this recipe missed
+	<thermalfoundation:glass_alloy>   : <thermalfoundation:material:96>,
+	<thermalfoundation:glass_alloy:1> : <thermalfoundation:material:97>,
+	<thermalfoundation:glass_alloy:2> : <thermalfoundation:material:98>,
+	<thermalfoundation:glass_alloy:3> : <thermalfoundation:material:99>,
+	<thermalfoundation:glass_alloy:4> : <thermalfoundation:material:100>,
+	<thermalfoundation:glass_alloy:5> : <thermalfoundation:material:101>,
+	<thermalfoundation:glass_all> : <thermalfoundation:material:102>,
+	<thermalfoundation:glass_alloy:7> : <thermalfoundation:material:103>,
+} as IItemStack[IItemStack];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
