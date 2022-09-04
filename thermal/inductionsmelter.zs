@@ -36,7 +36,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag
   recipes.addShaped(<mysticalagriculture:watering_can:0> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte}), <mysticalagriculture:inferium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte})], [<mysticalagriculture:inferium_shovel>, <mysticalagriculture:gear:5>, <mysticalagriculture:inferium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:0>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte})]]);
 
 // §aPrudentium Watering Can
-  recipes.addShaped(<mysticalagriculture:watering_can:1> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte}), <mysticalagriculture:prudentium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte})], [<mysticalagriculture:prudentium_shovel>, <mysticalagriculture:gear:6>, <mysticalagriculture:prudentium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:1>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte})]]);
+  recipes.addShaped(<mysticalagriculture:watering_can:1> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte}), <mysticalagriculture:prudentium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte})], [<mysticalagriculture:prudentium_shovel>, <mysticalagriculture:ge>, <mysticalagriculture:prudentium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:1>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte})]]);
 
 // §6Intermedium Watering Can
   recipes.addShaped(<mysticalagriculture:watering_can:2> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte}), <mysticalagriculture:intermedium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte})], [<mysticalagriculture:intermedium_shovel>, <mysticalagriculture:gear:7>, <mysticalagriculture:intermedium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:2>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte})]]);
@@ -240,7 +240,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:machine:8>.wi
 
 
 # 
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:machine:6>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), [
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:machi>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), [
 	[<cyclicmagic:melter>, <cyclicmagic:block_anvil_magma>, <ore:ingotInfusedLavaCrystal>, <cyclicmagic:block_anvil_magma>, <cyclicmagic:melter>], 
 	[<cyclicmagic:block_anvil_magma>, <ore:ingotInfusedLavaCrystal>, <industrialforegoing:lava_fabricator>, <ore:ingotInfusedLavaCrystal>, <cyclicmagic:block_anvil_magma>], 
 	[<ore:blockCompressedLavaCrystal>, <industrialforegoing:lava_fabricator>, <thermalexpansion:frame>, <industrialforegoing:lava_fabricator>, <ore:blockCompressedLavaCrystal>], 
@@ -257,7 +257,7 @@ val glassFromDust = {
 	<thermalfoundation:glass:3>       : <thermalfoundation:material:67>,
 	<thermalfoundation:glass:4>       : <thermalfoundation:material:68>,
 	<thermalfoundation:glass:5>       : <thermalfoundation:material:69>,
-	<thermalfoundation:glass:6>       : <thermalfoundation:material:70>,
+	<thermalfoundation:gla>       : <thermalfoundation:material:70>,
 	<thermalfoundation:glass:7>       : <thermalfoundation:material:71>,
 	<thermalfoundation:glass:8>       : null/* <thermalfoundation:material:72> */, // Somehow this recipe missed
 	<thermalfoundation:glass_alloy>   : <thermalfoundation:material:96>,
@@ -266,7 +266,7 @@ val glassFromDust = {
 	<thermalfoundation:glass_alloy:3> : <thermalfoundation:material:99>,
 	<thermalfoundation:glass_alloy:4> : <thermalfoundation:material:100>,
 	<thermalfoundation:glass_alloy:5> : <thermalfoundation:material:101>,
-	<thermalfoundation:glass_alloy:6> : <thermalfoundation:material:102>,
+	<thermalfoundation:glass_all> : <thermalfoundation:material:102>,
 	<thermalfoundation:glass_alloy:7> : <thermalfoundation:material:103>,
 } as IItemStack[IItemStack];
 
@@ -321,7 +321,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device:5>.wit
 ]);
 
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device:6>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[]}), [
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:devi>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[]}), [
 	[<thermalexpansion:reservoir>, <enderio:block_tank>, <enderio:block_tank>, <enderio:block_tank>, <thermalexpansion:reservoir:3>], 
 	[<thermalexpansion:tank>, <refinedstorage:fluid_storage_disk>, <thermalexpansion:tank>, <refinedstorage:fluid_storage_disk>, <thermalexpansion:tank>], 
 	[<refinedstorage:grid:3>, <thermalexpansion:tank>, <thermalexpansion:reservoir:4>, <thermalexpansion:tank>, <refinedstorage:grid:3>], 
@@ -329,11 +329,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device:6>.wit
 	[<thermalexpansion:reservoir:1>, <enderio:block_tank>, <enderio:block_tank>, <enderio:block_tank>, <thermalexpansion:reservoir:2>]
 ]);
 
-//TE transposer
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_1>, <draconicevolution:draconium_ingot>, <liquid:pyrotheum> * 2000, 5000);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>, <contenttweaker:neutral_steel_1> * 6, <liquid:cryotheum> * 2000, 5000);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_3>, <contenttweaker:neutral_steel_2> * 6, <liquid:aerotheum> * 2000, 5000);
-mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_4>, <contenttweaker:neutral_steel_3> * 6, <liquid:petrotheum> * 2000, 5000);
 
 // pink tiger
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:83>, <contenttweaker:material_part:63>, <contenttweaker:material_part:63>, 1500);
@@ -369,23 +364,23 @@ recipes.addShaped(<thermalexpansion:satchel:100> * 1, [[<extrautils2:trashcan>, 
 // next to added
 # Leadstone Fluxduct
 recipes.remove(<thermaldynamics:duct_0>);
-recipes.addShaped(<thermaldynamics:duct_0> * 6, [[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],[<ore:ingotLead>,<immersiveengineering:metal:2>,<ore:ingotLead>],[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>]]);
+recipes.addShaped(<thermaldynamics:duct_0>, [[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],[<ore:ingotLead>,<immersiveengineering:metal:2>,<ore:ingotLead>],[<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>]]);
 
 # Hardened Fluxduct
 recipes.remove(<thermaldynamics:duct_0:1>);
 recipes.addShaped(<thermaldynamics:duct_0:1> * 3, [[<ore:ingotInvar>,<minecraft:redstone>,<ore:ingotInvar>],[<thermaldynamics:duct_0>,<thermaldynamics:duct_0>,<thermaldynamics:duct_0>],[<ore:ingotInvar>,<minecraft:redstone>,<ore:ingotInvar>]]);
 
 # Redstone Energy Fluxduct (Empty)
-recipes.remove(<thermaldynamics:duct_0:6>);
-recipes.addShaped(<thermaldynamics:duct_0:6> * 3, [[<ore:ingotElectrum>,<thermalfoundation:glass:3>,<ore:ingotElectrum>],[<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>],[<ore:ingotElectrum>,<thermalfoundation:glass:3>,<ore:ingotElectrum>]]);
+recipes.remove(<thermaldynamics:duct>);
+recipes.addShaped(<thermaldynamics:duct> * 3, [[<ore:ingotElectrum>,<thermalfoundation:glass:3>,<ore:ingotElectrum>],[<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>],[<ore:ingotElectrum>,<thermalfoundation:glass:3>,<ore:ingotElectrum>]]);
 
 # Redstone Energy Fluxduct
-mods.thermalexpansion.Transposer.removeFillRecipe(<thermaldynamics:duct_0:6>, <liquid:redstone>);
-mods.thermalexpansion.Transposer.addFillRecipe(<thermaldynamics:duct_0:2>, <thermaldynamics:duct_0:6>, <liquid:redstone> * 400, 800);
+mods.thermalexpansion.Transposer.removeFillRecipe(<thermaldynamics:duct>, <liquid:redstone>);
+mods.thermalexpansion.Transposer.addFillRecipe(<thermaldynamics:duct_0:2>, <thermaldynamics:duct>, <liquid:redstone> * 400, 800);
 
 # Signalum Fluxduct (Empty)
 recipes.remove(<thermaldynamics:duct_0:7>);
-recipes.addShaped(<thermaldynamics:duct_0:7> * 3, [[<ore:ingotSignalum>,<ore:ingotRedAlloy>,<ore:ingotSignalum>],[<thermaldynamics:duct_0:6>,<thermaldynamics:duct_0:6>,<thermaldynamics:duct_0:6>],[<ore:ingotSignalum>,<ore:ingotRedAlloy>,<ore:ingotSignalum>]]);
+recipes.addShaped(<thermaldynamics:duct_0:7> * 3, [[<ore:ingotSignalum>,<ore:ingotRedAlloy>,<ore:ingotSignalum>],[<thermaldynamics:duct>,<thermaldynamics:duct>,<thermaldynamics:duct>],[<ore:ingotSignalum>,<ore:ingotRedAlloy>,<ore:ingotSignalum>]]);
 
 # Signalum Fluxduct
 recipes.remove(<thermaldynamics:duct_0:3>);
@@ -688,9 +683,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:337>,
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:352>, [
-	[<thermalexpansion:dynamo:1>, <thermalexpansion:machine:6>, <thermalexpansion:dynamo:1>], 
-	[<thermalexpansion:machine:6>, <thermalexpansion:augment:128>, <thermalexpansion:machine:6>], 
-	[<thermalexpansion:dynamo:1>, <thermalexpansion:machine:6>, <thermalexpansion:dynamo:1>]
+	[<thermalexpansion:dynamo:1>, <thermalexpansion:machi>, <thermalexpansion:dynamo:1>], 
+	[<thermalexpansion:machi>, <thermalexpansion:augment:128>, <thermalexpansion:machi>], 
+	[<thermalexpansion:dynamo:1>, <thermalexpansion:machi>, <thermalexpansion:dynamo:1>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:368>, [
@@ -847,4 +842,10 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:704>,
 
 
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 500,  <minecraft:redstone>, 1000, <fluxnetworks:flux>);
+
+//TE transposer
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_1>, <contenttweaker:material_part:23>, <liquid:dawsondude> * 2000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>, <contenttweaker:neutral_steel_1> *16, <liquid:irg> * 2000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_3>, <contenttweaker:neutral_steel_2> *32, <liquid:kylian> * 2000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_4>, <contenttweaker:neutral_steel_3> *48, <liquid:crao> * 2000, 5000);
 
