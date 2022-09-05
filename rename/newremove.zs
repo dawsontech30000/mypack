@@ -320,6 +320,16 @@ recipes.remove(<minecraft:diamond_hoe>);
 // thermal expanstion -------------------------------------------------------------
 
 
+// copper
+recipes.remove(<thermalfoundation:tool.sword_copper>);
+recipes.remove(<thermalfoundation:tool.shovel_copper>);
+recipes.remove(<thermalfoundation:tool.pickaxe_copper>);
+recipes.remove(<thermalfoundation:tool.axe_copper>);
+recipes.remove(<thermalfoundation:tool.hoe_copper>);
+
+
+
+
 // thermal tin
 recipes.remove(<thermalfoundation:tool.sword_tin>);
 recipes.remove(<thermalfoundation:tool.shovel_tin>);
