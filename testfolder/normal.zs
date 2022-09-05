@@ -2,13 +2,6 @@
 #packmode normal
 
 
-
-
-
-
-
-
-
 // remove
 // gear
 mods.actuallyadditions.Empowerer.removeRecipe(<moreplates:empowered_palis_gear>);
