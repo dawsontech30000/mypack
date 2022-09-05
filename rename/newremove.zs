@@ -355,14 +355,12 @@ recipes.remove(<thermalfoundation:tool.axe_platinum>);
 recipes.remove(<thermalfoundation:tool.hoe_platinum>);
 
 
-
 // elec
 recipes.remove(<thermalfoundation:tool.sword_electrum>);
 recipes.remove(<thermalfoundation:tool.shovel_electrum>);
 recipes.remove(<thermalfoundation:tool.pickaxe_electrum>);
 recipes.remove(<thermalfoundation:tool.axe_electrum>);
 recipes.remove(<thermalfoundation:tool.hoe_electrum>);
-
 
 
 // bronze
@@ -373,18 +371,12 @@ recipes.remove(<thermalfoundation:tool.axe_bronze>);
 recipes.remove(<thermalfoundation:tool.hoe_bronze>);
 
 
-
 // constantan
 recipes.remove(<thermalfoundation:tool.sword_constantan>);
 recipes.remove(<thermalfoundation:tool.shovel_constantan>);
 recipes.remove(<thermalfoundation:tool.pickaxe_constantan>);
 recipes.remove(<thermalfoundation:tool.axe_constantan>);
 recipes.remove(<thermalfoundation:tool.hoe_constantan>);
-
-
-
-
-
 
 // flux and gelid
 recipes.remove(<redstonearsenal:tool.shovel_flux>.withTag({Energy: 0}));
