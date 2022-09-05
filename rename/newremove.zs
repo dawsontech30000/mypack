@@ -280,6 +280,10 @@ recipes.remove(<matc:superiumcrystal>);
 recipes.remove(<matc:supremiumcrystal>);
 
 
+
+
+
+
 // van
 recipes.remove(<minecraft:stone_pickaxe>);
 recipes.remove(<minecraft:stone_sword>);
@@ -315,6 +319,8 @@ recipes.remove(<thermalfoundation:tool.pickaxe_tin>);
 recipes.remove(<thermalfoundation:tool.axe_tin>);
 recipes.remove(<thermalfoundation:tool.hoe_tin>);
 
+
+// lead
 recipes.remove(<thermalfoundation:tool.sword_lead>);
 recipes.remove(<thermalfoundation:tool.shovel_lead>);
 recipes.remove(<thermalfoundation:tool.pickaxe_lead>);
@@ -329,29 +335,28 @@ recipes.remove(<thermalfoundation:tool.pickaxe_aluminum>);
 recipes.remove(<thermalfoundation:tool.axe_aluminum>);
 recipes.remove(<thermalfoundation:tool.hoe_aluminum>);
 
-
+// plat
 recipes.remove(<thermalfoundation:tool.sword_platinum>);
 recipes.remove(<thermalfoundation:tool.shovel_platinum>);
 recipes.remove(<thermalfoundation:tool.pickaxe_platinum>);
 recipes.remove(<thermalfoundation:tool.axe_platinum>);
 recipes.remove(<thermalfoundation:tool.hoe_platinum>);
 
-
+// elec
 recipes.remove(<thermalfoundation:tool.sword_electrum>);
 recipes.remove(<thermalfoundation:tool.shovel_electrum>);
 recipes.remove(<thermalfoundation:tool.pickaxe_electrum>);
 recipes.remove(<thermalfoundation:tool.axe_electrum>);
 recipes.remove(<thermalfoundation:tool.hoe_electrum>);
 
-
+// bronze
 recipes.remove(<thermalfoundation:tool.sword_bronze>);
 recipes.remove(<thermalfoundation:tool.shovel_bronze>);
 recipes.remove(<thermalfoundation:tool.pickaxe_bronze>);
 recipes.remove(<thermalfoundation:tool.axe_bronze>);
 recipes.remove(<thermalfoundation:tool.hoe_bronze>);
 
-
-
+// constantan
 recipes.remove(<thermalfoundation:tool.sword_constantan>);
 recipes.remove(<thermalfoundation:tool.shovel_constantan>);
 recipes.remove(<thermalfoundation:tool.pickaxe_constantan>);
