@@ -280,11 +280,15 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:146>, <
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:132>, <thermalexpansion:frame:147>, <thermalexpansion:frame:146>, 100000);
 
+
+
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 1000,  <minecraft:redstone>, 1000, <fluxnetworks:flux>);
 
 mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 1000,  <minecraft:redstone_block>, 1000, <fluxnetworks:fluxblock>);
 
 
+//phytogenic insolator
+mods.thermalexpansion.Insolator.addRecipe(<twilightforest:liveroot>, <twilightforest:root:0>, <thermalfoundation:fertilizer:2>, 25000, <twilightforest:liveroot>, 5);
 
 
 //Mana dust
@@ -293,9 +297,6 @@ mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 1000,  <minecr
 	[<ore:dustCryotheum>, <ore:crystalSlag>, <ore:dustAerotheum>], 
 	[null, <ore:dustPetrotheum>, null]
 ]);
-
-//phytogenic insolator
-mods.thermalexpansion.Insolator.addRecipe(<twilightforest:liveroot>, <twilightforest:root:0>, <thermalfoundation:fertilizer:2>, 25000, <twilightforest:liveroot>, 5);
 
 
 // Reservoir (Basic)
@@ -437,7 +438,9 @@ recipes.remove(<thermalexpansion:satchel:32000>.withTag({Accessible: 1 as byte})
 
 
 
+mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:electrum> * 1000,  <thermalexpansion:frame:130>, 1000, <redstonearsenal:storage> *16);
 
+mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:signalum> * 1000,  <thermalexpansion:frame:131>, 1000, <contenttweaker:sub_block_holder_0:7> *16);
 
 
 
