@@ -113,6 +113,47 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dawnstone_seeds>
 recipes.remove(<mysticalagriculture:blaze_seeds>);
 recipes.remove(<mysticalagriculture:dawnstone_seeds>);
 recipes.remove(<mysticalagriculture:dawnstone_seeds>);
+recipes.remove(<mysticalagriculture:tritanium_seeds>);
+recipes.remove(<mysticalagriculture:jade_seeds>);
+recipes.remove(<mysticalagriculture:thorium_seeds>);
+recipes.remove(<mysticalagriculture:boron_seeds>);
+recipes.remove(<mysticalagriculture:lithium_seeds>);
+recipes.remove(<mysticalagriculture:magnesium_seeds>);
+recipes.remove(<mysticalagriculture:dilithium_seeds>);
+recipes.remove(<mysticalagriculture:compressed_iron_seeds>);
+recipes.remove(<mysticalagriculture:fluix_seeds>);
+recipes.remove(<mysticalagriculture:electrum_seeds>);
+recipes.remove(<mysticalagriculture:invar_seeds>);
+recipes.remove(<mysticalagriculture:mithril_seeds>);
+recipes.remove(<mysticalagriculture:ruby_seeds>);
+recipes.remove(<mysticalagriculture:sapphire_seeds>);
+recipes.remove(<mysticalagriculture:peridot_seeds>);
+recipes.remove(<mysticalagriculture:topaz_seeds>);
+recipes.remove(<mysticalagriculture:amber_seeds>);
+recipes.remove(<mysticalagriculture:tanzanite_seeds>);
+recipes.remove(<mysticalagriculture:signalum_seeds>);
+recipes.remove(<mysticalagriculture:lumium_seeds>);
+recipes.remove(<mysticalagriculture:fluxed_electrum_seeds>);
+recipes.remove(<mysticalagriculture:hop_graphite_seeds>);
+recipes.remove(<mysticalagriculture:cobalt_seeds>);
+recipes.remove(<mysticalagriculture:soularium_seeds>);
+recipes.remove(<mysticalagriculture:void_metal_seeds>);
+recipes.remove(<mysticalagriculture:dark_steel_seeds>);
+recipes.remove(<mysticalagriculture:pulsating_iron_seeds>);
+recipes.remove(<mysticalagriculture:osmium_seeds>);
+recipes.remove(<mysticalagriculture:energetic_alloy_seeds>);
+recipes.remove(<mysticalagriculture:elementium_seeds>);
+recipes.remove(<mysticalagriculture:alumite_seeds>);
+recipes.remove(<mysticalagriculture:fiery_ingot_seeds>);
+recipes.remove(<mysticalagriculture:glowstone_ingot_seeds>);
+recipes.remove(<mysticalagriculture:knightmetal_seeds>);
+recipes.remove(<mysticalagriculture:meteoric_iron_seeds>);
+recipes.remove(<mysticalagriculture:abyssalnite_seeds>);
+
+
+
+
+
 
 // tier 3 seeds
 
