@@ -74,3 +74,9 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:8
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:73>, <contenttweaker:material_part:63>, <contenttweaker:material_part:63>, 1500);
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:63>, <contenttweaker:material_part:123>, <contenttweaker:material_part:123>, 1500);
 
+ 
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame:130>, [
+	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>], 
+	[<thermalexpansion:frame>, <ore:blockSheetmetalElectrum>, <thermalexpansion:frame>], 
+	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>]
+]);
