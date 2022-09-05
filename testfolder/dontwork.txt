@@ -208,13 +208,6 @@ mods.botania.RuneAltar.addRecipe(<armorplus:infused_lava_boots>,[<armorplus:emer
 
 
 
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:brass_seeds>, [<botania:storage:3>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:thaumium_seeds>, [<botania:storage:3>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
-
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:quicksilver_seeds>, [<botania:storage:3>, <nuclearcraft:block_depleted_uranium>, <nuclearcraft:block_depleted_uranium>, <nuclearcraft:block_depleted_uranium>, <nuclearcraft:block_depleted_uranium>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:quartz_enriched_iron_seeds>, [<botania:storage:3>, <techreborn:storage:8>, <techreborn:storage:8>, <techreborn:storage:8>, <techreborn:storage:8>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
-
-
 
 
 
