@@ -10,7 +10,7 @@ mods.exnihilocreatio.Heat.removeAll();
 mods.exnihilocreatio.Hammer.removeAll();
 
 mods.exnihilocreatio.Ore.removeAll();
-
+mod.excompressum.ore.removeall();
 
 mods.exnihilocreatio.Heat.addRecipe(<minecraft:torch>, 5);
 mods.exnihilocreatio.Heat.addRecipe(<minecraft:redstone_torch>, 10);
@@ -63,5 +63,12 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:9>, 4095)
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:10>, 5095);
 // finshed of heat
 
+
+recipes.remove(<excompressum:heavy_sieve>);
+recipes.remove(<excompressum:heavy_sieve:1>);
+recipes.remove(<excompressum:heavy_sieve:2>);
+recipes.remove(<excompressum:heavy_sieve:3>);
+recipes.remove(<excompressum:heavy_sieve:4>);
+recipes.remove(<excompressum:heavy_sieve:5>);
 
 

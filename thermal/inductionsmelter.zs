@@ -427,6 +427,7 @@ recipes.remove(<thermalexpansion:satchel:4>.withTag({Accessible: 1 as byte}));
 recipes.remove(<thermalexpansion:satchel:100>.withTag({Accessible: 1 as byte}));
 recipes.remove(<thermalexpansion:satchel:32000>.withTag({Accessible: 1 as byte}));
 
+recipes.remove(<excompressum:heavy_sieve>);
 
 
 
