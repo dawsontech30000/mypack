@@ -294,7 +294,8 @@ mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 1000,  <minecr
 	[null, <ore:dustPetrotheum>, null]
 ]);
 
-
+//phytogenic insolator
+mods.thermalexpansion.Insolator.addRecipe(<twilightforest:liveroot>, <twilightforest:root:0>, <thermalfoundation:fertilizer:2>, 25000, <twilightforest:liveroot>, 5);
 
 
 
