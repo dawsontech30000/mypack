@@ -99,7 +99,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:tritanium_seeds>
 
 
 
-// new tier 4 that i missed 
+// new tier 4 that i missed  05/09/2022
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:blaze_seeds>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, 500, 100, [0.1,0.1,0.1]);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:malachite_seeds>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, 500, 100, [0.1,0.1,0.1]);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dawnstone_seeds>, <embers:aspectus_dawnstone>, <ore:blockDawnstone>, <embers:aspectus_dawnstone>, <ore:blockDawnstone>, <embers:ingot_dawnstone>, 500, 100, [0.1,0.1,0.1]);
