@@ -280,8 +280,9 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:146>, <
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:132>, <thermalexpansion:frame:147>, <thermalexpansion:frame:146>, 100000);
 
-mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 500,  <minecraft:redstone>, 1000, <fluxnetworks:flux>);
+mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 1000,  <minecraft:redstone>, 1000, <fluxnetworks:flux>);
 
+mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 1000,  <minecraft:redstone_block>, 1000, <fluxnetworks:fluxblock>);
 
 
 
