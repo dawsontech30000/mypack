@@ -109,7 +109,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dawnstone_seeds>
 
 
 
-// remove tier 4
+// remove tier 4  05/09/2022
 recipes.remove(<mysticalagriculture:blaze_seeds>);
 recipes.remove(<mysticalagriculture:dawnstone_seeds>);
 recipes.remove(<mysticalagriculture:dawnstone_seeds>);
