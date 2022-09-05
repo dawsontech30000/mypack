@@ -4,7 +4,7 @@ import mods.actuallyadditions.Empowerer;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 
-
+// tier 4 seeds
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:abyssalnite_seeds>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, 500, 100, [0.1,0.1,0.1]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:gold_seeds>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, 500, 100, [0.1,0.1,0.1]);
@@ -43,7 +43,6 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:cobalt_seeds>, <
 
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:topaz_seeds>, <zollerngalaxy:topaz>, <zollerngalaxy:topaz>, <zollerngalaxy:topaz>, <zollerngalaxy:topaz>, <zollerngalaxy:topaz>, 500, 100, [0.1,0.1,0.1]);
 
-mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:malachite_seeds>, <biomesoplenty:gem:5>, <biomesoplenty:gem:5>, <biomesoplenty:gem:5>, <biomesoplenty:gem:5>, <biomesoplenty:gem:5>, 500, 100, [0.1,0.1,0.1]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:tanzanite_seeds>, <biomesoplenty:gem_block:4>, <biomesoplenty:gem_block:4>, <biomesoplenty:gem_block:4>, <biomesoplenty:gem_block:4>, <biomesoplenty:gem_block:4>, 500, 100, [0.1,0.1,0.1]);
 
@@ -93,8 +92,9 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:fluxed_electrum_
 
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:lithium_seeds>, <nuclearcraft:ingot:6>, <nuclearcraft:ingot:6>, <nuclearcraft:ingot:6>, <nuclearcraft:ingot:6>, <nuclearcraft:ingot:6>, 500, 100, [0.1,0.1,0.1]);
 
-mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dilithium_seeds>, <taiga:dilithium_block>, <taiga:dilithium_block>, <taiga:dilithium_block>, <taiga:dilithium_block>, <taiga:dilithium_block>, 500, 100, [0.1,0.1,0.1]);
 
+
+mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dilithium_seeds>, <taiga:dilithium_block>, <taiga:dilithium_block>, <taiga:dilithium_block>, <taiga:dilithium_block>, <taiga:dilithium_block>, 500, 100, [0.1,0.1,0.1]);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:tritanium_seeds>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, 500, 100, [0.1,0.1,0.1]);
 
 
@@ -106,7 +106,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dawnstone_seeds>
 
 
 
-
+// tier 3 seeds
 
 
 
