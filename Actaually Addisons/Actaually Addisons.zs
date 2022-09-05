@@ -7,6 +7,7 @@ import crafttweaker.oredict.IOreDict;
 // tier 4 seeds
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:abyssalnite_seeds>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, 500, 100, [0.1,0.1,0.1]);
 
+
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:gold_seeds>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, 500, 100, [0.1,0.1,0.1]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:lapis_lazuli_seeds>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, 500, 100, [0.1,0.1,0.1]);
@@ -105,6 +106,13 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:malachite_seeds>
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dawnstone_seeds>, <embers:aspectus_dawnstone>, <ore:blockDawnstone>, <embers:aspectus_dawnstone>, <ore:blockDawnstone>, <embers:ingot_dawnstone>, 500, 100, [0.1,0.1,0.1]);
 
 
+
+
+
+// remove tier 4
+recipes.remove(<mysticalagriculture:blaze_seeds>);
+recipes.remove(<mysticalagriculture:dawnstone_seeds>);
+recipes.remove(<mysticalagriculture:dawnstone_seeds>);
 
 // tier 3 seeds
 
