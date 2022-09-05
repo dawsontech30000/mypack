@@ -409,11 +409,22 @@ recipes.remove(<thermalexpansion:capacitor:4>.withTag({Energy: 25000000}));
 
 
 
+recipes.remove(<thermalfoundation:upgrade>);
+recipes.remove(<thermalfoundation:upgrade:1>);
+recipes.remove(<thermalfoundation:upgrade:2>);
+recipes.remove(<thermalfoundation:upgrade:3>);
+recipes.remove(<thermalfoundation:upgrade:33>);
+recipes.remove(<thermalfoundation:upgrade:34>);
+recipes.remove(<thermalfoundation:upgrade:35>);
+recipes.remove(<thermalfoundation:upgrade:256>);
 
-
-
-
-
+recipes.remove(<thermalexpansion:satchel>.withTag({Accessible: 1 as byte}));
+recipes.remove(<thermalexpansion:satchel:1>.withTag({Accessible: 1 as byte}));
+recipes.remove(<thermalexpansion:satchel:2>.withTag({Accessible: 1 as byte}));
+recipes.remove(<thermalexpansion:satchel:3>.withTag({Accessible: 1 as byte}));
+recipes.remove(<thermalexpansion:satchel:4>.withTag({Accessible: 1 as byte}));
+recipes.remove(<thermalexpansion:satchel:100>.withTag({Accessible: 1 as byte}));
+recipes.remove(<thermalexpansion:satchel:32000>.withTag({Accessible: 1 as byte}));
 
 
 
