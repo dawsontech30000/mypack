@@ -298,14 +298,114 @@ mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 1000,  <minecr
 mods.thermalexpansion.Insolator.addRecipe(<twilightforest:liveroot>, <twilightforest:root:0>, <thermalfoundation:fertilizer:2>, 25000, <twilightforest:liveroot>, 5);
 
 
+// Reservoir (Basic)
+recipes.remove(<thermalexpansion:reservoir:0>);
+recipes.addShaped(<thermalexpansion:reservoir:0> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:storage:0>, <thermalexpansion:tank:0>], [<thermalfoundation:storage:0>, <ironchest:iron_chest:3>, <thermalfoundation:storage:0>],[<thermalexpansion:tank:0>, <thermalfoundation:storage:0>, <thermalexpansion:tank:0>]]);
+
+// Reservoir (Hardened)
+recipes.remove(<thermalexpansion:reservoir:1>);
+recipes.addShaped(<thermalexpansion:reservoir:1> * 1, [[<thermalfoundation:storage_alloy:2>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:2>], [<thermalexpansion:tank:0>, <ironchest:iron_chest:4>, <thermalexpansion:tank:0>],[<thermalfoundation:storage_alloy:2>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:2>]]);
+
+// Reservoir (Reinforced)
+recipes.remove(<thermalexpansion:reservoir:2>);
+recipes.addShaped(<thermalexpansion:reservoir:2> * 1, [[<thermalfoundation:storage_alloy:1>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:1>], [<thermalexpansion:tank:0>, <ironchest:iron_chest:1>, <thermalexpansion:tank:0>],[<thermalfoundation:storage_alloy:1>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:1>]]);
+
+// Reservoir (Signalum)
+recipes.remove(<thermalexpansion:reservoir:3>);
+recipes.addShaped(<thermalexpansion:reservoir:3> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:5>, <thermalexpansion:tank:0>], [<thermalfoundation:storage_alloy:5>, <thermalfoundation:upgrade:2>, <thermalfoundation:storage_alloy:5>],[<thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:5>, <thermalexpansion:tank:0>]]);
+
+// Reservoir (Resonant)
+recipes.remove(<thermalexpansion:reservoir:4>);
+recipes.addShaped(<thermalexpansion:reservoir:4> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:material:167>, <thermalexpansion:tank:0>], [<thermalfoundation:material:167>, <thermalfoundation:upgrade:3>, <thermalfoundation:material:167>],[<thermalexpansion:tank:0>, <thermalfoundation:material:167>, <thermalexpansion:tank:0>]]);
+
+
+// Fluxomagnet (Basic)
+recipes.remove(<thermalinnovation:magnet:0>);
+
+// Fluxomagnet (Hardened)
+recipes.remove(<thermalinnovation:magnet:1>);
+
+// Fluxomagnet (Reinforced)
+recipes.remove(<thermalinnovation:magnet:2>);
+
+// Fluxomagnet (Signalum)
+recipes.remove(<thermalinnovation:magnet:3>);
+
+// Fluxomagnet (Resonant)
+recipes.remove(<thermalinnovation:magnet:4>);
 
 
 
 
 
+// Fluxbore (Hardened)
+recipes.remove(<thermalinnovation:drill:1>);
+
+// Fluxbore (Reinforced)
+recipes.remove(<thermalinnovation:drill:2>);
+
+// Fluxbore (Signalum)
+recipes.remove(<thermalinnovation:drill:3>);
+
+// Fluxbore (Resonant)
+recipes.remove(<thermalinnovation:drill:4>);
+
+
+// Fluxbore (Resonant)
+recipes.remove(<thermalinnovation:drill:4>);
+// Fluxsaw (Hardened)
+recipes.remove(<thermalinnovation:saw:1>);
+// Fluxsaw (Reinforced)
+recipes.remove(<thermalinnovation:saw:2>);
+// Fluxsaw (Signalum)
+recipes.remove(<thermalinnovation:saw:3>);
+// Fluxsaw (Resonant)
+recipes.remove(<thermalinnovation:saw:4>);
+
+// Watering Can (Hardened)
+recipes.remove(<thermalcultivation:watering_can:1>);
+// Watering Can (Reinforced)
+recipes.remove(<thermalcultivation:watering_can:2>);
+// Watering Can (Signalum)
+recipes.remove(<thermalcultivation:watering_can:3>);
+// Watering Can (Resonant)
+recipes.remove(<thermalcultivation:watering_can:4>);
+// Watering Can (Basic)
+recipes.remove(<thermalcultivation:watering_can:0>);
+
+// Hypoinfuser (Basic)
+recipes.remove(<thermalinnovation:injector:0>);
+// Hypoinfuser (Hardened)
+recipes.remove(<thermalinnovation:injector:1>);
+// Hypoinfuser (Reinforced)
+recipes.remove(<thermalinnovation:injector:2>);
+// Hypoinfuser (Signalum)
+recipes.remove(<thermalinnovation:injector:3>);
+// Hypoinfuser (Resonant)
+recipes.remove(<thermalinnovation:injector:4>);
+
+
+// Flux Capacitor (Reinforced)
+recipes.remove(<thermalexpansion:capacitor:2>);
+
+// Flux Capacitor (Resonant)
+recipes.remove(<thermalexpansion:capacitor:4>);
+
+// Flux Capacitor (Hardened)
+recipes.remove(<thermalexpansion:capacitor:1>);
+
+// Flux Capacitor (Signalum)
+recipes.remove(<thermalexpansion:capacitor:3>);
+
+// Flux Capacitor (Resonant)
+recipes.remove(<thermalexpansion:capacitor:4>);
 
 
 
+recipes.remove(<thermalexpansion:capacitor:1>.withTag({Energy: 4000000}));
+recipes.remove(<thermalexpansion:capacitor:2>.withTag({Energy: 9000000}));
+recipes.remove(<thermalexpansion:capacitor:3>.withTag({Energy: 16000000}));
+recipes.remove(<thermalexpansion:capacitor:4>.withTag({Energy: 25000000}));
 
 
 
