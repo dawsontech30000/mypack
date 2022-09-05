@@ -328,6 +328,36 @@ recipes.remove(<thermalfoundation:tool.axe_tin>);
 recipes.remove(<thermalfoundation:tool.hoe_tin>);
 
 
+// silver
+recipes.remove(<thermalfoundation:tool.sword_silver>);
+recipes.remove(<thermalfoundation:tool.shovel_silver>);
+recipes.remove(<thermalfoundation:tool.pickaxe_silver>);
+recipes.remove(<thermalfoundation:tool.axe_silver>);
+recipes.remove(<thermalfoundation:tool.hoe_silver>);
+
+// steel
+recipes.remove(<thermalfoundation:tool.sword_steel>);
+recipes.remove(<thermalfoundation:tool.shovel_steel>);
+recipes.remove(<thermalfoundation:tool.pickaxe_steel>);
+recipes.remove(<thermalfoundation:tool.axe_steel>);
+recipes.remove(<thermalfoundation:tool.hoe_steel>);
+
+//nickel
+recipes.remove(<thermalfoundation:tool.sword_nickel>);
+recipes.remove(<thermalfoundation:tool.shovel_nickel>);
+recipes.remove(<thermalfoundation:tool.pickaxe_nickel>);
+recipes.remove(<thermalfoundation:tool.axe_nickel>);
+recipes.remove(<thermalfoundation:tool.hoe_nickel>);
+
+// invar
+recipes.remove(<thermalfoundation:tool.sword_invar>);
+recipes.remove(<thermalfoundation:tool.shovel_invar>);
+recipes.remove(<thermalfoundation:tool.pickaxe_invar>);
+recipes.remove(<thermalfoundation:tool.axe_invar>);
+recipes.remove(<thermalfoundation:tool.hoe_invar>);
+
+
+
 
 // lead
 recipes.remove(<thermalfoundation:tool.sword_lead>);
