@@ -4,9 +4,6 @@ print("STARTING InWorldCrafting.zs");
 
 
 
-
-
-
 //flux controller
 mods.extendedcrafting.TableCrafting.addShaped(0, <fluxnetworks:fluxcontroller>, [
 	[<fluxnetworks:fluxplug>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxplug>], 
