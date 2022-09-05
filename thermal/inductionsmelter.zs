@@ -4,33 +4,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.item.IIngredient as IIngredient;
 
-# basic
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 1 as byte}), [
-	[<thermalexpansion:tank>, <ore:blockInvar>, <thermalexpansion:tank>], 
-	[<ore:blockInvar>, <thermalfoundation:upgrade:1>, <ore:blockInvar>], 
-	[<thermalexpansion:tank>, <ore:blockInvar>, <thermalexpansion:tank>]
-]);
-
-# harden
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 2 as byte}), [
-	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 1 as byte}), <ore:blockElectrum>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 1 as byte})], 
-	[<ore:blockElectrum>, <thermalfoundation:upgrade:1>, <ore:blockElectrum>], 
-	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 1 as byte}), <ore:blockElectrum>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 1 as byte})]
-]);
-
-# sig
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 3 as byte}), [
-	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 2 as byte}), <ore:blockSignalum>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 2 as byte})], 
-	[<ore:blockSignalum>, <thermalfoundation:upgrade:2>, <ore:blockSignalum>], 
-	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 2 as byte}), <ore:blockSignalum>,<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 2 as byte})]
-]);
-
-# res
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 4 as byte}), [
-	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 3 as byte}), <ore:blockEnderium>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 3 as byte})], 
-	[<ore:blockEnderium>, <thermalfoundation:upgrade:3>, <ore:blockEnderium>], 
-	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 3 as byte}), <ore:blockEnderium>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 3 as byte})]
-]);
 
 #resonant cell full frame
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:frame:148>, 
@@ -41,6 +14,9 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:frame:148>
 	<thermalexpansion:frame:147>, <thermalexpansion:frame:147>, <thermalexpansion:frame:147>,
 	<thermalexpansion:frame:146>, <thermalexpansion:frame:146>, <thermalexpansion:frame:146>,
 	<thermalexpansion:frame:147>, <thermalexpansion:frame:147>,<thermalexpansion:frame:147>]);
+
+
+
 
 # thermal redstone furance 
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:machine>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), [
@@ -238,11 +214,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:device:5>.wit
 
 
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame:130>, [
-	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>], 
-	[<thermalexpansion:frame>, <ore:blockSheetmetalElectrum>, <thermalexpansion:frame>], 
-	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>]
-]);
+
 
 // new
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:dynamo>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}), [
@@ -302,25 +274,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:dynamo:5>.wit
 	[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>]
 ]);
 
-
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade>, [
-	[<ore:blockInvar>, <ore:gearInvar>, <ore:blockInvar>], 
-	[<ore:gearInvar>, <ore:gearInvar>, <ore:gearInvar>], 
-	[<ore:blockInvar>, <ore:gearInvar>, <ore:blockInvar>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:1>, [
-	[<ore:blockElectrum>, <ore:gearElectrum>, <ore:blockElectrum>], 
-	[<ore:gearElectrumFlux>, <ore:gearElectrum>, <ore:gearElectrumFlux>], 
-	[<ore:blockElectrum>, <ore:gearElectrum>, <ore:blockElectrum>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:2>, [
-	[<ore:blockSignalum>, <ore:gearSignalum>, <ore:blockSignalum>], 
-	[<ore:gearSignalum>, <ore:gearSignalum>, <ore:gearSignalum>], 
-	[<ore:blockSignalum>, <ore:gearSignalum>, <ore:blockSignalum>]
-]);
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:upgrade:3>, 
 	100000000, 1000000, 
 	<thermalfoundation:upgrade:1>, 
@@ -373,13 +326,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:capacitor:
 
 
 
-
-recipes.remove(<thermalexpansion:dynamo:5>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
-recipes.remove(<thermalexpansion:dynamo>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
-recipes.remove(<thermalexpansion:dynamo:1>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
-recipes.remove(<thermalexpansion:dynamo:2>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
-recipes.remove(<thermalexpansion:dynamo:3>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
-recipes.remove(<thermalexpansion:dynamo:4>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}));
 
 
 
@@ -435,6 +381,12 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:146>, <
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:132>, <thermalexpansion:frame:147>, <thermalexpansion:frame:146>, 100000);
 
 
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame:130>, [
+	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>], 
+	[<thermalexpansion:frame>, <ore:blockSheetmetalElectrum>, <thermalexpansion:frame>], 
+	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>]
+]);
 
 //Mana dust
   recipes.addShaped("Mana dust", <thermalfoundation:material:1028>, [

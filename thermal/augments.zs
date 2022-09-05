@@ -238,4 +238,20 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:704>,
 	[<ore:energyCrystal>, null, <ore:energyCrystal>]
 ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade>, [
+	[<ore:blockInvar>, <ore:gearInvar>, <ore:blockInvar>], 
+	[<ore:gearInvar>, <ore:gearInvar>, <ore:gearInvar>], 
+	[<ore:blockInvar>, <ore:gearInvar>, <ore:blockInvar>]
+]);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:1>, [
+	[<ore:blockElectrum>, <ore:gearElectrum>, <ore:blockElectrum>], 
+	[<ore:gearElectrumFlux>, <ore:gearElectrum>, <ore:gearElectrumFlux>], 
+	[<ore:blockElectrum>, <ore:gearElectrum>, <ore:blockElectrum>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:2>, [
+	[<ore:blockSignalum>, <ore:gearSignalum>, <ore:blockSignalum>], 
+	[<ore:gearSignalum>, <ore:gearSignalum>, <ore:gearSignalum>], 
+	[<ore:blockSignalum>, <ore:gearSignalum>, <ore:blockSignalum>]
+]);
