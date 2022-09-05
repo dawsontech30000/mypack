@@ -80,3 +80,35 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame:130>, [
 	[<thermalexpansion:frame>, <ore:blockSheetmetalElectrum>, <thermalexpansion:frame>], 
 	[<ore:plateElectrum>, <ore:blockSheetmetalElectrum>, <ore:plateElectrum>]
 ]);
+
+
+
+// §eInferium Watering Can
+recipes.addShaped(<mysticalagriculture:watering_can:0> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte}), <mysticalagriculture:inferium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte})], [<mysticalagriculture:inferium_shovel>, <mysticalagriculture:gear:5>, <mysticalagriculture:inferium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:0>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "zephyrus", Amount: 180000}, Level: 2 as byte, Lock: 0 as byte})]]);
+// §aPrudentium Watering Can
+
+recipes.addShaped(<mysticalagriculture:watering_can:1> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte}), <mysticalagriculture:prudentium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte})], [<mysticalagriculture:prudentium_shovel>, <mysticalagriculture:ge>, <mysticalagriculture:prudentium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:1>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "starwars", Amount: 320000}, Level: 3 as byte, Lock: 0 as byte})]]);
+// §6 Intermedium Watering Can
+recipes.addShaped(<mysticalagriculture:watering_can:2> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte}), <mysticalagriculture:intermedium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte})], [<mysticalagriculture:intermedium_shovel>, <mysticalagriculture:gear:7>, <mysticalagriculture:intermedium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:2>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tiger", Amount: 80000}, Level: 1 as byte, Lock: 0 as byte})]]);
+// §bSuperium Watering Can
+recipes.addShaped(<mysticalagriculture:watering_can:3> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tech_guy", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte}), <mysticalagriculture:superium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tech_guy", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte})], [<mysticalagriculture:superium_shovel>, <mysticalagriculture:gear:8>, <mysticalagriculture:superium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tech_guy", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:3>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "tech_guy", Amount: 500000}, Level: 4 as byte, Lock: 0 as byte})]]);
+// §cSupremium Watering Can
+recipes.addShaped(<mysticalagriculture:watering_can:4> * 1, [[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "dawsondude", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte}), <mysticalagriculture:supremium_pickaxe>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "dawsondude", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte})], [<mysticalagriculture:supremium_shovel>, <mysticalagriculture:crafting:54>, <mysticalagriculture:supremium_axe>],[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "dawsondude", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte}), <mysticalagriculture:chunk:4>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "dawsondude", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte})]]);
+
+
+// Satchel (Hardened)
+recipes.remove(<thermalexpansion:satchel:1>);
+recipes.addShaped(<thermalexpansion:satchel:1> * 1, [[<simplybackpacks:commonbackpack>, <travelersbackpack:travelers_backpack:0>, <simplybackpacks:commonbackpack>], [<travelersbackpack:backpack_tank>, null, <travelersbackpack:backpack_tank>],[<simplybackpacks:commonbackpack>, <travelersbackpack:travelers_backpack:0>, <simplybackpacks:commonbackpack>]]);
+// Satchel (Reinforced)
+recipes.remove(<thermalexpansion:satchel:2>);
+recipes.addShaped(<thermalexpansion:satchel:2> * 1, [[<simplybackpacks:uncommonbackpack>, <travelersbackpack:travelers_backpack:24>, <simplybackpacks:uncommonbackpack>], [<travelersbackpack:backpack_tank>, null, <travelersbackpack:backpack_tank>],[<simplybackpacks:uncommonbackpack>, <travelersbackpack:travelers_backpack:24>, <simplybackpacks:uncommonbackpack>]]);
+// Satchel (Signalum)
+recipes.remove(<thermalexpansion:satchel:3>);
+recipes.addShaped(<thermalexpansion:satchel:3> * 1, [[<simplybackpacks:rarebackpack>, <travelersbackpack:travelers_backpack:7>, <simplybackpacks:rarebackpack>], [<travelersbackpack:backpack_tank>, null, <travelersbackpack:backpack_tank>],[<simplybackpacks:rarebackpack>, <travelersbackpack:travelers_backpack:7>, <simplybackpacks:rarebackpack>]]);
+// Satchel (Resonant)
+recipes.remove(<thermalexpansion:satchel:4>);
+recipes.addShaped(<thermalexpansion:satchel:4> * 1, [[<simplybackpacks:epicbackpack>, <travelersbackpack:travelers_backpack:47>, <simplybackpacks:epicbackpack>], [<travelersbackpack:backpack_tank>, null, <travelersbackpack:backpack_tank>],[<simplybackpacks:epicbackpack>, <travelersbackpack:travelers_backpack:47>, <simplybackpacks:epicbackpack>]]);
+// Satchel (Void)
+recipes.remove(<thermalexpansion:satchel:100>);
+recipes.addShaped(<thermalexpansion:satchel:100> * 1, [[<extrautils2:trashcan>, <extrautils2:trashchest>, <extrautils2:trashcan>], [<trashcans:item_trash_can>, <overloaded:compressed_obsidian:0>, <trashcans:item_trash_can>],[<immersivetech:metal_trash:0>, <trashcans:item_trash_can>, <immersivetech:metal_trash:0>]]);
+
