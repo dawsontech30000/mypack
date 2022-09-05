@@ -179,25 +179,64 @@ recipes.remove(<mysticalagriculture:syrmorite_seeds>);
 recipes.remove(<mysticalagriculture:octine_seeds>);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // tier 3 seeds
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:guardian_seeds>, [<ore:manaDiamond>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <xreliquary:mob_ingredient:16>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:skeleton_seeds>, [<ore:manaDiamond>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <erebus:materials:15>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:creeper_seeds>, [<ore:manaDiamond>, <mysticalagriculture:chunk:13>, <mysticalagriculture:chunk:13>, <mysticalagriculture:chunk:13>, <mysticalagriculture:chunk:13>, <xreliquary:mob_ingredient:8>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:spider_seeds>, [<ore:manaDiamond>, <mysticalagriculture:chunk:14>, <mysticalagriculture:chunk:14>, <mysticalagriculture:chunk:14>, <mysticalagriculture:chunk:14>, <erebus:materials:21>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:rabbit_seeds>, [<ore:manaDiamond>, <mysticalagriculture:chunk:15>, <mysticalagriculture:chunk:15>, <mysticalagriculture:chunk:15>, <mysticalagriculture:chunk:15>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:blizz_seeds>, [<ore:manaDiamond>, <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>, <xreliquary:mob_ingredient:10>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:blitz_seeds>, [<ore:manaDiamond>, <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>, <exnihilocreatio:item_doll:5>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:basalz_seeds>, [<ore:manaDiamond>, <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>, <exnihilocreatio:item_doll:6>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+
+
+//Seeds
+
+
+
+
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:iron_seeds>, [<ore:manaDiamond>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "ferranium_plant", agri_growth: 10 as byte})], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:nether_quartz_seeds>, [<ore:manaDiamond>, <ore:quartzElven>, <ore:quartzElven>, <ore:quartzElven>, <ore:quartzElven>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "quartzanthemum_plant", agri_growth: 10 as byte})], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:glowstone_seeds>, [<ore:manaDiamond>, <ore:blockGlowstone>, <ore:blockGlowstone>, <ore:blockGlowstone>, <ore:blockGlowstone>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "nitorwart_plant", agri_growth: 10 as byte})], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:redstone_seeds>, [<ore:manaDiamond>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:ingotRedAlloy>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "redstodendron_plant", agri_growth: 10 as byte})], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:obsidian_seeds>, [<ore:manaDiamond>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+amods.botania.RuneAltar.addRecipe(<mysticalagriculture:saltpeter_seeds>, [<ore:manaDiamond>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:tin_seeds>, [<ore:manaDiamond>, <ore:blockTin>, <ore:blockTin>, <ore:blockTin>, <ore:blockTin>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:petinia_plant", agri_growth: 10 as byte})], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:bronze_seeds>, [<ore:manaDiamond>, <ore:blockBronze>, <ore:blockBronze>, <ore:blockBronze>, <ore:blockBronze>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <mysticalagriculture:tin_seeds>, <mysticalagriculture:copper_seeds>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:silver_seeds>, [<ore:manaDiamond>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <ore:blockSilver>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:lead_seeds>, [<ore:manaDiamond>, <ore:blockLead>, <ore:blockLead>, <ore:blockLead>, <ore:blockLead>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "resource:plombean_plant", agri_growth: 10 as byte})], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:graphite_seeds>, [<ore:manaDiamond>, <ore:blockGraphite>, <ore:blockGraphite>, <ore:blockGraphite>, <ore:blockGraphite>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+
+
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:knightslime_seeds>, [<ore:manaDiamond>, <ore:blockKnightslime>, <ore:blockKnightslime>, <ore:blockKnightslime>, <ore:blockKnightslime>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:ardite_seeds>, [<ore:manaDiamond>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:blockArdite>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:electrical_steel_seeds>, [<ore:manaDiamond>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:blockElectricalSteel>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <mysticalagriculture:silicon_seeds>, <mysticalagriculture:iron_seeds>, <mysticalagriculture:coal_seeds>], 10000);
+
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:redstone_alloy_seeds>, [<ore:manaDiamond>, <ore:blockRedstoneAlloy>, <ore:blockRedstoneAlloy>, <ore:blockRedstoneAlloy>, <ore:blockRedstoneAlloy>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <mysticalagriculture:silicon_seeds>, <mysticalagriculture:redstone_seeds>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:conductive_iron_seeds>, [<ore:manaDiamond>, <ore:blockConductiveIron>, <ore:blockConductiveIron>, <ore:blockConductiveIron>, <ore:blockConductiveIron>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <mysticalagriculture:redstone_seeds>, <mysticalagriculture:iron_seeds>], 10000);
+
+
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:manasteel_seeds>, [<ore:manaDiamond>, <ore:blockManasteel>, <ore:blockManasteel>, <ore:blockManasteel>, <ore:blockManasteel>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:electrotine_seeds>, [<ore:manaDiamond>, <ore:ingotElectrotineAlloy>, <ore:ingotElectrotineAlloy>, <ore:ingotElectrotineAlloy>, <ore:ingotElectrotineAlloy>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+
+
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:steeleaf_seeds>, [<ore:manaDiamond>, <ore:blockSteeleaf>, <ore:blockSteeleaf>, <ore:blockSteeleaf>, <ore:blockSteeleaf>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:ironwood_seeds>, [<ore:manaDiamond>, <ore:blockIronwood>, <ore:blockIronwood>, <ore:blockIronwood>, <ore:blockIronwood>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+
+
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:coralium_seeds>, [<ore:manaDiamond>, <abyssalcraft:ccluster9>, <abyssalcraft:ccluster9>, <abyssalcraft:ccluster9>, <abyssalcraft:ccluster9>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+
+
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:black_quartz_seeds>, [<ore:manaDiamond>, <ore:blockQuartzBlack>, <ore:blockQuartzBlack>, <ore:blockQuartzBlack>, <ore:blockQuartzBlack>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:aquamarine_seeds>, [<ore:manaDiamond>, <ore:gemAquamarine>, <ore:gemAquamarine>, <ore:gemAquamarine>, <ore:gemAquamarine>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:ender_biotite_seeds>, [<ore:manaDiamond>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+
+
+
+
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:sky_stone_seeds>, [<ore:manaDiamond>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:certus_quartz_seeds>, [<ore:manaDiamond>, <ore:blockCertusQuartz>, <ore:blockCertusQuartz>, <ore:blockCertusQuartz>, <ore:blockCertusQuartz>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <ore:essenceIntermedium>, <mysticalagriculture:crafting:19>, <agricraft:agri_seed>.withTag({agri_analyzed: 1 as byte, agri_strength: 10 as byte, agri_gain: 10 as byte, agri_seed: "quartzanthemum_plant", agri_growth: 10 as byte})], 10000);
 
 
 
@@ -206,7 +245,6 @@ recipes.remove(<mysticalagriculture:octine_seeds>);
 
 
 
-// <mysticalagriculture:guardian_seeds>
 
 
 
