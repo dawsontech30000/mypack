@@ -149,6 +149,7 @@ recipes.remove(<mysticalagriculture:glowstone_ingot_seeds>);
 recipes.remove(<mysticalagriculture:knightmetal_seeds>);
 recipes.remove(<mysticalagriculture:meteoric_iron_seeds>);
 recipes.remove(<mysticalagriculture:abyssalnite_seeds>);
+
 // tier 3
 recipes.remove(<mysticalagriculture:guardian_seeds>);
 recipes.remove(<mysticalagriculture:saltpeter_seeds>);
@@ -195,8 +196,8 @@ mods.botania.RuneAltar.addRecipe(<mysticalagriculture:basalz_seeds>, [<botania:s
 
 
 
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:iron_seeds>, [<botania:storage:3>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>, <agricraft:agri_seed>], 10000);
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:nether_quartz_seeds>, [<botania:storage:3>, <ore:quartzElven>, <ore:quartzElven>, <ore:quartzElven>, <ore:quartzElven>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:iron_seeds>, [<botania:storage:3>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:nether_quartz_seeds>, [<botania:storage:3>, <minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:glowstone_seeds>, [<botania:storage:3>, <ore:blockGlowstone>, <ore:blockGlowstone>, <ore:blockGlowstone>, <ore:blockGlowstone>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:redstone_seeds>, [<botania:storage:3>, <minecraft:redstone_block>, <minecraft:redstone_block>, <minecraft:redstone_block>, <minecraft:redstone_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:obsidian_seeds>, [<botania:storage:3>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
@@ -249,7 +250,7 @@ mods.botania.RuneAltar.addRecipe(<mysticalagriculture:certus_quartz_seeds>, [<bo
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:octine_seeds>, [<botania:storage:3>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:syrmorite_seeds>, [<botania:storage:3>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
 
-mods.botania.RuneAltar.addRecipe(<mysticalagriculture:uranium_238_seeds>, [<botania:storage:3>, <nuclearcraft:block_depleted_uranium>, <nuclearcraft:block_depleted_uranium>, <nuclearcraft:block_depleted_uranium>, <nuclearcraft:block_depleted_uranium>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
+mods.botania.RuneAltar.addRecipe(<mysticalagriculture:uranium_238_seeds>,[<botania:storage:3>, <nuclearcraft:block_depleted_uranium>, <nuclearcraft:block_depleted_uranium>, <nuclearcraft:block_depleted_uranium>, <nuclearcraft:block_depleted_uranium>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:zinc_seeds>, [<botania:storage:3>, <techreborn:storage:8>, <techreborn:storage:8>, <techreborn:storage:8>, <techreborn:storage:8>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
 
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:brass_seeds>, [<botania:storage:3>, <tconstruct:metal:5>, <tconstruct:metal:5>, <tconstruct:metal:5>, <tconstruct:metal:5>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
@@ -260,11 +261,28 @@ mods.botania.RuneAltar.addRecipe(<mysticalagriculture:quartz_enriched_iron_seeds
 
 
 
+mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsbluetiger>, [<botania:storage:3>, <contenttweaker:sub_block_holder_0:9>, <contenttweaker:sub_block_holder_0:9>, <contenttweaker:sub_block_holder_0:9>, <contenttweaker:sub_block_holder_0:9>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+
+
+mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedstiger>,[<botania:storage:3>, <contenttweaker:sub_block_holder_1:10>, <contenttweaker:sub_block_holder_1:10>, <contenttweaker:sub_block_holder_1:10>, <contenttweaker:sub_block_holder_1:10>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsredtiger>,[<botania:storage:3>, <contenttweaker:sub_block_holder_2:3>, <contenttweaker:sub_block_holder_2:3>, <contenttweaker:sub_block_holder_2:3>, <contenttweaker:sub_block_holder_2:3>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsrainbowtiger>,[<botania:storage:3>, <contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedspurpletiger>,[<botania:storage:3>, <contenttweaker:sub_block_holder_1:11>, <contenttweaker:sub_block_holder_1:11>, <contenttweaker:sub_block_holder_1:11>, <contenttweaker:sub_block_holder_1:11>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsorangetiger>,[<botania:storage:3>, <contenttweaker:sub_block_holder_1:1>, <contenttweaker:sub_block_holder_1:1>, <contenttweaker:sub_block_holder_1:1>, <contenttweaker:sub_block_holder_1:1>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedspinktiger>,[<botania:storage:3>, <contenttweaker:sub_block_holder_0:3>, <contenttweaker:sub_block_holder_0:3>, <contenttweaker:sub_block_holder_0:3>, <contenttweaker:sub_block_holder_0:3>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsblacktiger>,[<botania:storage:3>, <contenttweaker:sub_block_holder_0:15>, <contenttweaker:sub_block_holder_0:15>, <contenttweaker:sub_block_holder_0:15>, <contenttweaker:sub_block_holder_0:15>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsyellowtiger>, [<botania:storage:3>, <contenttweaker:sub_block_holder_1:5>, <contenttweaker:sub_block_holder_1:5>, <contenttweaker:sub_block_holder_1:5>, <contenttweaker:sub_block_holder_1:5>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 
 
 
-// iron has random carrot seed
-// quartz elven quartz "change to normal"
+
+
+
+
+
+
+
+
 
 
 
