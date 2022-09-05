@@ -1,0 +1,76 @@
+
+
+[192]
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:machi>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), [
+	[<cyclicmagic:melter>, <cyclicmagic:block_anvil_magma>, <ore:ingotInfusedLavaCrystal>, <cyclicmagic:block_anvil_magma>, <cyclicmagic:melter>], 
+	[<cyclicmagic:block_anvil_magma>, <ore:ingotInfusedLavaCrystal>, <industrialforegoing:lava_fabricator>, <ore:ingotInfusedLavaCrystal>, <cyclicmagic:block_anvil_magma>], 
+	[<ore:blockCompressedLavaCrystal>, <industrialforegoing:lava_fabricator>, <thermalexpansion:frame>, <industrialforegoing:lava_fabricator>, <ore:blockCompressedLavaCrystal>], 
+	[<cyclicmagic:block_anvil_magma>, <ore:ingotInfusedLavaCrystal>, <industrialforegoing:lava_fabricator>, <ore:ingotInfusedLavaCrystal>, <cyclicmagic:block_anvil_magma>], 
+	[<ore:blockCompressedLavaCrystal>, <cyclicmagic:block_anvil_magma>, <ore:ingotInfusedLavaCrystal>, <cyclicmagic:block_anvil_magma>, <ore:blockCompressedLavaCrystal>]
+]);
+
+245
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:devi>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[]}), [
+	[<thermalexpansion:reservoir>, <enderio:block_tank>, <enderio:block_tank>, <enderio:block_tank>, <thermalexpansion:reservoir:3>], 
+	[<thermalexpansion:tank>, <refinedstorage:fluid_storage_disk>, <thermalexpansion:tank>, <refinedstorage:fluid_storage_disk>, <thermalexpansion:tank>], 
+	[<refinedstorage:grid:3>, <thermalexpansion:tank>, <thermalexpansion:reservoir:4>, <thermalexpansion:tank>, <refinedstorage:grid:3>], 
+	[<thermalexpansion:tank>, <refinedstorage:fluid_storage_disk>, <thermalexpansion:tank>, <refinedstorage:fluid_storage_disk>, <thermalexpansion:tank>], 
+	[<thermalexpansion:reservoir:1>, <enderio:block_tank>, <enderio:block_tank>, <enderio:block_tank>, <thermalexpansion:reservoir:2>]
+]);
+
+
+481 481 482 483
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:369>, [
+	[<minecraft:splash_potion>, <minecraft:splash_potion>, <minecraft:splash_potion>], 
+	[<minecraft:splash_potion>, <thermalexpansion:frame>, <minecraft:splash_potion>], 
+	[<minecraft:splash_potion>, <minecraft:splash_potion>, <minecraft:splash_potion>]
+]);
+
+
+
+// Fluxomagnet (Basic)
+recipes.remove(<thermalinnovation:magnet:0>);
+// Fluxomagnet (Hardened)
+recipes.remove(<thermalinnovation:magnet:1>);
+// Fluxomagnet (Reinforced)
+recipes.remove(<thermalinnovation:magnet:2>);
+// Fluxomagnet (Signalum)
+recipes.remove(<thermalinnovation:magnet:3>);
+// Fluxomagnet (Resonant)
+recipes.remove(<thermalinnovation:magnet:4>);
+
+// Reservoir (Basic)
+recipes.remove(<thermalexpansion:reservoir:0>);
+recipes.addShaped(<thermalexpansion:reservoir:0> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:storage:0>, <thermalexpansion:tank:0>], [<thermalfoundation:storage:0>, <ironchest:iron_chest:3>, <thermalfoundation:storage:0>],[<thermalexpansion:tank:0>, <thermalfoundation:storage:0>, <thermalexpansion:tank:0>]]);
+// Reservoir (Hardened)
+recipes.remove(<thermalexpansion:reservoir:1>);
+recipes.addShaped(<thermalexpansion:reservoir:1> * 1, [[<thermalfoundation:storage_alloy:2>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:2>], [<thermalexpansion:tank:0>, <ironchest:iron_chest:4>, <thermalexpansion:tank:0>],[<thermalfoundation:storage_alloy:2>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:2>]]);
+// Reservoir (Reinforced)
+recipes.remove(<thermalexpansion:reservoir:2>);
+recipes.addShaped(<thermalexpansion:reservoir:2> * 1, [[<thermalfoundation:storage_alloy:1>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:1>], [<thermalexpansion:tank:0>, <ironchest:iron_chest:1>, <thermalexpansion:tank:0>],[<thermalfoundation:storage_alloy:1>, <thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:1>]]);
+// Reservoir (Signalum)
+recipes.remove(<thermalexpansion:reservoir:3>);
+recipes.addShaped(<thermalexpansion:reservoir:3> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:5>, <thermalexpansion:tank:0>], [<thermalfoundation:storage_alloy:5>, <thermalfoundation:upgrade:2>, <thermalfoundation:storage_alloy:5>],[<thermalexpansion:tank:0>, <thermalfoundation:storage_alloy:5>, <thermalexpansion:tank:0>]]);
+// Reservoir (Resonant)
+recipes.remove(<thermalexpansion:reservoir:4>);
+recipes.addShaped(<thermalexpansion:reservoir:4> * 1, [[<thermalexpansion:tank:0>, <thermalfoundation:material:167>, <thermalexpansion:tank:0>], [<thermalfoundation:material:167>, <thermalfoundation:upgrade:3>, <thermalfoundation:material:167>],[<thermalexpansion:tank:0>, <thermalfoundation:material:167>, <thermalexpansion:tank:0>]]);
+
+
+
+
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:131>, <thermalexpansion:frame:129>, <thermalexpansion:frame:130>, 100000);
+mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 500,  <minecraft:redstone>, 1000, <fluxnetworks:flux>);
+//TE transposer
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_1>, <contenttweaker:material_part:23>, <liquid:dawsondude> * 2000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>, <contenttweaker:neutral_steel_1>, <liquid:irg> * 2000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_3>, <contenttweaker:neutral_steel_2>, <liquid:kylian> * 2000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_4>, <contenttweaker:neutral_steel_3>, <liquid:crao> * 2000, 5000);
+
+
+// pink tiger
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:83>, <contenttweaker:material_part:63>, <contenttweaker:material_part:63>, 1500);
+// laxllixium
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:73>, <contenttweaker:material_part:63>, <contenttweaker:material_part:63>, 1500);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:material_part:63>, <contenttweaker:material_part:123>, <contenttweaker:material_part:123>, 1500);
+
