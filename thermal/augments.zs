@@ -1,7 +1,5 @@
 #packmode expert
 
-
-
 // augments
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:128>, [
 	[<thermalfoundation:material:513>, <thermalfoundation:material:513>, <thermalfoundation:material:513>], 
@@ -58,20 +56,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:303>,
 	[<ore:dustPetrotheum>, <ore:dustPetrotheum>, <ore:dustPetrotheum>]
 ]);
 
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:304>, [
 	[<ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>], 
 	[<ore:dustPyrotheum>, <thermalexpansion:machine:3>, <ore:dustPyrotheum>], 
 	[<ore:dustPyrotheum>, <ore:dustPyrotheum>, <ore:dustPyrotheum>]
 ]);
 
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:320>, [
 	[<ore:fertilizer>, <industrialforegoing:crop_enrich_material_injector>, <ore:fertilizer>], 
 	[<industrialforegoing:crop_enrich_material_injector>, <mysticalagriculture:fertilized_essence>, <industrialforegoing:crop_enrich_material_injector>], 
 	[<ore:fertilizer>, <industrialforegoing:crop_enrich_material_injector>, <ore:fertilizer>]
 ]);
-
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:323>, [
 	[<ore:treeSapling>, <ore:treeSaplingEmerald>, <ore:treeSaplingDiamond>], 
@@ -108,9 +103,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:368>,
 	[<thermalexpansion:frame>, <thermalexpansion:frame>, <thermalexpansion:frame>], 
 	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "refined_fuel", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte}).withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "oil", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte}), <thermalexpansion:frame>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "refined_fuel", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte}).withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "oil", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte})]
 ]);
-
-
-
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:400>, [
 	[<thermalexpansion:cell>, <thermalexpansion:cell>, <thermalexpansion:cell>], 
@@ -222,21 +214,17 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:673>,
 	[<thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "refined_fuel", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte}), <thermalexpansion:dynamo:2>, <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Fluid: {FluidName: "refined_fuel", Amount: 20000}, Level: 0 as byte, Lock: 0 as byte})]
 ]);
 
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:704>, [
 	[<thermalexpansion:tank>, <thermalexpansion:augment:688>, <thermalexpansion:tank>], 
 	[<thermalexpansion:augment:688>, null, <thermalexpansion:augment:688>], 
 	[<thermalexpansion:tank>, <thermalexpansion:augment:688>, <thermalexpansion:tank>]
 ]);
 
-
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:720>, [
 	[<thermalexpansion:tank>, <ore:gemEmerald>, <thermalexpansion:tank>], 
 	[<ore:gemEmerald>, <ore:gemEmerald>, <ore:gemEmerald>], 
 	[<thermalexpansion:tank>, <ore:gemEmerald>, <thermalexpansion:tank>]
 ]);
-
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:688>, [
 	[<ore:energyCrystal>, <ic2:upgrade:2>, <ore:energyCrystal>], 
@@ -249,3 +237,5 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:704>,
 	[<ore:energyCrystal>, <ic2:upgrade:2>, <ore:energyCrystal>], 
 	[<ore:energyCrystal>, null, <ore:energyCrystal>]
 ]);
+
+
