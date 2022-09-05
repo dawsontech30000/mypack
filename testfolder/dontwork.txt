@@ -60,7 +60,8 @@ recipes.addShaped(<thermalexpansion:reservoir:4> * 1, [[<thermalexpansion:tank:0
 
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:131>, <thermalexpansion:frame:129>, <thermalexpansion:frame:130>, 100000);
-mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:lava> * 500,  <minecraft:redstone>, 1000, <fluxnetworks:flux>);
+
+
 //TE transposer
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_1>, <contenttweaker:material_part:23>, <liquid:dawsondude> * 2000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:neutral_steel_2>, <contenttweaker:neutral_steel_1>, <liquid:irg> * 2000, 5000);
@@ -112,3 +113,28 @@ recipes.addShaped(<thermalexpansion:satchel:4> * 1, [[<simplybackpacks:epicbackp
 recipes.remove(<thermalexpansion:satchel:100>);
 recipes.addShaped(<thermalexpansion:satchel:100> * 1, [[<extrautils2:trashcan>, <extrautils2:trashchest>, <extrautils2:trashcan>], [<trashcans:item_trash_can>, <overloaded:compressed_obsidian:0>, <trashcans:item_trash_can>],[<immersivetech:metal_trash:0>, <trashcans:item_trash_can>, <immersivetech:metal_trash:0>]]);
 
+
+
+
+// to redo 
+mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:basicblock2:3>.withTag({tier: 2}), [
+	[<ore:etSolarCell>, <mekanism:basicblock2:3>, <ore:etSolarCell>, <thermalexpansion:frame:147>, <ore:etSolarCell>, <mekanism:basicblock2:3>, <ore:etSolarCell>], 
+	[<mekanism:basicblock2:3>, <thermalexpansion:frame:148>, <mekanism:basicblock2:3>, <ore:etSolarCell>, <mekanism:basicblock2:3>, <thermalexpansion:frame:148>, <mekanism:basicblock2:3>], 
+	[<ore:etSolarCell>, <mekanism:basicblock2:3>, <ore:etSolarCell>, <thermalexpansion:cell>, <ore:etSolarCell>, <mekanism:basicblock2:3>, <ore:etSolarCell>], 
+	[<woot:cell:2>, <ore:etSolarCell>, <thermalexpansion:cell>, <ore:etSolarCell>, <thermalexpansion:cell>, <ore:etSolarCell>, <woot:cell>], 
+	[<ore:etSolarCell>, <mekanism:basicblock2:3>, <ore:etSolarCell>, <thermalexpansion:cell>, <ore:etSolarCell>, <mekanism:basicblock2:3>, <ore:etSolarCell>], 
+	[<mekanism:basicblock2:3>, <thermalexpansion:frame:148>, <mekanism:basicblock2:3>, <ore:etSolarCell>, <mekanism:basicblock2:3>, <thermalexpansion:frame:148>, <mekanism:basicblock2:3>], 
+	[<ore:etSolarCell>, <mekanism:basicblock2:3>, <ore:etSolarCell>, <woot:cell:1>, <ore:etSolarCell>, <mekanism:basicblock2:3>, <ore:etSolarCell>]
+]);
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:basicblock2:3>.withTag({tier: 3}), [
+	[null, <mekanism:basicblock2:3>, null, <thermalexpansion:frame:148>, null, <mekanism:basicblock2:3>, null], 
+	[<mekanism:basicblock2:3>, <mekanism:basicblock2:4>, <mekanism:basicblock2:3>, null, <mekanism:basicblock2:3>, <mekanism:basicblock2:4>, <mekanism:basicblock2:3>], 
+	[null, <mekanism:basicblock2:3>, null, <thermalexpansion:frame:148>, null, <mekanism:basicblock2:3>, null], 
+	[<thermalexpansion:frame:148>, null, <thermalexpansion:frame:148>, null, <thermalexpansion:frame:148>, null, <thermalexpansion:frame:148>], 
+	[null, <mekanism:basicblock2:3>, null, <thermalexpansion:frame:148>, null, <mekanism:basicblock2:4>, null], 
+	[<mekanism:basicblock2:3>, <mekanism:basicblock2:4>, <mekanism:basicblock2:3>, null, <mekanism:basicblock2:4>, <thermalexpansion:frame:148>, <mekanism:basicblock2:4>], 
+	[null, <mekanism:basicblock2:3>, null, <thermalexpansion:frame:148>, null, <mekanism:basicblock2:4>, null]
+]);
