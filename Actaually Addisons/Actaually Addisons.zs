@@ -7,7 +7,6 @@ import crafttweaker.oredict.IOreDict;
 // tier 4 seeds
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:abyssalnite_seeds>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, <abyssalcraft:abyingot>, 500, 100, [0.1,0.1,0.1]);
 
-
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:gold_seeds>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, 500, 100, [0.1,0.1,0.1]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:lapis_lazuli_seeds>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>, 500, 100, [0.1,0.1,0.1]);
@@ -259,4 +258,6 @@ mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsblacktiger>,[<botania
 mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsyellowtiger>, [<botania:storage:3>, <contenttweaker:sub_block_holder_1:5>, <contenttweaker:sub_block_holder_1:5>, <contenttweaker:sub_block_holder_1:5>, <contenttweaker:sub_block_holder_1:5>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedswhitetiger>, [<botania:storage:3>, <contenttweaker:sub_block_holder_2:8>, <contenttweaker:sub_block_holder_2:8>, <contenttweaker:sub_block_holder_2:8>, <contenttweaker:sub_block_holder_2:8>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsrainbowtiger>,[<botania:storage:3>, <contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,<jaopca:item_mysticalseedswhitetiger>,<jaopca:item_mysticalseedsorangetiger>,<jaopca:item_mysticalseedspinktiger>,<jaopca:item_mysticalseedsyellowtiger>,<jaopca:item_mysticalseedspurpletiger>,<jaopca:item_mysticalseedsblacktiger>,<jaopca:item_mysticalseedstiger>,<jaopca:item_mysticalseedsredtiger>,<jaopca:item_mysticalseedsbluetiger>], 10000);
+
+
 
