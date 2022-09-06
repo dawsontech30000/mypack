@@ -10,7 +10,7 @@ mods.exnihilocreatio.Heat.removeAll();
 mods.exnihilocreatio.Hammer.removeAll();
 
 mods.exnihilocreatio.Ore.removeAll();
-mod.excompressum.ore.removeall();
+
 
 mods.exnihilocreatio.Heat.addRecipe(<minecraft:torch>, 5);
 mods.exnihilocreatio.Heat.addRecipe(<minecraft:redstone_torch>, 10);
