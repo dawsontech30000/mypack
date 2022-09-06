@@ -24,7 +24,6 @@ mods.exnihilocreatio.Heat.addRecipe(<ic2:resource:10>, 595);
 mods.exnihilocreatio.Heat.addRecipe(<nuclearcraft:ingot_block:3>, 695);
 mods.exnihilocreatio.Heat.addRecipe(<nuclearcraft:block_depleted_thorium>, 795);
 mods.exnihilocreatio.Heat.addRecipe(<nuclearcraft:block_depleted_uranium>, 895);
-
 mods.exnihilocreatio.Heat.addRecipe(<nuclearcraft:block_depleted_neptunium>, 995);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0>,1095);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:2>, 1295);
@@ -34,6 +33,8 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:7>, 1595)
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:9>, 1695);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:10>, 1795);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:11>, 1895);
+
+
 
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:12>, 1995);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:14>, 2095);
@@ -47,7 +48,6 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_1:13>, 2695
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_1:14>, 2795);
 mods.exnihilocreatio.Heat.addRecipe(<nuclearcraft:block_depleted_neptunium>, 2895);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_2:1>, 2995);
-
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_2:3>, 3095);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_2:8>, 3195);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_2:10>, 3295);
@@ -58,7 +58,6 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:2>, 3695)
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:4>, 3795);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:5>, 3895);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:6>, 3995);
-
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:9>, 4095);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:10>, 5095);
 // finshed of heat
