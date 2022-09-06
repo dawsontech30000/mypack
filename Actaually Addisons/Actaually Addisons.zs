@@ -239,6 +239,7 @@ mods.botania.RuneAltar.addRecipe(<mysticalagriculture:sky_stone_seeds>, [<botani
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:certus_quartz_seeds>, [<botania:storage:3>, <ore:blockCertusQuartz>, <ore:blockCertusQuartz>, <ore:blockCertusQuartz>, <ore:blockCertusQuartz>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>, <ore:blockChargedCertusQuartz>,<ore:blockChargedCertusQuartz>,<ore:blockChargedCertusQuartz>,<ore:blockChargedCertusQuartz>], 10000);
 
 
+
 // add today
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:octine_seeds>, [<botania:storage:3>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:syrmorite_seeds>, [<botania:storage:3>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);

@@ -64,11 +64,4 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:10>, 5095
 // finshed of heat
 
 
-recipes.remove(<excompressum:heavy_sieve>);
-recipes.remove(<excompressum:heavy_sieve:1>);
-recipes.remove(<excompressum:heavy_sieve:2>);
-recipes.remove(<excompressum:heavy_sieve:3>);
-recipes.remove(<excompressum:heavy_sieve:4>);
-recipes.remove(<excompressum:heavy_sieve:5>);
-
 
