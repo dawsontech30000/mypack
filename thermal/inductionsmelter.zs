@@ -336,9 +336,6 @@ recipes.remove(<thermalinnovation:magnet:3>);
 recipes.remove(<thermalinnovation:magnet:4>);
 
 
-
-
-
 // Fluxbore (Hardened)
 recipes.remove(<thermalinnovation:drill:1>);
 
