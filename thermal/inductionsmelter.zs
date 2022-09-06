@@ -430,18 +430,8 @@ recipes.remove(<thermalexpansion:satchel:32000>.withTag({Accessible: 1 as byte})
 
 
 
-
-
-
-
-
-
-
-
-mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:electrum> * 1000,  <thermalexpansion:frame:130>, 1000, <redstonearsenal:storage> *16);
-
-mods.thermalexpansion.Transposer.addExtractRecipe(<liquid:signalum> * 1000,  <thermalexpansion:frame:131>, 1000, <contenttweaker:sub_block_holder_0:7> *16);
-
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:131>, <thermalexpansion:frame:130>, <thermalexpansion:frame:130>, 100000);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalexpansion:frame:130>, <thermalexpansion:frame:129>, <thermalexpansion:frame:129>, 100000);
 
 
 
