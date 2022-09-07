@@ -61,10 +61,6 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:6>, 3995)
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:9>, 4095);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:10>, 5095);
 // finshed of heat
-
-
-
-
 Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.150);
 Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin:1>, 0.150);
 Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tungsten:1>, 0.150);
