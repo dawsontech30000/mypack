@@ -39,10 +39,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <enderio:block_simple_stirling_
 ]);
   
 mods.extendedcrafting.TableCrafting.addShaped(0, <enderio:block_simple_sag_mill>, [
-	[<thermalexpansion:machine:1>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <mekanism:machineblock:3>.withTag({mekData: {}}), <actuallyadditions:block_grinder>, <mekanism:machineblock:3>.withTag({mekData: {}}), <thermalexpansion:machine:1>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte})], 
+	[<thermalexpansion:machine:1>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <mekanism:machineblock:3>.withTag({mekData: {}}), <actuallyadditions:block_grinder>, <mekanism:machineblock:3>, <thermalexpansion:machine:1>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte})], 
 	[<actuallyadditions:block_grinder_double>, <ore:itemSimpleMachineChassi>, null, <ore:itemSimpleMachineChassi>, <actuallyadditions:block_grinder_double>], 
 	[<actuallyadditions:block_grinder>, null, <thermalexpansion:machine:1>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), null, <actuallyadditions:block_grinder>], 
 	[<actuallyadditions:block_grinder_double>, <ore:itemSimpleMachineChassi>, null, <ore:itemSimpleMachineChassi>, <actuallyadditions:block_grinder_double>], 
 	[<thermalexpansion:machine:1>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), <actuallyadditions:block_grinder_double>, <actuallyadditions:block_grinder>, <actuallyadditions:block_grinder_double>, <thermalexpansion:machine:1>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [3, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte})]
 ]);
+
 
