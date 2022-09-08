@@ -70,7 +70,7 @@ mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:5
 
 
 
-
+// new today
 
 // fflint verison
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.150);
