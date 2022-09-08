@@ -17,15 +17,9 @@ recipes.remove(<projecte:item.pe_philosophers_stone>);
 // Philosopher's Stone
 recipes.remove(<projecte:item.pe_philosophers_stone>);
 
-
-
 recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:dustGlowstone>, <minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>, <ore:gemDiamond>, <minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:alloyBasic>, <minecraft:glowstone_dust>, <ore:alloyBasic>, <minecraft:glowstone_dust>, <ore:gemDiamond>, <minecraft:glowstone_dust>, <ore:alloyBasic>, <minecraft:glowstone_dust>, <minecraft:redstone>]);
 recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:dustGlowstone>, <ore:alloyBasic>, <ore:dustGlowstone>, <ore:alloyBasic>, <ore:gemDiamond>, <ore:alloyBasic>, <ore:dustGlowstone>, <minecraft:redstone>, <minecraft:glowstone_dust>]);
-
-
-
-
 
 recipes.removeShapeless(<fluxnetworks:fluxcontroller>, [<fluxnetworks:fluxcontroller>]);
 recipes.removeShapeless(<fluxnetworks:gargantuanfluxstorage>, [<fluxnetworks:gargantuanfluxstorage>]);
@@ -165,9 +159,6 @@ recipes.remove(<thermalfoundation:armor.plate_platinum>);
 recipes.remove(<thermalfoundation:armor.legs_platinum>);
 recipes.remove(<thermalfoundation:armor.boots_platinum>);
 
-
-
-
 recipes.removeShaped(<mysticalagriculture:watering_can:4>, [[<mysticalagriculture:crafting:37>, <mysticalagriculture:crafting:54>, null], [<ore:ingotSupremium>, <mysticalagriculture:crafting:48>, <ore:ingotSupremium>], [null, <mysticalagriculture:crafting:37>, null]]);
 
 recipes.removeShaped(<mysticalagriculture:watering_can:3>, [[<mysticalagriculture:crafting:36>, <mysticalagriculture:crafting:53>, null], [<ore:ingotSuperium>, <mysticalagriculture:crafting:48>, <ore:ingotSuperium>], [null, <mysticalagriculture:crafting:36>, null]]);
@@ -211,10 +202,6 @@ recipes.remove(<danknull:dank_null_panel_5>);
 recipes.remove(<mekanism:basicblock:6>.withTag({tier: 1}));
 recipes.remove(<mekanism:basicblock:6>.withTag({tier: 2}));
 recipes.remove(<mekanism:basicblock:6>.withTag({tier: 3}));
-
-
-
-
 
 recipes.remove(<mekanism:basicblock2:3>.withTag({tier: 0}));
 recipes.remove(<mekanism:basicblock2:3>.withTag({tier: 1}));
@@ -280,10 +267,6 @@ recipes.remove(<matc:superiumcrystal>);
 recipes.remove(<matc:supremiumcrystal>);
 
 
-
-
-
-
 // van
 recipes.remove(<minecraft:stone_pickaxe>);
 recipes.remove(<minecraft:stone_sword>);
@@ -326,8 +309,6 @@ recipes.remove(<thermalfoundation:tool.shovel_copper>);
 recipes.remove(<thermalfoundation:tool.pickaxe_copper>);
 recipes.remove(<thermalfoundation:tool.axe_copper>);
 recipes.remove(<thermalfoundation:tool.hoe_copper>);
-
-
 
 
 // thermal tin
@@ -384,7 +365,6 @@ recipes.remove(<thermalfoundation:tool.shovel_aluminum>);
 recipes.remove(<thermalfoundation:tool.pickaxe_aluminum>);
 recipes.remove(<thermalfoundation:tool.axe_aluminum>);
 recipes.remove(<thermalfoundation:tool.hoe_aluminum>);
-
 
 
 // plat
