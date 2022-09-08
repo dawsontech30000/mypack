@@ -16,7 +16,6 @@ mods.exnihilocreatio.Heat.addRecipe(<minecraft:torch>, 5);
 mods.exnihilocreatio.Heat.addRecipe(<minecraft:redstone_torch>, 10);
 mods.exnihilocreatio.Heat.addRecipe(<botania:blazeblock>, 95);
 mods.exnihilocreatio.Heat.addRecipe(<bigreactors:blockyellorium>, 195);
-
 mods.exnihilocreatio.Heat.addRecipe(<bigreactors:blockcyanite>, 295);
 mods.exnihilocreatio.Heat.addRecipe(<bigreactors:blockblutonium>, 395);
 mods.exnihilocreatio.Heat.addRecipe(<bigreactors:blockludicrite>, 495);
@@ -33,15 +32,6 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:7>, 1595)
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:9>, 1695);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:10>, 1795);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:11>, 1895);
-
-
-
-
-
-
-
-
-
 
 
 
@@ -70,28 +60,39 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:6>, 3995)
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:9>, 4095);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:10>, 5095);
 
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered>, 6000);
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:1>, 9000);
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:2>, 7000);
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:3>, 7600);
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:4>, 2400);
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:5>, 5600);
+
+
+
+
+
+
 // finshed of heat
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tungsten:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_uranium:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_zinc:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_titanium:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_thorium:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_boron:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_lithium:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_magnesium:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_osmium:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_yellorium:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_platinum:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_lead:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_nickel:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_silver:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_copper:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_cobalt:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_ardite:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium:1>, 0.150);
-Sieve.addStringMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tungsten:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_uranium:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_zinc:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_titanium:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_thorium:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_boron:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_lithium:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_magnesium:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_osmium:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_yellorium:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_platinum:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_lead:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_nickel:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_silver:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_copper:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_cobalt:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_ardite:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium:1>, 0.150);
+Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>, 0.150);
 
 
