@@ -161,9 +161,8 @@ recipes.remove(<excompressum:auto_heavy_sieve>);
 
 
 
+
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_copper>, 50);
-
-
 
 
 
