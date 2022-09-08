@@ -32,9 +32,6 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:7>, 1595)
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:9>, 1695);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:10>, 1795);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:11>, 1895);
-
-
-
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:12>, 1995);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:14>, 2095);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_0:15>, 2195);
@@ -59,20 +56,19 @@ mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:5>, 3895)
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:6>, 3995);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:9>, 4095);
 mods.exnihilocreatio.Heat.addRecipe(<contenttweaker:sub_block_holder_3:10>, 5095);
-
 mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered>, 6000);
 mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:1>, 9000);
-mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:2>, 7000);
-mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:3>, 7600);
-mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:4>, 2400);
-mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:5>, 5600);
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:2>, 10000);
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:3>, 11000);
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:4>, 12000);
+mods.exnihilocreatio.Heat.addRecipe(<actuallyadditions:block_crystal_empowered:5>, 13000);
 
 
 
 
 // new today
 
-// fflint verison
+// flint verison
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.150);
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin:1>, 0.150);
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tungsten:1>, 0.150);
@@ -95,7 +91,7 @@ Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_ardite:1>
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium:1>, 0.150);
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>, 0.150);
 
-// iorn verison
+// iron verison
 
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.225);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin:1>, 0.225);
@@ -143,12 +139,6 @@ Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_cobalt:
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_ardite:1>, 0.250);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium:1>, 0.250);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>, 0.250);
-
-
-
-
-
-
 
 recipes.remove(<excompressum:heavy_sieve>);
 recipes.remove(<excompressum:heavy_sieve:1>);
