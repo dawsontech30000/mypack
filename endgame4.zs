@@ -55,4 +55,3 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<matc:supremiumcrystal>,
     <matc:superiumcrystal>, <matc:superiumcrystal>, <matc:superiumcrystal>,
     <matc:superiumcrystal>, <matc:superiumcrystal>, <matc:superiumcrystal>,
     <matc:superiumcrystal>, <matc:superiumcrystal>]);
-
