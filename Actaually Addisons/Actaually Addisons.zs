@@ -49,10 +49,12 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:fluxed_electrum_
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:lithium_seeds>, <nuclearcraft:ingot:6>, <nuclearcraft:ingot:6>, <nuclearcraft:ingot:6>, <nuclearcraft:ingot:6>, <nuclearcraft:ingot:6>, 500, 100, [0.1,0.1,0.1]);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dilithium_seeds>, <taiga:dilithium_block>, <taiga:dilithium_block>, <taiga:dilithium_block>, <taiga:dilithium_block>, <taiga:dilithium_block>, 500, 100, [0.1,0.1,0.1]);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:tritanium_seeds>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, 500, 100, [0.1,0.1,0.1]);
+
 // new tier 4 that i missed  05/09/2022
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:blaze_seeds>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, 500, 100, [0.1,0.1,0.1]);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:malachite_seeds>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, 500, 100, [0.1,0.1,0.1]);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dawnstone_seeds>, <embers:aspectus_dawnstone>, <ore:blockDawnstone>, <embers:aspectus_dawnstone>, <ore:blockDawnstone>, <embers:ingot_dawnstone>, 500, 100, [0.1,0.1,0.1]);
+
 // remove tier 4  05/09/2022
 recipes.remove(<mysticalagriculture:blaze_seeds>);
 recipes.remove(<mysticalagriculture:dawnstone_seeds>);
@@ -121,6 +123,7 @@ recipes.remove(<mysticalagriculture:ironwood_seeds>);
 recipes.remove(<mysticalagriculture:coralium_seeds>);
 recipes.remove(<mysticalagriculture:syrmorite_seeds>);
 recipes.remove(<mysticalagriculture:octine_seeds>);
+
 // tier 3 seeds
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:guardian_seeds>, [<botania:storage:3>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <xreliquary:mob_ingredient:16>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:skeleton_seeds>, [<botania:storage:3>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <erebus:materials:15>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
@@ -130,6 +133,7 @@ mods.botania.RuneAltar.addRecipe(<mysticalagriculture:rabbit_seeds>, [<botania:s
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:blizz_seeds>, [<botania:storage:3>, <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>, <xreliquary:mob_ingredient:10>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:blitz_seeds>, [<botania:storage:3>, <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>, <exnihilocreatio:item_doll:5>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:basalz_seeds>, [<botania:storage:3>, <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>, <exnihilocreatio:item_doll:6>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
+
 //Seeds
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:iron_seeds>, [<botania:storage:3>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:nether_quartz_seeds>, [<botania:storage:3>, <minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>, <minecraft:quartz_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
@@ -157,6 +161,7 @@ mods.botania.RuneAltar.addRecipe(<mysticalagriculture:aquamarine_seeds>, [<botan
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:ender_biotite_seeds>, [<botania:storage:3>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:sky_stone_seeds>, [<botania:storage:3>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>, <appliedenergistics2:sky_stone_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:certus_quartz_seeds>, [<botania:storage:3>, <ore:blockCertusQuartz>, <ore:blockCertusQuartz>, <ore:blockCertusQuartz>, <ore:blockCertusQuartz>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>, <ore:blockChargedCertusQuartz>,<ore:blockChargedCertusQuartz>,<ore:blockChargedCertusQuartz>,<ore:blockChargedCertusQuartz>], 10000);
+
 // add today
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:octine_seeds>, [<botania:storage:3>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>, <thebetweenlands:octine_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:syrmorite_seeds>, [<botania:storage:3>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>, <thebetweenlands:syrmorite_block>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,], 10000);
