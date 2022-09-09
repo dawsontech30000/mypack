@@ -1,5 +1,7 @@
 #packmode expert
 
+
+
 // §aPrudentium Essence
 recipes.remove(<mysticalagriculture:crafting:1>);
 recipes.addShaped(<mysticalagriculture:crafting:1> * 1, [[<matc:inferiumcrystal>, <mysticalagriculture:storage:0>, <matc:inferiumcrystal>], [<mysticalagriculture:storage:0>, <mysticalagriculture:crafting:0>, <mysticalagriculture:storage:0>],[<matc:inferiumcrystal>, <mysticalagriculture:storage:0>, <matc:inferiumcrystal>]]);
