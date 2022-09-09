@@ -607,8 +607,6 @@ recipes.remove(<appliedenergistics2:part:514>);
 recipes.remove(<appliedenergistics2:part:515>);
 recipes.remove(<appliedenergistics2:part:516>);
 
-
-
 // remove items 
 recipes.remove(<appliedenergistics2:part:60>);
 recipes.remove(<appliedenergistics2:part:61>);

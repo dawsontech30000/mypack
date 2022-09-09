@@ -1,15 +1,13 @@
 #packmode expert
 
 import mods.exnihilocreatio.Sieve;
-import mods.excompressum.Sieve;
+
 
 Sieve.removeAll();
 mods.exnihilocreatio.Crook.removeAll();
 mods.exnihilocreatio.Heat.removeAll();
 mods.exnihilocreatio.Hammer.removeAll();
-mods.exnihilocreatio.Ore.removeAll();
-mods.excompressum.Sieve.removeall();
-mods.excompressum.Sieve.ore.removeall();
+
 
 mods.exnihilocreatio.Heat.addRecipe(<minecraft:torch>, 5);
 mods.exnihilocreatio.Heat.addRecipe(<minecraft:redstone_torch>, 10);
@@ -89,18 +87,7 @@ Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>, 0.150);
 
 
-
-
-
-
-
-
-
-
-
 // iron verison
-
-
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin:1>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tungsten:1>, 0.250);
@@ -148,8 +135,6 @@ Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_alumini
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>, 0.335);
 
 
-
-
 recipes.remove(<excompressum:heavy_sieve>);
 recipes.remove(<excompressum:heavy_sieve:1>);
 recipes.remove(<excompressum:heavy_sieve:2>);
@@ -161,9 +146,6 @@ recipes.remove(<excompressum:auto_heavy_sieve>);
 // addons ot sieving 
 
 
-
-
-Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_copper>, 50);
 
 
 
