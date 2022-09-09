@@ -121,6 +121,18 @@ recipes.remove(<mysticalagriculture:coralium_seeds>);
 recipes.remove(<mysticalagriculture:syrmorite_seeds>);
 recipes.remove(<mysticalagriculture:octine_seeds>);
 
+// added today  09/09/2022
+recipes.remove(<jaopca:item_mysticalseedswhitetiger>);
+recipes.remove(<jaopca:item_mysticalseedspurpletiger>);
+recipes.remove(<jaopca:item_mysticalseedsyellowtiger>);
+recipes.remove(<jaopca:item_mysticalseedsrainbowtiger>);
+recipes.remove(<jaopca:item_mysticalseedsblacktiger>);
+recipes.remove(<jaopca:item_mysticalseedspinktiger>);
+recipes.remove(<jaopca:item_mysticalseedsbluetiger>);
+recipes.remove(<jaopca:item_mysticalseedsorangetiger>);
+recipes.remove(<jaopca:item_mysticalseedsredtiger>);
+recipes.remove(<jaopca:item_mysticalseedstiger>);
+---------------------------------------------------------------
 // tier 3 seeds
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:guardian_seeds>, [<botania:storage:3>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <xreliquary:mob_ingredient:16>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:skeleton_seeds>, [<botania:storage:3>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <erebus:materials:15>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
@@ -175,6 +187,5 @@ mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsblacktiger>,[<botania
 mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsyellowtiger>, [<botania:storage:3>, <contenttweaker:sub_block_holder_1:5>, <contenttweaker:sub_block_holder_1:5>, <contenttweaker:sub_block_holder_1:5>, <contenttweaker:sub_block_holder_1:5>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedswhitetiger>, [<botania:storage:3>, <contenttweaker:sub_block_holder_2:8>, <contenttweaker:sub_block_holder_2:8>, <contenttweaker:sub_block_holder_2:8>, <contenttweaker:sub_block_holder_2:8>, <mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<jaopca:item_mysticalseedsrainbowtiger>,[<botania:storage:3>, <contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>,<jaopca:item_mysticalseedswhitetiger>,<jaopca:item_mysticalseedsorangetiger>,<jaopca:item_mysticalseedspinktiger>,<jaopca:item_mysticalseedsyellowtiger>,<jaopca:item_mysticalseedspurpletiger>,<jaopca:item_mysticalseedsblacktiger>,<jaopca:item_mysticalseedstiger>,<jaopca:item_mysticalseedsredtiger>,<jaopca:item_mysticalseedsbluetiger>], 10000);
-
 
 
