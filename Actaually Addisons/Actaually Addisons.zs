@@ -132,7 +132,7 @@ recipes.remove(<jaopca:item_mysticalseedsbluetiger>);
 recipes.remove(<jaopca:item_mysticalseedsorangetiger>);
 recipes.remove(<jaopca:item_mysticalseedsredtiger>);
 recipes.remove(<jaopca:item_mysticalseedstiger>);
----------------------------------------------------------------
+
 // tier 3 seeds
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:guardian_seeds>, [<botania:storage:3>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <xreliquary:mob_ingredient:16>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
 mods.botania.RuneAltar.addRecipe(<mysticalagriculture:skeleton_seeds>, [<botania:storage:3>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <erebus:materials:15>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>,<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:19>], 10000);
