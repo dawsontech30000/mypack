@@ -135,8 +135,6 @@ Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_alumini
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>, 0.350);
 
 
-
-
 // added today 12:01 09/08/2022
 Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_netherrack_crushed>, <exnihilocreatio:item_ore_cobalt:1>, 0.325);
 Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_netherrack_crushed>, <exnihilocreatio:item_ore_ardite:1>, 0.325);
