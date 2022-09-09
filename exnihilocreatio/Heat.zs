@@ -2,7 +2,6 @@
 #packmode expert
 mods.exnihilocreatio.Heat.removeAll();
 
-
 mods.exnihilocreatio.Heat.addRecipe(<minecraft:torch>, 5);
 mods.exnihilocreatio.Heat.addRecipe(<minecraft:redstone_torch>, 10);
 mods.exnihilocreatio.Heat.addRecipe(<botania:blazeblock>, 95);
