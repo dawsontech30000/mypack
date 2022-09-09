@@ -93,8 +93,12 @@ Sieve.addIronMeshRecipe(<minecraft:netherrack>, <exnihilocreatio:item_ore_cobalt
 Sieve.addIronMeshRecipe(<minecraft:netherrack>, <exnihilocreatio:item_ore_ardite:1>, 0.200);
 
 
+// add today 09/09/2022
+Sieve.addIronMeshRecipe(<minecraft:netherrack>, <ultimatebackport:netherite_scrap>, 0.05);
+Sieve.addIronMeshRecipe(<minecraft:netherrack>, <ultimatebackport:netherite_scrap>, 0.005);
 
-
+Sieve.addDiamondMeshRecipe(<minecraft:netherrack>, <ultimatebackport:netherite_scrap>, 0.010);
+Sieve.addDiamondMeshRecipe(<minecraft:netherrack>, <ultimatebackport:netherite_scrap>, 0.010);
 
 
 
