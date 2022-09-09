@@ -51,7 +51,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dilithium_seeds>
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:tritanium_seeds>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, <matteroverdrive:tritanium_ingot>, 500, 100, [0.1,0.1,0.1]);
 
 // new tier 4 that i missed  05/09/2022
-mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:blaze_seeds>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, <additionalcompression:rodblaze_compressed:1>, 500, 100, [0.1,0.1,0.1]);
+mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:blaze_seeds>, <botania:blazeblock>, <botania:blazeblock>, <botania:blazeblock>, <botania:blazeblock>, <botania:blazeblock>, 500, 100, [0.1,0.1,0.1]);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:malachite_seeds>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, <biomesoplenty:gem_block:5>, 500, 100, [0.1,0.1,0.1]);
 mods.actuallyadditions.Empowerer.addRecipe(<mysticalagriculture:dawnstone_seeds>, <embers:aspectus_dawnstone>, <ore:blockDawnstone>, <embers:aspectus_dawnstone>, <ore:blockDawnstone>, <embers:ingot_dawnstone>, 500, 100, [0.1,0.1,0.1]);
 
@@ -83,7 +83,6 @@ recipes.remove(<mysticalagriculture:fluxed_electrum_seeds>);
 recipes.remove(<mysticalagriculture:hop_graphite_seeds>);
 recipes.remove(<mysticalagriculture:cobalt_seeds>);
 recipes.remove(<mysticalagriculture:soularium_seeds>);
-recipes.remove(<mysticalagriculture:void_metal_seeds>);
 recipes.remove(<mysticalagriculture:dark_steel_seeds>);
 recipes.remove(<mysticalagriculture:pulsating_iron_seeds>);
 recipes.remove(<mysticalagriculture:osmium_seeds>);
@@ -114,8 +113,6 @@ recipes.remove(<mysticalagriculture:electrical_steel_seeds>);
 recipes.remove(<mysticalagriculture:redstone_alloy_seeds>);
 recipes.remove(<mysticalagriculture:conductive_iron_seeds>);
 recipes.remove(<mysticalagriculture:manasteel_seeds>);
-recipes.remove(<mysticalagriculture:quicksilver_seeds>);
-recipes.remove(<mysticalagriculture:thaumium_seeds>);
 recipes.remove(<mysticalagriculture:uranium_238_seeds>);
 recipes.remove(<mysticalagriculture:electrotine_seeds>);
 recipes.remove(<mysticalagriculture:steeleaf_seeds>);
