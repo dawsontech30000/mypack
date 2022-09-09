@@ -134,15 +134,7 @@ Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_copper:
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium:1>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>, 0.350);
 
-recipes.remove(<excompressum:heavy_sieve>);
-recipes.remove(<excompressum:heavy_sieve:1>);
-recipes.remove(<excompressum:heavy_sieve:2>);
-recipes.remove(<excompressum:heavy_sieve:3>);
-recipes.remove(<excompressum:heavy_sieve:4>);
-recipes.remove(<excompressum:heavy_sieve:5>);
-recipes.remove(<excompressum:auto_heavy_sieve>);
 
-// addons ot sieving 
 
 
 // added today 12:01 09/08/2022

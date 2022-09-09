@@ -372,6 +372,14 @@ recipes.remove(<redstonerepository:tool.shovel_gelid>.withTag({Energy: 0}));
 recipes.remove(<redstonerepository:tool.pickaxe_gelid>.withTag({Energy: 0}));
 recipes.remove(<redstonerepository:tool.axe_gelid>.withTag({Energy: 0}));
 
+recipes.remove(<excompressum:heavy_sieve>);
+recipes.remove(<excompressum:heavy_sieve:1>);
+recipes.remove(<excompressum:heavy_sieve:2>);
+recipes.remove(<excompressum:heavy_sieve:3>);
+recipes.remove(<excompressum:heavy_sieve:4>);
+recipes.remove(<excompressum:heavy_sieve:5>);
+recipes.remove(<excompressum:auto_heavy_sieve>);
+
 
 
 
