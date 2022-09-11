@@ -2,13 +2,9 @@
 #packmode expert
 import mods.zenstages.ZenStager;
 
-// mods.zenstages.ZenStager.initStage(string stageName);
-var TestStage = ZenStager.initStage("WELCOME TO NIGHTMARE");
-var TestStageGet = ZenStager.getStage("WELCOME TO NIGHTMARE");
-
-//mods.DimensionStages.addDimensionStage(String stage, int dimensionId);
-mods.DimensionStages.addDimensionStage("nether", 5);
-
+var TestStage = ZenStager.initStage("test");
+var TestStage = ZenStager.initStage("WelcomeToNightmare");
+var TestStage = ZenStager.initStage("SkyResources2");
 
 // mods.zenstages.ZenStager.checkConflicts();
 ZenStager.checkConflicts();
