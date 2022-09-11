@@ -58,7 +58,6 @@ mods.ItemStages.addItemStage("SkyResources2", <skyresources:casing:12>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:casing:13>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:casing:14>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:casing:15>);
-
 //dust
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:orealchdust:10>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:orealchdust:11>);
