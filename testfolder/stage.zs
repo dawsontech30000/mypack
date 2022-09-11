@@ -159,6 +159,137 @@ mods.ItemStages.addItemStage("SkyResources2", <skyresources:dirtygem:43>);
 
 
 
+
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:coalinfusedblock>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:1>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:2>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:3>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:4>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:5>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:6>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:7>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:8>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:9>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:10>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:11>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:12>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:13>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:14>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:15>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemicalinfusionstone>);
+
+
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:1>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:2>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:3>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:4>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:5>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:6>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:7>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:8>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:9>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:10>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:11>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:12>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:13>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:14>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:15>);
+
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:1>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:2>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:3>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:4>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:5>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:6>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:7>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:8>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:9>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:10>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:11>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:12>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:13>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:14>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:combustionheater:15>);
+
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:1>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:2>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:3>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:4>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:5>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:6>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:7>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:8>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:9>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:10>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:11>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:12>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:13>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:14>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:15>);
+
+
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:1>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:2>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:3>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:4>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:5>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:6>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:7>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:8>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:9>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:10>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:11>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:12>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:13>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:14>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:15>);
+
+
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:cactusfruitneedle>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:compressedcoalblock>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:sandynetherrack>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:darkmatterblock>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:baseitemcomponent>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:baseitemcomponent:1>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:baseitemcomponent:2>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:baseitemcomponent:3>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:baseitemcomponent:4>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:baseitemcomponent:5>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:baseitemcomponent:6>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:baseitemcomponent:7>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:techitemcomponent>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:techitemcomponent:1>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:techitemcomponent:2>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:techitemcomponent:3>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:itemhealthgem>.withTag({cooldown: 0, health: 0}));
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:waterextractor>.withTag({}));
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heavysnowball>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:heavyexplosivesnowball>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:cactusfruit>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:fleshysnownugget>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:cactuscuttingknife>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:stonecuttingknife>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:ironcuttingknife>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:diamondcuttingknife>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:stonegrinder>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:irongrinder>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:diamondgrinder>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:sandstoneinfusionstone>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:redsandstoneinfusionstone>);
+mods.ItemStages.addItemStage("SkyResources2", <skyresources:survivalistfishingrod>);
+mods.ItemStages.addItemStage("SkyResources2", <forge:bucketfilled>.withTag({FluidName: "srcrystalfluid", Amount: 1000}));
+
+
+
+
+// all liquids
+SkyResources2.addLiquid(<liquid:srcrystalfluid>);
+
 mods.recipestages.Recipes.setPrintContainers(true);
 
 // mods.zenstages.ZenStager.checkConflicts();
