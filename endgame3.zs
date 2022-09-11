@@ -12,4 +12,4 @@ recipes.remove(<mysticalagriculture:crafting:3>);
 recipes.addShaped(<mysticalagriculture:crafting:3> * 1, [[<matc:intermediumcrystal>, <mysticalagriculture:storage:2>, <matc:intermediumcrystal>], [<mysticalagriculture:storage:2>, <mysticalagriculture:crafting:2>, <mysticalagriculture:storage:2>],[<matc:intermediumcrystal>, <mysticalagriculture:storage:2>, <matc:intermediumcrystal>]]);
 // §cSupremium Essence
 recipes.remove(<mysticalagriculture:crafting:4>);
-recipes.addShaped(<mysticalagriculture:crafting:4> * 1, [[<matc:superiumcrystal>, <mysticalagriculture:storage:3>, <matc:superiumcrystal>], [<mysticalagriculture:storage:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:storage:3>],[<matc:superiumcrystal>, <mysticalagriculture:storage:3>, <matc:superiumcrystal>]]);
+recipes.addShaped(<mysticalagriculture:crafting:4> * 1, [[<matc:superiumcrystal>, <mysticalagriculture:storage:3>, <matc:superiumcrystal>], [<mysticalagriculture:storage:3>, <mysticalagriculture:crafting:3>, <mysticalagriculture:storage:3>],[<matc:superiumcrystal>, <mysticalagriculture:storage:3>, <matc:superiumcrystal>]]); 
