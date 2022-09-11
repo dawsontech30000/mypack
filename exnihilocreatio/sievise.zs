@@ -8,9 +8,6 @@ mods.exnihilocreatio.Crook.removeAll();
 
 mods.exnihilocreatio.Hammer.removeAll();
 
-
-
-
 // new today
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.150);
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin:1>, 0.150);
@@ -55,9 +52,6 @@ Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_aluminium:
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>, 0.250);
 
 //diamond verison
-
-
-
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin:1>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tungsten:1>, 0.350);
@@ -216,7 +210,7 @@ Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkshinium>, 0.350)
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkskymium>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkstar>, 0.350);
 
-
+// iron 
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkvibranium>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkviolet>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkvirinium>, 0.250);
@@ -238,7 +232,7 @@ Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunktiger>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunktitanium>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunktungsten>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkuranium>, 0.250);
-
+//diamond
 
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkvibranium>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkviolet>, 0.350);
@@ -264,12 +258,7 @@ Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkuranium>, 0.350)
 
 // sieving completed up to date!
 
-
-
 // dust verison not going be many 
-
-
-
 
 
 
@@ -291,7 +280,9 @@ Sieve.addIronMeshRecipe(<exnihilocreatio:block_netherrack_crushed>, <exnihilocre
 Sieve.addIronMeshRecipe(<exnihilocreatio:block_netherrack_crushed>, <exnihilocreatio:item_ore_ardite:1>, 0.175);
 Sieve.addIronMeshRecipe(<minecraft:netherrack>, <exnihilocreatio:item_ore_cobalt:1>, 0.200);
 Sieve.addIronMeshRecipe(<minecraft:netherrack>, <exnihilocreatio:item_ore_ardite:1>, 0.200);
-// add today 09/09/2022
+
+
+// add today 09/09/2022 moved on and edit on 11/09/2022
 Sieve.addIronMeshRecipe(<minecraft:netherrack>, <ultimatebackport:netherite_scrap>, 0.05);
 Sieve.addIronMeshRecipe(<exnihilocreatio:block_netherrack_crushed>, <ultimatebackport:netherite_scrap>, 0.05);
 Sieve.addDiamondMeshRecipe(<minecraft:netherrack>, <ultimatebackport:netherite_scrap>, 0.07);
