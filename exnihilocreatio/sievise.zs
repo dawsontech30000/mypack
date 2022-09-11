@@ -8,6 +8,15 @@ mods.exnihilocreatio.Crook.removeAll();
 
 mods.exnihilocreatio.Hammer.removeAll();
 
+
+// Sieve
+recipes.remove(<exnihilocreatio:block_sieve>);
+recipes.addShaped(<exnihilocreatio:block_sieve> * 1, [[<skyresources:rockcrusher>, <skyresources:alchemyitemcomponent:5>, <skyresources:rockcleaner>], [<skyresources:alchemyitemcomponent:5>, <skyresources:casing:7>, <skyresources:alchemyitemcomponent:5>],[<skyresources:combustioncontroller>, <skyresources:heat:15>, <skyresources:combustioncollector>]]);
+
+// Auto Sieve
+recipes.remove(<excompressum:auto_sieve>);
+recipes.addShaped(<excompressum:auto_sieve> * 1, [[<skyresources:alchemyitemcomponent:4>, null, <skyresources:alchemyitemcomponent:4>], [<exnihilocreatio:block_sieve>, null, <exnihilocreatio:block_sieve>],[<skyresources:condenser:15>, <exnihilocreatio:block_sieve>, <skyresources:condenser:15>]]);
+
 // new today
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_gold:1>, 0.150);
 Sieve.addFlintMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_tin:1>, 0.150);
@@ -257,7 +266,6 @@ Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunktungsten>, 0.350
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkuranium>, 0.350);
 
 // sieving completed up to date!
-
 // dust verison not going be many 
 
 
@@ -266,14 +274,8 @@ Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkuranium>, 0.350)
 
 
 
+
 // nether rack 
-
-
-
-
-
-
-
 
 
 
