@@ -11,8 +11,6 @@ import mods.zenstages.type.CustomStageType;
 
 // dim stage
 mods.DimensionStages.addDimensionStage("nether", -1);
-// mob stage
-mods.MobStages.addStage("mobs", "minecraft:zombie");
 
 //dont get what this is
 var TestStage = ZenStager.initStage("test");
@@ -23,6 +21,21 @@ var TestStageGet = ZenStager.getStage("test");
 // this stage added
 var WelcomeToNightmare = ZenStager.initStage("WelcomeToNightmare");
 var SkyResources2 = ZenStager.initStage("SkyResources2");
+var chisel = ZenStager.initStage("chisel");
+var Tinkers = ZenStager.initStage("Tinkers");
+var thermal = ZenStager.initStage("thermal");
+
+
+
+mods.ItemStages.stageModItems("thermal", "thermalexpansion");
+mods.ItemStages.stageModItems("thermal", "thermaldynamics");
+mods.ItemStages.stageModItems("thermal", "thermalfoundation");
+mods.ItemStages.stageModItems("thermal", "thermalinnovation");
+mods.ItemStages.stageModItems("thermal", "thermalcultivation");
+mods.ItemStages.stageModItems("chisel", "chisel");
+
+mods.ItemStages.addItemStage("thermal", <thermalexpansion:frame>);
+mods.ItemStages.addItemStage("chisel", <base:wrench>);
 
 
 
@@ -231,7 +244,6 @@ mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:13>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:14>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:heatprovider:15>);
 
-
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:1>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:condenser:2>);
@@ -283,8 +295,6 @@ mods.ItemStages.addItemStage("SkyResources2", <skyresources:sandstoneinfusionsto
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:redsandstoneinfusionstone>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:survivalistfishingrod>);
 mods.ItemStages.addItemStage("SkyResources2", <forge:bucketfilled>.withTag({FluidName: "srcrystalfluid", Amount: 1000}));
-
-
 
 
 // all liquids
