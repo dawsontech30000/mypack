@@ -2,7 +2,6 @@
 
 // augments
 
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:128>, [
 	[<thermalfoundation:material:513>, <thermalfoundation:material:513>, <thermalfoundation:material:513>], 
 	[<thermalfoundation:material:513>, <ore:ingotGold>, <thermalfoundation:material:513>], 
@@ -270,3 +269,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <thermalfoundation:upgrade:2>, 
 	[<ore:gearSignalum>, <ore:gearSignalum>, <ore:gearSignalum>], 
 	[<ore:blockSignalum>, <ore:gearSignalum>, <ore:blockSignalum>]
 ]);
+
+
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:augment:720>, [
+	[<thermalexpansion:dynamo:5>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}), <ore:blockFirstTimeGaming>, <thermalexpansion:dynamo:5>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte})], 
+	[<ore:blockFirstTimeGaming>, <thermalexpansion:dynamo:1>.withTag({RSControl: 0 as byte, Facing: 1 as byte, railcraft: {filter: {inactive: {id: "contenttweaker:sub_block_holder_3", Count: 1 as byte, Damage: 2 as short}, active: {id: "contenttweaker:sub_block_holder_3", Count: 1 as byte, Damage: 2 as short}, type: ""}}, Energy: 0, Level: 0 as byte}), <ore:blockFirstTimeGaming>], 
+	[<thermalexpansion:dynamo:5>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}), <ore:blockFirstTimeGaming>, <thermalexpansion:dynamo:5>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte})]
+]);
+
