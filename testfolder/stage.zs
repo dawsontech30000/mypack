@@ -38,7 +38,6 @@ mods.ItemStages.addItemStage("thermal", <thermalexpansion:frame>);
 mods.ItemStages.addItemStage("chisel", <base:wrench>);
 
 
-
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemyitemcomponent:2>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemyitemcomponent:3>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemyitemcomponent:4>);
