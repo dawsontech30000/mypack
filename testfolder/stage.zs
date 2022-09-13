@@ -1,43 +1,78 @@
 
+#packmode expert
 import mods.zenstages.ZenStager;
 import mods.zenstages.type.CustomStageType;
+import mods.zenstages.Stage;
 
-
-
-
-
-
-
-
-// dim stage
-mods.DimensionStages.addDimensionStage("nether", -1);
-
-//dont get what this is
-var TestStage = ZenStager.initStage("test");
-var TestStageGet = ZenStager.getStage("test");
 
 
 
 // this stage added
 var WelcomeToNightmare = ZenStager.initStage("WelcomeToNightmare");
-var SkyResources2 = ZenStager.initStage("SkyResources2");
-var chisel = ZenStager.initStage("chisel");
-var Tinkers = ZenStager.initStage("Tinkers");
+
+
+
+
+var bloodmagical = ZenStager.initStage("bloodmagical");
+
+
+var aether2 = ZenStager.initStage("aether");
+mods.ItemStages.stageModItems("aether", "aether");
+
+
+
+
 var thermal = ZenStager.initStage("thermal");
-
-
-
 mods.ItemStages.stageModItems("thermal", "thermalexpansion");
 mods.ItemStages.stageModItems("thermal", "thermaldynamics");
 mods.ItemStages.stageModItems("thermal", "thermalfoundation");
 mods.ItemStages.stageModItems("thermal", "thermalinnovation");
 mods.ItemStages.stageModItems("thermal", "thermalcultivation");
+
+
+
+
+
+var chisel = ZenStager.initStage("chisel");
 mods.ItemStages.stageModItems("chisel", "chisel");
 
-mods.ItemStages.addItemStage("thermal", <thermalexpansion:frame>);
-mods.ItemStages.addItemStage("chisel", <base:wrench>);
 
 
+
+
+
+var Tinkers = ZenStager.initStage("Tinkers");
+// tinkers and addons
+mods.ItemStages.stageModItems("tinkers", "tconstruct");
+mods.ItemStages.stageModItems("tinkers", "simplesmelteryaccelerator");
+mods.ItemStages.stageModItems("tinkers", "tinkersaddons");
+mods.ItemStages.stageModItems("tinkers", "plustic");
+mods.ItemStages.stageModItems("tinkers", "tinkersaether");
+mods.ItemStages.stageModItems("tinkers", "tinker_io");
+mods.ItemStages.stageModItems("tinkers", "conarm:travel_belt");
+mods.ItemStages.stageModItems("tinkers", "tcomplement");
+mods.ItemStages.stageModItems("tinkers", "taiga");
+mods.ItemStages.stageModItems("tinkers", "bloodtinker");
+mods.ItemStages.stageModItems("tinkers", "tinker i/o");
+mods.ItemStages.stageModItems("tinkers", "tinkerskyblock");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var SkyResources2 = ZenStager.initStage("SkyResources2");
+// sky r 2
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemyitemcomponent:2>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemyitemcomponent:3>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemyitemcomponent:4>);
@@ -168,9 +203,6 @@ mods.ItemStages.addItemStage("SkyResources2", <skyresources:dirtygem:41>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:dirtygem:42>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:dirtygem:43>);
 
-
-
-
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:coalinfusedblock>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:1>);
@@ -189,7 +221,6 @@ mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:13>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:14>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemy:15>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemicalinfusionstone>);
-
 
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:heat:1>);
@@ -293,7 +324,6 @@ mods.ItemStages.addItemStage("SkyResources2", <skyresources:sandstoneinfusionsto
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:redsandstoneinfusionstone>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:survivalistfishingrod>);
 mods.ItemStages.addItemStage("SkyResources2", <forge:bucketfilled>.withTag({FluidName: "srcrystalfluid", Amount: 1000}));
-
 
 // all liquids
 SkyResources2.addLiquid(<liquid:srcrystalfluid>);
