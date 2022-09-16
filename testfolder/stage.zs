@@ -1,5 +1,3 @@
-
-#packmode expert
 import mods.zenstages.ZenStager;
 import mods.zenstages.type.CustomStageType;
 import mods.zenstages.Stage;
@@ -12,23 +10,36 @@ var WelcomeToNightmare = ZenStager.initStage("WelcomeToNightmare");
 
 
 
+var EX_nihilo = ZenStager.initStage("EX_nihilo");
+var EX_compressum = ZenStager.initStage("EX_compressum");
+mods.ItemStages.stageModItems("EX_nihilo", "exnihilocreatio");
+mods.ItemStages.stageModItems("EX_compressum", "excompressum");
+
+
+
+
+
 
 var bloodmagical = ZenStager.initStage("bloodmagical");
+var BONTIA = ZenStager.initStage("BONTIA");
+mods.ItemStages.stageModItems("bloodmagical", "bloodmagic");
+mods.ItemStages.stageModItems("bloodmagical", "bloodmagic");
+mods.ItemStages.addItemStage("bloodmagical", <guideapi:bloodmagic-guide>);
+
 
 
 var aether2 = ZenStager.initStage("aether");
-mods.ItemStages.stageModItems("aether", "aether");
-
+mods.ItemStages.stageModItems("aether", "aether_legacy");
 
 
 
 var thermal = ZenStager.initStage("thermal");
+var MEK = ZenStager.initStage("MEK");
 mods.ItemStages.stageModItems("thermal", "thermalexpansion");
 mods.ItemStages.stageModItems("thermal", "thermaldynamics");
 mods.ItemStages.stageModItems("thermal", "thermalfoundation");
 mods.ItemStages.stageModItems("thermal", "thermalinnovation");
 mods.ItemStages.stageModItems("thermal", "thermalcultivation");
-
 
 
 
@@ -55,17 +66,8 @@ mods.ItemStages.stageModItems("tinkers", "taiga");
 mods.ItemStages.stageModItems("tinkers", "bloodtinker");
 mods.ItemStages.stageModItems("tinkers", "tinker i/o");
 mods.ItemStages.stageModItems("tinkers", "tinkerskyblock");
-
-
-
-
-
-
-
-
-
-
-
+mods.ItemStages.stageModItems("tinkers", "conarm");
+mods.ItemStages.addItemStage("tinkers", <tconstruct:metal:5>);
 
 
 
