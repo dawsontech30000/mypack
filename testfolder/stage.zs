@@ -8,25 +8,59 @@ import mods.zenstages.Stage;
 // this stage added
 var WelcomeToNightmare = ZenStager.initStage("WelcomeToNightmare");
 
+var immersiveeengineering = ZenStager.initStage("immersiveeengineering");
+mods.ItemStages.stageModItems("immersiveeengineering", "immersiveengineering");
+mods.ItemStages.stageModItems("immersiveeengineering", "immersivetech");
+mods.ItemStages.stageModItems("immersiveeengineering", "immersivepetroleum");
+mods.ItemStages.stageModItems("immersiveeengineering", "immersivecables");
+
+
+immersiveeengineering.addLiquid(<liquid:plantoil>);
+immersiveeengineering.addLiquid(<liquid:ethanol>);
+immersiveeengineering.addLiquid(<liquid:biodiesel>);
+immersiveeengineering.addLiquid(<liquid:concrete>);
+immersiveeengineering.addLiquid(<liquid:uranium>);
+immersiveeengineering.addLiquid(<liquid:oil>);
+immersiveeengineering.addLiquid(<liquid:diesel>);
+immersiveeengineering.addLiquid(<liquid:lubricant>);
+immersiveeengineering.addLiquid(<liquid:gasoline>);
+immersiveeengineering.addLiquid(<liquid:napalm>);
+immersiveeengineering.addLiquid(<liquid:exhauststeam>);
+immersiveeengineering.addLiquid(<liquid:distwater>);
+immersiveeengineering.addLiquid(<liquid:fluegas>);
+immersiveeengineering.addLiquid(<liquid:highpressuresteam>);
+immersiveeengineering.addLiquid(<liquid:hot_spring_water>);
+immersiveeengineering.addLiquid(<liquid:moltensalt>);
+immersiveeengineering.addLiquid(<liquid:moltensodium>);
+immersiveeengineering.addLiquid(<liquid:superheatedmoltensodium>);
+immersiveeengineering.addLiquid(<liquid:chlorine>);
+
+
+
+
+
 
 
 var EX_nihilo = ZenStager.initStage("EX_nihilo");
 var EX_compressum = ZenStager.initStage("EX_compressum");
+
+var MoreSh = ZenStager.initStage("MoreSh");
+mods.ItemStages.stageModItems("MoreSh", "woodenshears");
+
+
 mods.ItemStages.stageModItems("EX_nihilo", "exnihilocreatio");
 mods.ItemStages.stageModItems("EX_compressum", "excompressum");
 
 
+var MEK = ZenStager.initStage("MEK");
 
-
+var BONTIA = ZenStager.initStage("BONTIA");
 
 
 var bloodmagical = ZenStager.initStage("bloodmagical");
-var BONTIA = ZenStager.initStage("BONTIA");
 mods.ItemStages.stageModItems("bloodmagical", "bloodmagic");
 mods.ItemStages.stageModItems("bloodmagical", "bloodmagic");
 mods.ItemStages.addItemStage("bloodmagical", <guideapi:bloodmagic-guide>);
-
-
 
 var aether2 = ZenStager.initStage("aether");
 mods.ItemStages.stageModItems("aether", "aether_legacy");
@@ -34,7 +68,6 @@ mods.ItemStages.stageModItems("aether", "aether_legacy");
 
 
 var thermal = ZenStager.initStage("thermal");
-var MEK = ZenStager.initStage("MEK");
 mods.ItemStages.stageModItems("thermal", "thermalexpansion");
 mods.ItemStages.stageModItems("thermal", "thermaldynamics");
 mods.ItemStages.stageModItems("thermal", "thermalfoundation");
@@ -42,14 +75,8 @@ mods.ItemStages.stageModItems("thermal", "thermalinnovation");
 mods.ItemStages.stageModItems("thermal", "thermalcultivation");
 
 
-
-
 var chisel = ZenStager.initStage("chisel");
 mods.ItemStages.stageModItems("chisel", "chisel");
-
-
-
-
 
 
 var Tinkers = ZenStager.initStage("Tinkers");
@@ -71,9 +98,31 @@ mods.ItemStages.addItemStage("tinkers", <tconstruct:metal:5>);
 
 
 
-
-
 var SkyResources2 = ZenStager.initStage("SkyResources2");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // sky r 2
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemyitemcomponent:2>);
 mods.ItemStages.addItemStage("SkyResources2", <skyresources:alchemyitemcomponent:3>);
