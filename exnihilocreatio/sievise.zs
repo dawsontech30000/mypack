@@ -86,7 +86,6 @@ Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <exnihilocreatio:item_ore_iron:1>
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkabyssalnite>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkabyssalnite>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkamaranth>, 0.250);
-Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkancientdebris>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkaphwolf>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkastralstarmetal>, 0.250);
 Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkblacktiger>, 0.250);
@@ -98,7 +97,6 @@ Sieve.addIronMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkbronze>, 0.250);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkabyssalnite>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkabyssalnite>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkamaranth>, 0.350);
-Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkancientdebris>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkaphwolf>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkastralstarmetal>, 0.350);
 Sieve.addDiamondMeshRecipe(<minecraft:gravel>, <jaopca:item_hunkblacktiger>, 0.350);
