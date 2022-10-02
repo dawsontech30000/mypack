@@ -1,7 +1,5 @@
 #packmode expert
 
-mods.projecte.PhiloStone.removeAllWorldTransmutation();
-mods.projecte.EntityRandomizer.clearMobs();
 
 recipes.removeShaped(<fluxnetworks:fluxpoint>, [[<fluxnetworks:fluxpoint>]]);
 recipes.removeShaped(<fluxnetworks:fluxpoint>, [[<fluxnetworks:fluxpoint>]]);
