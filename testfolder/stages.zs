@@ -1,7 +1,7 @@
 import mods.zenstages.ZenStager;
 import mods.zenstages.type.CustomStageType;
 import mods.zenstages.Stage;
-#packmode expert
+
 
 
 
@@ -37,6 +37,8 @@ immersiveeengineering.addLiquid(<liquid:chlorine>);
 
 
 
+var invgen = ZenStager.initStage("invgen");
+mods.ItemStages.stageModItems("invgen", "inventorygenerators");
 
 
 
