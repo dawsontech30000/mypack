@@ -41,6 +41,17 @@ var invgen = ZenStager.initStage("invgen");
 mods.ItemStages.stageModItems("invgen", "inventorygenerators");
 
 
+var simplegenerators = ZenStager.initStage("simplegenerators");
+mods.ItemStages.stageModItems("simplegenerators", "simplegenerators");
+
+
+
+var expandableinventory = ZenStager.initStage("expandableinventory");
+mods.ItemStages.stageModItems("expandableinventory", "expandableinventory");
+
+
+var extrautils2= ZenStager.initStage("extrautils2");
+mods.ItemStages.stageModItems("extrautils2", "extrautils2");
 
 
 var EX_nihilo = ZenStager.initStage("EX_nihilo");
@@ -55,6 +66,9 @@ mods.ItemStages.stageModItems("EX_compressum", "excompressum");
 
 
 var MEK = ZenStager.initStage("MEK");
+
+
+
 
 var BONTIA = ZenStager.initStage("BONTIA");
 
