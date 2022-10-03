@@ -1,4 +1,4 @@
-
+#packmode expert
 mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:spike_wood>, 
 	100000000, 1000000, 
 	<minecraft:wooden_sword>, 
