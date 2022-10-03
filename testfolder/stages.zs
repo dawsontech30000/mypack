@@ -57,8 +57,6 @@ mods.ItemStages.stageModItems("extrautils2", "extrautils2");
 var EX_nihilo = ZenStager.initStage("EX_nihilo");
 var EX_compressum = ZenStager.initStage("EX_compressum");
 
-var MoreSh = ZenStager.initStage("MoreSh");
-mods.ItemStages.stageModItems("MoreSh", "woodenshears");
 
 
 mods.ItemStages.stageModItems("EX_nihilo", "exnihilocreatio");
