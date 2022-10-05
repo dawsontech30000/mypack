@@ -73,6 +73,46 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<tcomplement:knightslime_chest
 mods.immersiveengineering.ArcFurnace.removeRecipe(<tcomplement:knightslime_leggings>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<tcomplement:knightslime_boots>);
 
+mods.immersiveengineering.ArcFurnace.removeRecipe(<aether_legacy:valkyrie_helmet>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<aether_legacy:valkyrie_chestplate>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<aether_legacy:valkyrie_leggings>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<aether_legacy:valkyrie_boots>);
 
 
+
+
+//    ref <tconstruct:ingots:3>         <minecraft:slime_ball>       <tconstruct:edible:1>           <tconstruct:edible:2>        <tconstruct:edible:4>
+
+
+
+
+mods.tconstruct.Alloy.addRecipe(<liquid:enderium> * 720, [<liquid:platinum> * 240, <liquid:lead> * 240, <liquid:ender> * 240]);
+
+
+mods.tconstruct.Melting.addRecipe(<liquid:if.pink_slime> * 1296, <industrialforegoing:pink_slime>);
+
+
+// Triberium Alloy ============================================================================================
+mods.tconstruct.Alloy.addRecipe(<liquid:triberium_fluid> * 150, [<liquid:tiberium_fluid> * 150, <liquid:basalt_fluid> * 150]);
+mods.tconstruct.Alloy.addRecipe(<liquid:triberium_fluid> * 150, [<liquid:tiberium_fluid> * 150, <liquid:dilithium_fluid> * 150]);
+
+// Nihilite Alloy ============================================================================================
+mods.tconstruct.Alloy.addRecipe(<liquid:nihilite_fluid> * 150, [<liquid:vibranium_fluid> * 150, <liquid:solarium_fluid> * 150, <liquid:obsidiorite_fluid> * 150]);
+
+// Adamant Alloy ============================================================================================
+mods.tconstruct.Alloy.addRecipe(<liquid:adamant_fluid> * 1432, [<liquid:vibranium_fluid> * 450, <liquid:solarium_fluid> * 450, <liquid:iox_fluid> * 450, <liquid:astralsorcery.liquidstarlight> * 450 ]);
+
+// Special Dilithium ============================================================================================
+mods.tconstruct.Alloy.addRecipe(<liquid:dilithium_fluid> * 554, [<liquid:lithium> * 154, <liquid:redstone> * 200, <liquid:fluorite_water> * 500]);
+
+// Fractum Alloy ============================================================================================
+mods.tconstruct.Alloy.addRecipe(<liquid:fractum_fluid> * 4552, [<liquid:triberium_fluid> * 1300, <liquid:obsidian> * 1200, <liquid:abyssum_fluid> * 1000]);
+
+// Iox Alloy ============================================================================================
+mods.tconstruct.Alloy.addRecipe(<liquid:iox_fluid> * 1000, [<liquid:eezo_fluid> * 200, <liquid:abyssum_fluid> * 200, <liquid:osram_fluid> * 200, <liquid:obsidiorite_fluid> * 400]);
+
+// Obsidiorite Alloy ============================================================================================
+mods.tconstruct.Alloy.addRecipe(<liquid:obsidiorite_fluid> * 1000, [<liquid:meteorite_fluid> * 500, <liquid:obsidian> * 500]);
+
+mods.tconstruct.Alloy.addRecipe(<liquid:niob_fluid> * 1000, [<liquid:osram_fluid> * 350, <liquid:duranite_fluid> * 350, <liquid:palladium_fluid> * 300]);
 
