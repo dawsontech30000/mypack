@@ -114,5 +114,7 @@ mods.tconstruct.Alloy.addRecipe(<liquid:iox_fluid> * 1000, [<liquid:eezo_fluid> 
 // Obsidiorite Alloy ============================================================================================
 mods.tconstruct.Alloy.addRecipe(<liquid:obsidiorite_fluid> * 1000, [<liquid:meteorite_fluid> * 500, <liquid:obsidian> * 500]);
 
+
+// nibo ingot
 mods.tconstruct.Alloy.addRecipe(<liquid:niob_fluid> * 1000, [<liquid:osram_fluid> * 350, <liquid:duranite_fluid> * 350, <liquid:palladium_fluid> * 300]);
 
