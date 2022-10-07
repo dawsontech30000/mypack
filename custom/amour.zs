@@ -1114,10 +1114,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <minecraft:leather_boots>, [
 	[<mysticalagriculture:cow_essence>, null, <mysticalagriculture:cow_essence>]
 ]);
 
-
-
-
-
 mods.armorplus.Workbench.remove(<armorplus:chicken_helmet>);
 mods.armorplus.Workbench.remove(<armorplus:chicken_boots>);
 
@@ -1189,8 +1185,6 @@ mods.armorplus.UltiTechBench.remove(<armorplus:ender_dragon_boots>);
 
 
 // tools -------------------------------------------------------------
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<minecraft:stone_shovel>, 
 	100000000, 1000000, 
 	<minecraft:wooden_shovel>, 
@@ -1569,9 +1563,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.axe_
 	<thermalfoundation:tool.axe_aluminum>, <thermalfoundation:tool.axe_aluminum>, <thermalfoundation:tool.axe_aluminum>,
 	<thermalfoundation:tool.axe_aluminum>, <thermalfoundation:tool.axe_aluminum>]);
 	
-	
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.sword_platinum>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.sword_aluminum>, 
@@ -1589,9 +1580,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.hoe_
 	<thermalfoundation:tool.hoe_aluminum>, <thermalfoundation:tool.hoe_aluminum>, <thermalfoundation:tool.hoe_aluminum>,
 	<thermalfoundation:tool.hoe_aluminum>, <thermalfoundation:tool.hoe_aluminum>, <thermalfoundation:tool.hoe_aluminum>,
 	<thermalfoundation:tool.hoe_aluminum>, <thermalfoundation:tool.hoe_aluminum>]);
-
-
-
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_electrum>, 
 	100000000, 1000000, 
@@ -1620,9 +1608,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.axe_
 	<thermalfoundation:tool.axe_platinum>, <thermalfoundation:tool.axe_platinum>, <thermalfoundation:tool.axe_platinum>,
 	<thermalfoundation:tool.axe_platinum>, <thermalfoundation:tool.axe_platinum>]);
 	
-	
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.sword_electrum>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.sword_platinum>, 
@@ -1640,9 +1625,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.hoe_
 	<thermalfoundation:tool.hoe_platinum>, <thermalfoundation:tool.hoe_platinum>, <thermalfoundation:tool.hoe_platinum>,
 	<thermalfoundation:tool.hoe_platinum>, <thermalfoundation:tool.hoe_platinum>, <thermalfoundation:tool.hoe_platinum>,
 	<thermalfoundation:tool.hoe_platinum>, <thermalfoundation:tool.hoe_platinum>]);
-
-
-
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_bronze>, 
 	100000000, 1000000, 
@@ -1671,9 +1653,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.axe_
 	<thermalfoundation:tool.axe_electrum>, <thermalfoundation:tool.axe_electrum>, <thermalfoundation:tool.axe_electrum>,
 	<thermalfoundation:tool.axe_electrum>, <thermalfoundation:tool.axe_electrum>]);
 	
-	
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.sword_bronze>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.sword_electrum>, 
@@ -1691,9 +1670,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.hoe_
 	<thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>,
 	<thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>,
 	<thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>]);
-
-
-
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_constantan>, 
 	100000000, 1000000, 
@@ -1722,9 +1698,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.axe_
 	<thermalfoundation:tool.axe_bronze>, <thermalfoundation:tool.axe_bronze>, <thermalfoundation:tool.axe_bronze>,
 	<thermalfoundation:tool.axe_bronze>, <thermalfoundation:tool.axe_bronze>]);
 	
-	
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.sword_constantan>, 
 	100000000, 1000000, 
 	<thermalfoundation:tool.sword_bronze>, 
@@ -1743,8 +1716,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.hoe_
 	<thermalfoundation:tool.hoe_bronze>, <thermalfoundation:tool.hoe_bronze>, <thermalfoundation:tool.hoe_bronze>,
 	<thermalfoundation:tool.hoe_bronze>, <thermalfoundation:tool.hoe_bronze>]);
 
-
-    
 mods.extendedcrafting.CombinationCrafting.addRecipe(<redstonearsenal:tool.shovel_flux>.withTag({Energy: 0}), 
 	100000000, 1000000, 
 	<thermalfoundation:tool.shovel_constantan>, 
@@ -1772,9 +1743,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<redstonearsenal:tool.axe_fl
 	<thermalfoundation:tool.axe_constantan>, <thermalfoundation:tool.axe_constantan>, <thermalfoundation:tool.axe_constantan>,
 	<thermalfoundation:tool.axe_constantan>, <thermalfoundation:tool.axe_constantan>]);
 	
-	
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<redstonearsenal:tool.sword_flux>.withTag({Energy: 0}), 
 	100000000, 1000000, 
 	<thermalfoundation:tool.sword_constantan>, 
@@ -1814,8 +1782,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<redstonerepository:tool.axe
 	<redstonearsenal:tool.axe_flux>.withTag({Energy: 0}), <redstonearsenal:tool.axe_flux>.withTag({Energy: 0})]);
 	
 	
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<redstonerepository:tool.sword_gelid>.withTag({Energy: 0}), 
 	100000000, 1000000, 
 	<redstonearsenal:tool.sword_flux>.withTag({Energy: 0}), 
@@ -1826,8 +1792,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<redstonerepository:tool.swo
 	<redstonearsenal:tool.sword_flux>.withTag({Energy: 0}), <redstonearsenal:tool.sword_flux>.withTag({Energy: 0})]);
 
     
-
-
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_silver>, 
 	100000000, 1000000, 
 	<redstonerepository:tool.shovel_gelid>.withTag({Energy: 0}), 
@@ -1846,6 +1810,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.pick
 	<thermalfoundation:tool.pickaxe_electrum>, <thermalfoundation:tool.pickaxe_electrum>, <thermalfoundation:tool.pickaxe_electrum>,
 	<thermalfoundation:tool.pickaxe_electrum>, <thermalfoundation:tool.pickaxe_electrum>]);
 
+
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.axe_silver>, 
 	100000000, 1000000, 
 	<redstonerepository:tool.axe_gelid>.withTag({Energy: 0}), 
@@ -1855,8 +1820,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.axe_
 	<redstonerepository:tool.axe_gelid>.withTag({Energy: 0}), <redstonerepository:tool.axe_gelid>.withTag({Energy: 0}), <redstonerepository:tool.axe_gelid>.withTag({Energy: 0}),
 	<redstonerepository:tool.axe_gelid>.withTag({Energy: 0}), <redstonerepository:tool.axe_gelid>.withTag({Energy: 0})]);
 	
-	
-
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.sword_silver>, 
 	100000000, 1000000, 
@@ -1875,10 +1838,6 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.hoe_
 	<thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>,
 	<thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>,
 	<thermalfoundation:tool.hoe_electrum>, <thermalfoundation:tool.hoe_electrum>]);
-
-
-
-
 
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.shovel_copper>, 
@@ -1927,6 +1886,15 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.hoe_
 	<thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>]);
 
 
+// Philosopher's Stone
+recipes.remove(<projecte:item.pe_philosophers_stone>);
+
+// Philosopher's Stone
+recipes.remove(<projecte:item.pe_philosophers_stone>);
+
+recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:dustGlowstone>, <minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>, <ore:gemDiamond>, <minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>, <minecraft:glowstone_dust>]);
+recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:alloyBasic>, <minecraft:glowstone_dust>, <ore:alloyBasic>, <minecraft:glowstone_dust>, <ore:gemDiamond>, <minecraft:glowstone_dust>, <ore:alloyBasic>, <minecraft:glowstone_dust>, <minecraft:redstone>]);
+recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:dustGlowstone>, <ore:alloyBasic>, <ore:dustGlowstone>, <ore:alloyBasic>, <ore:gemDiamond>, <ore:alloyBasic>, <ore:dustGlowstone>, <minecraft:redstone>, <minecraft:glowstone_dust>]);
 
 
 
