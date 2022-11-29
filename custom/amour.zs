@@ -1886,6 +1886,8 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalfoundation:tool.hoe_
 	<thermalfoundation:tool.hoe_silver>, <thermalfoundation:tool.hoe_silver>]);
 
 
+
+
 // Philosopher's Stone
 recipes.remove(<projecte:item.pe_philosophers_stone>);
 
@@ -1895,8 +1897,6 @@ recipes.remove(<projecte:item.pe_philosophers_stone>);
 recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:dustGlowstone>, <minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>, <ore:gemDiamond>, <minecraft:redstone>, <ore:dustGlowstone>, <minecraft:redstone>, <minecraft:glowstone_dust>]);
 recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:alloyBasic>, <minecraft:glowstone_dust>, <ore:alloyBasic>, <minecraft:glowstone_dust>, <ore:gemDiamond>, <minecraft:glowstone_dust>, <ore:alloyBasic>, <minecraft:glowstone_dust>, <minecraft:redstone>]);
 recipes.removeShapeless(<projecte:item.pe_philosophers_stone>, [<ore:dustGlowstone>, <ore:alloyBasic>, <ore:dustGlowstone>, <ore:alloyBasic>, <ore:gemDiamond>, <ore:alloyBasic>, <ore:dustGlowstone>, <minecraft:redstone>, <minecraft:glowstone_dust>]);
-
-
 
 
 
